@@ -1,4 +1,7 @@
 // header scss start
+.header-bottom {
+  box-shadow: 0px 5px 15px 0px rgba(196, 203, 255, 0.3);
+}
 .header-logo {
   font-family: $jost;
   font-size: 32px;
@@ -12,6 +15,9 @@
 }
 .navbar {
   padding: 0;
+}
+.navbar-collapse {
+  justify-content: space-between;
 }
 .navbar-nav {
   margin-left: 50px;
@@ -51,12 +57,13 @@
 }
 .header-search-bar {
   position: relative;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 .header-search-bar-input {
   border-radius: 5px;
   padding: 12px 20px;
   font-family: $jost;
+  width: 270px;
   border-color: transparent;
   background-color: #f5f5f5;
 }
@@ -104,7 +111,7 @@
       font-size: 15px;
       transition: 0.4s;
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
       }
     }
   }
