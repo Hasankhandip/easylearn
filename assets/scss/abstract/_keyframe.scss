@@ -18,3 +18,23 @@
     transform: translateX(10px);
   }
 }
+
+//  header-animation scss start
+@keyframes header-animation {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(8px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  75% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+//  header-animation scss end
