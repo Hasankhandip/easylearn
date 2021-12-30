@@ -6,7 +6,7 @@
   border: 1px solid $main-color;
   color: #fff;
   overflow: hidden;
-  transition: 0.3s;
+  transition: 0.4s;
   &:hover {
     color: #fff;
     background-color: $color-2;
@@ -41,5 +41,52 @@
     &::before {
       width: 100%;
     }
+  }
+}
+
+.btn-3 {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    transition: 0.3s;
+  }
+  &:hover {
+    color: #000;
+    border-color: #fff;
+    &::before {
+      width: 100%;
+    }
+  }
+}
+
+.btn-4 {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  overflow: hidden;
+  transition: 0.4s;
+  &:hover {
+    color: #fff;
+    background-color: $color-2;
+    border: 1px solid $color-2;
   }
 }

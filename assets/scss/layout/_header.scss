@@ -43,7 +43,6 @@
 .nav-link {
   position: relative;
   font-family: $jost;
-  font-size: 18px;
   color: #444 !important;
   transition: 0.4s;
   padding: 35px 0 !important;
@@ -185,10 +184,9 @@
   background-color: $color-2;
   padding: 10px 25px;
   color: #fff;
-  font-size: 18px;
   border-radius: 5px;
   i {
-    font-size: 30px;
+    font-size: 27px;
     margin-right: 10px;
     transform: rotate(-180deg);
   }
@@ -259,10 +257,10 @@
 }
 .hdr-btn-area {
   .btn-1 {
-    padding: 13px 25px;
+    padding: 12px 25px;
   }
   .btn-2 {
-    padding: 13px 25px;
+    padding: 12px 25px;
     margin-right: 10px;
   }
 }

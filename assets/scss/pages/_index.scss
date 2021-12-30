@@ -42,8 +42,7 @@
   background-color: $main-color;
 }
 .process-item {
-  display: flex;
-  align-items: center;
+  @include d-flex;
 }
 .procces-img-area {
   position: relative;
@@ -70,8 +69,7 @@
 
 // category-section scss start
 .category-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  @include section-padding;
 }
 .category-item {
   position: relative;
@@ -134,9 +132,16 @@
 
 //  course-section scss start
 .course-area {
+  position: relative;
+  top: 0;
   border: 1px solid #e7e7ec;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 30px;
+  transition: 0.4s;
+  &:hover {
+    top: -10px;
+  }
 }
 .course-details-area {
   padding: 10px;
@@ -169,6 +174,10 @@
   height: 235px;
   object-fit: cover;
   object-position: center;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .course-category {
   position: absolute;
@@ -213,7 +222,6 @@
   font-size: 14px;
 }
 .course-title {
-  color: $color-2;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -232,4 +240,294 @@
     margin-right: 5px;
   }
 }
+.course-content {
+  display: none;
+}
+
+.noContent {
+  display: none;
+}
 //  course-section scss end
+
+//  choose-section scss start
+.choose-section {
+  @include section-padding;
+}
+.choose-item-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+.choose-item-area-2 {
+  padding-right: 0;
+  padding-left: 25px;
+  .choose-item {
+    justify-content: start;
+    &:nth-child(2) {
+      margin-left: 30px;
+      margin-right: 0;
+    }
+  }
+  .choose-item-number {
+    left: 88%;
+    top: -15px;
+    padding-left: 12px;
+    justify-content: start;
+  }
+}
+.choose-item {
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #fff;
+  padding: 15px 30px;
+  border: 1px solid #f0f0f0cb;
+  box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 0.4s;
+  &:hover {
+    top: -10px;
+  }
+  &:nth-child(2) {
+    margin-right: 30px;
+  }
+}
+.choose-item-number {
+  position: absolute;
+  left: -18px;
+  top: -15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: $main-color;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.choose-item-img {
+  width: 50px;
+  margin-right: 20px;
+}
+//  choose-section scss end
+
+// counter-section scss start
+.counter-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $main-color;
+}
+.counter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.counter-title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.counter-details {
+  color: #fff;
+}
+// counter-section scss end
+
+// instructor-section scss start
+.instructor-section {
+  @include section-padding;
+}
+.instructor-item {
+  position: relative;
+  top: 0;
+  padding: 0 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #e7e7ec;
+  overflow-x: clip;
+  transition: 0.4s;
+  &:hover {
+    top: -10px;
+    .instructor-social {
+      right: -20px;
+    }
+  }
+}
+.instructor-details {
+  font-size: 15px;
+}
+.instructor-title {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+.instructor-course-info {
+  display: flex;
+  margin-top: 15px;
+  .course-info-item {
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 14px;
+    i {
+      color: $main-color;
+      font-size: 20px;
+    }
+  }
+}
+.instructor-img-area {
+  position: relative;
+  transform: translateY(-15px);
+}
+.instructor-social {
+  position: absolute;
+  right: -130px;
+  bottom: -20px;
+  display: flex;
+  background-color: $color-2;
+  padding: 8px 15px;
+  border-radius: 5px 0 0 5px;
+  transition: 0.4s;
+}
+.instructor-social-item {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.instructor-social-link {
+  i {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+.instructor-text-details {
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.instructor-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 225px;
+}
+// instructor-section scss end
+
+// testimonial-section scss start
+.testimonial-section {
+  padding-bottom: 130px;
+}
+.testimonial-item {
+  position: relative;
+  padding-left: 35px;
+}
+.testimonial-item-img {
+  width: 320px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.testimonial-text {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 460px;
+  background-color: #fff;
+  padding: 25px 30px 25px 60px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.07);
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 10px;
+    background-color: $main-color;
+  }
+}
+.testimonial-details {
+  margin-bottom: 15px;
+}
+.testimonail-user {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonail-user-title {
+  font-weight: 400;
+}
+.testimonial-rating {
+  display: flex;
+  i {
+    font-size: 20px;
+    margin-right: 3px;
+    color: $main-color;
+  }
+}
+.slider-btn-area {
+  display: flex;
+  margin-top: 50px;
+  .btn-1 {
+    padding: 8px 12px;
+    border: 1px solid $main-color;
+    &:hover {
+      border: 1px solid $color-2;
+    }
+    i {
+      color: #fff;
+      font-size: 25px;
+    }
+  }
+}
+// testimonial-section scss end
+
+// teacher-section scss start
+.teacher-section {
+  .container {
+    .row {
+      position: relative;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+  background-color: $main-color;
+}
+.teacher-title {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.teacher-details {
+  color: #fff;
+  margin-bottom: 40px;
+}
+.teacher-img-area {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+// teacher-section scss end
+
+// blog-section scss start
+.blog-section {
+  @include section-padding;
+}
+.blog-area {
+  .course-info-item {
+    font-size: 15px;
+    i {
+      font-size: 22px;
+    }
+  }
+}
+// blog-section scss end
