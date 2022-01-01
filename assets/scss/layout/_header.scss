@@ -17,6 +17,13 @@
     transition: 1s;
     animation: header-animation 0.5s linear !important;
   }
+  .navbar-nav {
+    margin: 0 15px 0 0;
+  }
+}
+.logo-area {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: $jost;
@@ -24,7 +31,7 @@
   font-weight: 500;
   display: flex;
   align-items: center;
-  margin-right: 70px;
+  margin-right: 50px;
 }
 .header-logo-icon {
   height: 60px;
@@ -157,6 +164,10 @@
 .header-search-bar {
   position: relative;
   margin-left: 20px;
+  margin-right: 20px;
+}
+.hdr-btn-area {
+  margin-left: 20px;
 }
 .header-search-bar-input {
   border-radius: 5px;
@@ -257,10 +268,10 @@
 }
 .hdr-btn-area {
   .btn-1 {
-    padding: 12px 25px;
+    padding: 10px 20px;
   }
   .btn-2 {
-    padding: 12px 25px;
+    padding: 10px 20px;
     margin-right: 10px;
   }
 }

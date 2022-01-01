@@ -1,6 +1,6 @@
 // banner-section scss start
 .banner-section {
-  padding: 140px 0;
+  padding-top: 80px;
 }
 .banner-details-area {
   padding-right: 50px;
@@ -15,7 +15,7 @@
 }
 .banner-title {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   margin-bottom: 20px;
 }
@@ -24,11 +24,29 @@
   color: #000;
   margin-bottom: 40px;
 }
-
+.banner-img-area {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    width: 575px;
+    height: 575px;
+    background-color: $main-color;
+    border-radius: 50%;
+    opacity: 0.15;
+    z-index: -1;
+  }
+}
 .banner-img {
-  width: 100%;
-  animation: banner-animation 15s infinite linear;
+  // animation: banner-animation 15s infinite linear;
   transition: 1s;
+  width: 320px;
+  height: 550px;
   &:hover {
     animation: none;
   }
@@ -164,14 +182,14 @@
   margin-right: 10px;
 }
 .course-img-area {
+  width: 100%;
   position: relative;
-  margin-bottom: 10px;
   border-radius: 5px;
   overflow: hidden;
 }
 .course-img {
   width: 100%;
-  height: 235px;
+  height: 160px;
   object-fit: cover;
   object-position: center;
   transition: 0.4s;
@@ -181,49 +199,50 @@
 }
 .course-category {
   position: absolute;
-  left: 15px;
-  top: 15px;
-  padding: 5px 15px;
-  font-size: 14px;
+  left: 10px;
+  top: 10px;
+  padding: 4px 8px;
+  font-size: 13px;
   background-color: $main-color;
   border-radius: 5px;
   color: #fff;
 }
 .course-buyer-img {
-  width: 60px;
+  width: 40px;
   border-radius: 50%;
 }
 .course-buyer-area {
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .course-buyer-title {
-  font-size: 18px;
-  margin-bottom: 5px;
+  font-size: 14px;
 }
 .course-rating {
   display: flex;
+  align-items: center;
 }
 .course-rating-item {
   i {
-    font-size: 18px;
+    font-size: 13px;
     color: #ffb606;
     margin-right: 3px;
   }
 }
 .course-buyer-img {
-  margin-right: 20px;
+  margin-right: 12px;
 }
 .course-sale {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .course-sale-title {
-  font-size: 14px;
+  font-size: 12px;
 }
 .course-title {
+  font-size: 17px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .course-info-area {
   display: flex;
@@ -231,21 +250,21 @@
   justify-content: space-between;
 }
 .course-info-item {
+  font-size: 13px;
   color: #575757;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  &:last-child {
+    margin-bottom: 0;
+  }
   i {
-    font-size: 25px;
+    font-size: 15px;
     margin-right: 5px;
   }
 }
-.course-content {
-  display: none;
-}
-
-.noContent {
-  display: none;
+.course-price {
+  font-size: 20px;
 }
 //  course-section scss end
 
@@ -353,12 +372,11 @@
   padding: 0 20px 20px 20px;
   border-radius: 5px;
   border: 1px solid #e7e7ec;
-  overflow-x: clip;
   transition: 0.4s;
   &:hover {
     top: -10px;
     .instructor-social {
-      right: -20px;
+      right: 0px;
     }
   }
 }
@@ -383,13 +401,15 @@
   }
 }
 .instructor-img-area {
+  overflow: hidden;
   position: relative;
   transform: translateY(-15px);
 }
 .instructor-social {
   position: absolute;
   right: -130px;
-  bottom: -20px;
+  bottom: 5%;
+  transform: translateY(-5%);
   display: flex;
   background-color: $color-2;
   padding: 8px 15px;

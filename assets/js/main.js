@@ -8,19 +8,6 @@ $(window).on("scroll", function(){
   });
 // header-section js end
 
-// cousre-load js start
-$(document).ready(function(){
-  $(".course-content").slice(0, 6).show();
-  $("#loadMore").on("click", function(e){
-    e.preventDefault();
-    $(".course-content:hidden").slice(0, 3).slideDown();
-    if($(".course-content:hidden").length == 0) {
-      $("#loadMore").addClass("noContent");
-    }
-  });
-  
-})
-// cousre-load js end
 
 // odometer js start
 $(".count").counterUp({
