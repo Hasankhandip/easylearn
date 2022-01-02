@@ -96,10 +96,17 @@
       top: 70px;
     }
   }
+  &:focus {
+    .dropdown-menu[data-bs-popper] {
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
 }
 .dropdown-menu {
   top: 85px;
-  left: 50%;
+  left: 50% !important;
   transform: translateX(-50%);
   display: block;
   opacity: 0;

@@ -445,9 +445,16 @@ input:focus {
   top: 70px;
 }
 
+.dropdown:focus .dropdown-menu[data-bs-popper] {
+  top: 70px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 .dropdown-menu {
   top: 85px;
-  left: 50%;
+  left: 50% !important;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   display: block;
@@ -1140,10 +1147,19 @@ input:focus {
           justify-content: space-between;
 }
 
+.course-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .course-info-item {
   font-size: 13px;
   color: #575757;
-  margin-bottom: 10px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1153,12 +1169,13 @@ input:focus {
 }
 
 .course-info-item:last-child {
-  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .course-info-item i {
-  font-size: 15px;
-  margin-right: 5px;
+  font-size: 20px;
+  color: #0072ff;
+  margin-right: 3px;
 }
 
 .course-price {
@@ -1289,6 +1306,11 @@ input:focus {
           align-items: center;
 }
 
+.counter-img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
 .counter-title {
   font-size: 50px;
   font-weight: 600;
@@ -1299,7 +1321,6 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5px;
 }
 
 .counter-details {
@@ -1393,7 +1414,6 @@ input:focus {
 }
 
 .instructor-text-details {
-  margin-top: 15px;
   padding: 0 10px;
 }
 
@@ -1530,6 +1550,18 @@ input:focus {
 
 .blog-section {
   padding-top: 100px;
+}
+
+.blog-area .course-img {
+  height: 200px;
+}
+
+.blog-area .course-title {
+  font-size: 20px;
+}
+
+.blog-area .course-info {
+  margin-bottom: 10px;
 }
 
 .blog-area .course-info-item {
