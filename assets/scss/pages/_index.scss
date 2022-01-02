@@ -1,7 +1,5 @@
 // banner-section scss start
-.banner-section {
-  padding-top: 80px;
-}
+
 .banner-details-area {
   padding-right: 50px;
 }
@@ -32,7 +30,7 @@
     content: "";
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 20%;
     transform: translateX(-50%);
     width: 575px;
     height: 575px;
@@ -45,11 +43,40 @@
 .banner-img {
   // animation: banner-animation 15s infinite linear;
   transition: 1s;
-  width: 320px;
-  height: 550px;
+  height: 620px;
   &:hover {
     animation: none;
   }
+}
+.banner-notifiation-1 {
+  position: absolute;
+  left: -60px;
+  bottom: 20%;
+  width: 280px;
+}
+.banner-notifiation-2 {
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  width: 280px;
+}
+.banner-notifiation-3 {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  width: 60px;
+}
+.banner-notifiation-4 {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  width: 60px;
+}
+.banner-notifiation-5 {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  width: 60px;
 }
 // banner-section scss end
 
@@ -265,6 +292,7 @@
 }
 .course-price {
   font-size: 20px;
+  color: $main-color;
 }
 //  course-section scss end
 
