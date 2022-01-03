@@ -1,5 +1,7 @@
 // header scss start
 .header-section {
+  position: relative;
+  z-index: 99;
   .container-fluid {
     padding-left: 60px;
     padding-right: 60px;
@@ -172,6 +174,7 @@
   position: relative;
   margin-left: 20px;
   margin-right: 20px;
+  width: 300px;
 }
 .hdr-btn-area {
   margin-left: 20px;
@@ -180,7 +183,7 @@
   border-radius: 5px;
   padding: 14px 20px;
   font-family: $jost;
-  width: 300px;
+  width: 100%;
   border: 1px solid #f0f0f0;
   // background-color: #f5f5f5;
   &:focus {
