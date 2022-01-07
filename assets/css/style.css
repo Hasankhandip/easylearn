@@ -2045,7 +2045,7 @@ input:focus {
 }
 
 .course-details-desrciption-area {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .course-details-desrciption-title {
@@ -2063,7 +2063,7 @@ input:focus {
 }
 
 .course-details-requirement-area {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .course-details-course-content {
@@ -2183,10 +2183,16 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 25px;
+  border: 1px solid #e7e7ec;
+  -webkit-box-shadow: 0 0.5rem 0.937rem rgba(140, 152, 164, 0.1);
+          box-shadow: 0 0.5rem 0.937rem rgba(140, 152, 164, 0.1);
+  border-radius: 5px;
 }
 
 .course-details-rating-wrap .course-details-rating-title {
   font-size: 70px;
+  color: #0072ff;
 }
 
 .course-details-rating-wrap .course-rating-item i {
@@ -2195,8 +2201,19 @@ input:focus {
   margin-right: 3px;
 }
 
+.course-details-rating-area {
+  margin-bottom: 50px;
+}
+
 .course-details-rating-area .course-details-desrciption-title {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.course-details-rating-details {
+  color: #031f42;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .course-details-rating-list {
@@ -2206,8 +2223,8 @@ input:focus {
 .course-details-rating-list .rating-bar {
   position: relative;
   width: 100%;
-  height: 7px;
-  background-color: #031f42;
+  height: 8px;
+  background-color: #e7e7ec;
   border-radius: 5px;
   overflow: hidden;
   z-index: -1;
@@ -2219,11 +2236,15 @@ input:focus {
   top: 0;
   width: 95%;
   height: 100%;
-  background-color: #ffb606;
+  background-color: #0072ff;
 }
 
 .course-details-rating-list .course-rating-item i {
   font-size: 16px;
+}
+
+.course-details-rating-number {
+  font-size: 15px;
 }
 
 .course-details-rating-list-top {
@@ -2237,5 +2258,56 @@ input:focus {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.course-details-instructor {
+  margin-bottom: 50px;
+}
+
+.course-details-instructor .course-details-desrciption-title {
+  margin-bottom: 30px;
+}
+
+.course-details-instructor .course-buyer-img {
+  width: 90px;
+  margin-right: 20px;
+}
+
+.course-details-instructor .course-buyer-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.course-details-instructor .course-info-item {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-right: 0;
+}
+
+.course-details-instructor .course-info-item i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.course-details-instructor .course-info-item .far,
+.course-details-instructor .course-info-item .fas {
+  font-size: 18px !important;
+}
+
+.course-details-instructor .course-info {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.course-details-instructor-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=style.css.map */

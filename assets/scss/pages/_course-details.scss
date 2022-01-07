@@ -181,8 +181,9 @@
 // related-course-area scss end
 
 // course-details-desrciption-area scss start
+
 .course-details-desrciption-area {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .course-details-desrciption-title {
   margin-bottom: 15px;
@@ -196,7 +197,7 @@
   margin-bottom: 5px;
 }
 .course-details-requirement-area {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .course-details-course-content {
   margin-bottom: 50px;
@@ -275,8 +276,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 25px;
+  border: 1px solid #e7e7ec;
+  box-shadow: 0 0.5rem 0.937rem rgba(140, 152, 164, 0.1);
+  border-radius: 5px;
   .course-details-rating-title {
     font-size: 70px;
+    color: $main-color;
   }
   .course-rating-item i {
     font-size: 20px;
@@ -288,17 +294,24 @@
 
 // course-details-rating-area scss start
 .course-details-rating-area {
+  margin-bottom: 50px;
   .course-details-desrciption-title {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
+}
+.course-details-rating-details {
+  color: $color-2;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 .course-details-rating-list {
   margin-bottom: 15px;
   .rating-bar {
     position: relative;
     width: 100%;
-    height: 7px;
-    background-color: $color-2;
+    height: 8px;
+    background-color: #e7e7ec;
     border-radius: 5px;
     overflow: hidden;
     z-index: -1;
@@ -309,11 +322,14 @@
     top: 0;
     width: 95%;
     height: 100%;
-    background-color: #ffb606;
+    background-color: $main-color;
   }
   .course-rating-item i {
     font-size: 16px;
   }
+}
+.course-details-rating-number {
+  font-size: 15px;
 }
 .course-details-rating-list-top {
   display: flex;
@@ -322,3 +338,42 @@
   margin-bottom: 10px;
 }
 // course-details-rating-area scss end
+
+// course-details-instructor scss start
+.course-details-instructor {
+  margin-bottom: 50px;
+  .course-details-desrciption-title {
+    margin-bottom: 30px;
+  }
+  .course-buyer-img {
+    width: 90px;
+    margin-right: 20px;
+  }
+  .course-buyer-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .course-info-item {
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-right: 0;
+    i {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+    .far,
+    .fas {
+      font-size: 18px !important;
+    }
+  }
+  .course-info {
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+}
+.course-details-instructor-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+// course-details-instructor scss end
