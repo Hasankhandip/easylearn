@@ -14,7 +14,7 @@
 .banner-title {
   font-size: 50px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 20px;
 }
 .banner-title-details {
@@ -192,6 +192,7 @@
   transition: 0.4s;
   &:hover {
     top: -10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
 .course-details-area {
@@ -365,6 +366,7 @@
   transition: 0.4s;
   &:hover {
     top: -10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   &:nth-child(2) {
     margin-right: 30px;
@@ -433,6 +435,7 @@
   transition: 0.4s;
   &:hover {
     top: -10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     .instructor-social {
       right: 0px;
     }
@@ -600,6 +603,10 @@
   padding-top: 100px;
 }
 .blog-area {
+  transition: 0.4s;
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
   .course-img {
     height: 200px;
   }
