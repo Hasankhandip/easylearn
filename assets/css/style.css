@@ -986,6 +986,7 @@ input:focus {
   text-align: center;
   position: relative;
   z-index: 1;
+  margin-top: 40px;
 }
 
 .banner-img-area::before {
@@ -1019,6 +1020,7 @@ input:focus {
   left: -60px;
   bottom: 20%;
   width: 280px;
+  border-radius: 5px;
 }
 
 .banner-notifiation-2 {
@@ -1026,20 +1028,23 @@ input:focus {
   right: -80px;
   top: 50%;
   width: 280px;
+  border-radius: 5px;
 }
 
 .banner-notifiation-3 {
   position: absolute;
-  left: 10%;
-  top: 20%;
+  left: 15%;
+  top: 25%;
   width: 60px;
+  border-radius: 5px;
 }
 
 .banner-notifiation-4 {
   position: absolute;
   right: 10%;
-  top: 35%;
+  top: 28%;
   width: 60px;
+  border-radius: 5px;
 }
 
 .banner-notifiation-5 {
@@ -1047,6 +1052,7 @@ input:focus {
   right: 10%;
   bottom: 10%;
   width: 60px;
+  border-radius: 5px;
 }
 
 .process-section {
