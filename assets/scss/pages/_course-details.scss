@@ -1,7 +1,6 @@
 //  course-details-section scss start
 .course-details-section {
-  padding-top: 60px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .course-details-wrap {
   margin-bottom: 80px;
@@ -46,11 +45,6 @@
   .course-buyer-title {
     font-size: 20px;
     margin-bottom: 3px;
-  }
-  .course-rating-item {
-    i {
-      font-size: 16px;
-    }
   }
   .course-sale-title {
     font-size: 14px;
@@ -284,11 +278,6 @@
     font-size: 70px;
     color: $main-color;
   }
-  .course-rating-item i {
-    font-size: 20px;
-    color: #ffb606;
-    margin-right: 3px;
-  }
 }
 // course-details-desrciption-area scss end
 
@@ -323,9 +312,6 @@
     width: 95%;
     height: 100%;
     background-color: $main-color;
-  }
-  .course-rating-item i {
-    font-size: 16px;
   }
 }
 .course-details-rating-number {
@@ -377,3 +363,90 @@
   margin-bottom: 25px;
 }
 // course-details-instructor scss end
+
+// course-details-review-area scss start
+.course-details-review-area {
+  .course-details-desrciption-title {
+    margin-bottom: 25px;
+  }
+  .course-details-review-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+.course-details-review {
+  margin-bottom: 60px;
+}
+.course-details-review-item {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e7e7ec;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+.course-details-review-account {
+  width: 45px;
+  height: 45px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-2;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 20px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.course-details-review-details {
+  margin-top: 5px;
+  width: calc(100% - 8%);
+}
+.course-details-review-account-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.course-details-review-react-title {
+  font-size: 13px;
+  color: #000;
+}
+.course-details-review-react-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.course-details-review-react-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  @include d-flex;
+  i {
+    font-size: 20px;
+  }
+}
+.course-details-review-date {
+  font-size: 14px;
+  color: #000;
+}
+// course-details-review-area scss end
+
+// trending-course-section scss start
+.trending-course-section {
+  margin-bottom: 100px;
+  .section-title-area {
+    margin-bottom: 50px;
+  }
+}
+// trending-course-section scss end
