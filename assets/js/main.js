@@ -19,6 +19,7 @@ $(".count").counterUp({
  // slick slider start
  $(document).ready(function(){
   $('.testimonial-area').slick({
+    autoplay:true,
     prevArrow: ".left-arrow-testimonial",
     nextArrow:  ".right-arrow-testimonial",
     slidesToShow: 1,
@@ -76,3 +77,19 @@ $('.sponsor-img').each(function(){
   `);
 });
 //  sponsor-img js end
+
+// course-details-coupon-form js start
+$(".course-details-coupon-title").on("click",function(){
+  $(".course-details-coupon-form").addClass("active");
+});
+// course-details-coupon-form js end
+
+// course-card js start
+$(window).on("scroll", function(){
+  if ($(this).scrollTop() > 80 ) {
+    $(".course-card").addClass("active");
+  } else {
+    $(".course-card").removeClass("active");
+  }
+});
+// course-card js end

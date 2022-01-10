@@ -3,17 +3,26 @@
   padding-bottom: 100px;
 }
 .course-details-wrap {
-  margin-bottom: 80px;
+  margin-bottom: 25px;
+  .course-buyer-area {
+    margin-bottom: 0;
+  }
+  .course-buyer-img {
+    width: 50px;
+  }
+  .course-buyer-title {
+    font-size: 18px;
+  }
 }
 .course-details-img-area {
   position: relative;
   border-radius: 5px;
-  margin-bottom: 20px;
+  overflow: hidden;
+  margin-bottom: 25px;
 }
 .course-details-img {
-  border-radius: 5px;
   width: 100%;
-  height: 420px;
+  height: 430px;
   object-fit: cover;
   object-position: center;
 }
@@ -22,56 +31,37 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   background-color: $main-color;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: 0.4s;
+  &:hover {
+    background-color: $color-2;
+  }
   i {
-    font-size: 35px;
+    font-size: 30px;
     color: #fff;
   }
 }
 .course-details-text-area {
-  padding: 0 10px;
-  .course-buyer-area {
-    margin-bottom: 0;
-  }
-  .course-buyer-img {
-    width: 60px;
-  }
-  .course-buyer-title {
-    font-size: 20px;
-    margin-bottom: 3px;
-  }
+  padding: 0 10px 0 0;
   .course-sale-title {
     font-size: 14px;
   }
-  .course-info {
-    margin-bottom: 30px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .course-info-item {
-    color: #000;
-    font-size: 16px;
-    margin: 0;
-    i {
-      font-size: 25px;
-    }
-  }
 }
 .course-details-title {
-  margin-top: 20px;
+  font-size: 30px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
 .course-price-details-area {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 .course-details-price {
   font-size: 35px;
@@ -90,8 +80,8 @@
   justify-content: end;
 }
 .course-add-cart {
-  width: 38px;
-  height: 38px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,10 +93,61 @@
   }
   i {
     color: #fff;
+    font-size: 15px;
   }
 }
 .course-share {
   margin-right: 8px;
+}
+.course-share-drpdwn-btn {
+  position: relative;
+}
+.course-share-drpdwn-area {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 240px;
+  text-align: start;
+  background-color: $color-2;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.course-share-drpdwn-item {
+  margin-right: 15px;
+}
+.course-share-drpdwn-title {
+  font-size: 14px;
+  color: $color-2;
+  margin-bottom: 10px;
+}
+.course-share-drpdwn-link {
+  i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $color-2;
+    transition: 0.4s;
+    font-size: 20px;
+    color: #fff;
+  }
+  .fa-facebook-f {
+    background-color: #1877f2;
+  }
+  .fa-twitter {
+    background-color: #1da1f2;
+  }
+  .fa-envelope {
+    background-color: #c5221e;
+  }
+  .fa-whatsapp {
+    background-color: #01e675;
+  }
+  .fa-linkedin-in {
+    background-color: #0a66c2;
+  }
 }
 .course-details-info-item {
   display: flex;
@@ -119,60 +160,13 @@
   .btn-5,
   .btn-1,
   .btn-6 {
-    padding: 13px 40px;
-    font-size: 18px;
+    padding: 12px 40px;
+    font-size: 16px;
     text-align: center;
     width: 48%;
   }
 }
 //  course-details-section scss end
-
-// related-course-area scss start
-.related-course-area {
-  padding: 25px;
-  border-radius: 5px;
-  border: 1px solid #e7e7ec;
-  box-shadow: 0 0.5rem 0.937rem rgba(140, 152, 164, 0.1);
-  margin-left: 50px;
-}
-.related-course-title-top {
-  font-size: 22px;
-  margin-bottom: 30px;
-}
-
-.related-course-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-.related-course-img-area {
-  margin-right: 15px;
-}
-.related-course-img {
-  max-width: 100px;
-  height: 100px;
-  border-radius: 5px;
-  object-fit: cover;
-  object-position: center;
-}
-.related-course-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 5px 0;
-  .course-price {
-    font-size: 18px;
-  }
-}
-.related-course-title {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-// related-course-area scss end
 
 // course-details-desrciption-area scss start
 
@@ -245,7 +239,8 @@
   align-items: first baseline;
 }
 .course-content-title {
-  font-size: 18px;
+  font-size: 17px;
+  color: #000;
   font-weight: 400;
 }
 .course-content-list-title {
@@ -344,6 +339,7 @@
     margin-bottom: 15px;
     margin-right: 0;
     i {
+      color: $main-color;
       font-size: 24px;
       margin-right: 5px;
     }
@@ -450,3 +446,103 @@
   }
 }
 // trending-course-section scss end
+
+// course-card-area scss start
+.course-card-area {
+  position: relative;
+}
+.course-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  // &.active {
+  //   position: sticky;
+  //   right: 0;
+  //   top: 14%;
+  // }
+  .course-info {
+    margin-bottom: 10px;
+    display: block;
+  }
+  .course-info-item {
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      padding-bottom: 0;
+    }
+    span {
+      display: flex;
+      align-items: center;
+    }
+    i {
+      font-size: 25px;
+      color: $color-2;
+    }
+  }
+}
+.course-card-info-area {
+  padding: 20px 15px;
+}
+.course-details-coupon-area {
+  padding: 0 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.course-details-coupon-title {
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.course-details-coupon-form {
+  position: relative;
+  display: none;
+  transition: 1s;
+  margin-bottom: 20px;
+  &.active {
+    display: block;
+  }
+}
+.course-details-coupon-input {
+  width: 100%;
+  padding: 7px;
+  font-size: 15px;
+  border: 1px solid $color-2;
+  &::placeholder {
+    color: $color-2;
+  }
+}
+.course-details-coupon-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: $color-2;
+  color: #fff;
+  height: 100%;
+  padding: 0 15px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    color: #fff;
+    background-color: $main-color;
+  }
+}
+.course-details-instructor-info {
+  align-items: center;
+  margin-bottom: 15px;
+}
+// course-card-area scss end

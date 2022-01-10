@@ -42,7 +42,6 @@
   }
 }
 .banner-img {
-  // animation: banner-animation 15s infinite linear;
   transition: 1s;
   height: 620px;
   &:hover {
@@ -314,7 +313,7 @@
   }
   i {
     font-size: 20px;
-    color: $main-color;
+    color: $color-2;
     margin-right: 3px;
   }
 }
@@ -620,6 +619,7 @@
     font-size: 15px;
     i {
       font-size: 22px;
+      color: $main-color;
     }
   }
 }

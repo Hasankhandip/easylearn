@@ -96,3 +96,26 @@
   }
 }
 // page-section-2 scss end
+
+// modal scss start
+.modal-header {
+  border-bottom: none;
+  padding: 10px 15px;
+}
+.modal-dialog {
+  max-width: 420px;
+}
+.modal-body {
+  padding: 10px 15px;
+}
+.modal-title {
+  font-size: 18px;
+}
+.modal-copy-link {
+  position: relative;
+  padding: 8px;
+  margin: 20px;
+  display: flex;
+  border: 1px solid $color-2;
+}
+// modal scss end
