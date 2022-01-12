@@ -2859,7 +2859,7 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(/assets/images/registration-bg.jpg);
+  background-image: url(../images/registration-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
