@@ -76,15 +76,6 @@ $(".course-details-coupon-title").on("click",function(){
   $(".course-details-coupon-form").addClass("active");
 });
 // course-details-coupon-form js end
-// course-card js start
-$(window).on("scroll", function(){
-  if ($(this).scrollTop() > 80 ) {
-    $(".course-card").addClass("active");
-  } else {
-    $(".course-card").removeClass("active");
-  }
-});
-// course-card js end
 // magnific popup js start
 $(document).ready(function() {
   $('.course-content-view').magnificPopup(

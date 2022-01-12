@@ -63,7 +63,7 @@
 
 .page-section {
   position: relative;
-  background-image: url(../images/page-bg.jpg);
+  background-image: url(/assets/images/page-path-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,6 +115,7 @@
 }
 
 .page-details-item {
+  color: #fff;
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
@@ -364,7 +365,7 @@ input:focus {
 }
 
 .btn-6 {
-  padding: 15px 40px;
+  padding: 15px;
   border-radius: 5px;
   font-weight: 500;
   background-color: transparent;
@@ -623,8 +624,8 @@ input:focus {
   transition: 0.4s;
   padding: 10px 0;
   border: none;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(9, 29, 62, 0.1);
-          box-shadow: 0 3px 3px 0 rgba(9, 29, 62, 0.1);
+  -webkit-box-shadow: 0 3px 10px 0 rgba(9, 29, 62, 0.15);
+          box-shadow: 0 3px 10px 0 rgba(9, 29, 62, 0.15);
   overflow: hidden;
   width: 300px;
 }
@@ -740,6 +741,7 @@ input:focus {
   display: -ms-flexbox;
   display: flex;
   color: #444;
+  background-color: rgba(3, 31, 66, 0.06);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -760,7 +762,7 @@ input:focus {
 .hdr-category i {
   color: #444;
   font-size: 16px;
-  margin-left: 5px;
+  margin-left: 8px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -957,6 +959,10 @@ input:focus {
 
 .footer-bottom-link:hover {
   color: #fff;
+}
+
+.banner-section {
+  overflow: hidden;
 }
 
 .banner-details-area {
@@ -1888,7 +1894,6 @@ input:focus {
   position: relative;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  margin-bottom: 15px;
 }
 
 .course-details-img {
@@ -1953,7 +1958,7 @@ input:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .course-details-price {
@@ -2105,7 +2110,7 @@ input:focus {
 .course-details-btn-area .btn-5,
 .course-details-btn-area .btn-1,
 .course-details-btn-area .btn-6 {
-  padding: 12px 40px;
+  padding: 12px;
   font-size: 16px;
   text-align: center;
   width: 48%;
@@ -2522,15 +2527,10 @@ input:focus {
   margin-bottom: 50px;
 }
 
-.course-card-area {
-  position: relative;
-}
-
 .course-card {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
   border-radius: 5px;
   -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -2538,7 +2538,7 @@ input:focus {
 }
 
 .course-card .course-info {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -2555,8 +2555,9 @@ input:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #e5e5e5;
 }
 
 .course-card .course-info-item:first-child {
@@ -2565,6 +2566,7 @@ input:focus {
 
 .course-card .course-info-item:last-child {
   padding-bottom: 0;
+  border-bottom: none;
 }
 
 .course-card .course-info-item span {
@@ -2582,11 +2584,10 @@ input:focus {
 }
 
 .course-card-info-area {
-  padding: 0 15px 20px 15px;
+  padding: 20px;
 }
 
 .course-details-coupon-area {
-  padding: 0 30px;
   margin-bottom: 5px;
   text-align: center;
 }

@@ -26,7 +26,6 @@
   position: relative;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  margin-bottom: 15px;
 }
 .course-details-img {
   width: 100%;
@@ -69,7 +68,7 @@
 .course-price-details-area {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .course-details-price {
   font-size: 35px;
@@ -172,7 +171,7 @@
   .btn-5,
   .btn-1,
   .btn-6 {
-    padding: 12px 40px;
+    padding: 12px;
     font-size: 16px;
     text-align: center;
     width: 48%;
@@ -493,24 +492,14 @@
 // trending-course-section scss end
 
 // course-card-area scss start
-.course-card-area {
-  position: relative;
-}
 .course-card {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
+  position: sticky;
+  top: 110px;
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  // &.active {
-  //   position: sticky;
-  //   right: 0;
-  //   top: 14%;
-  // }
   .course-info {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: block;
   }
   .course-info-item {
@@ -520,13 +509,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e5e5e5;
     &:first-child {
       padding-top: 0;
     }
     &:last-child {
       padding-bottom: 0;
+      border-bottom: none;
     }
     span {
       display: flex;
@@ -539,10 +530,9 @@
   }
 }
 .course-card-info-area {
-  padding: 0 15px 20px 15px;
+  padding: 20px;
 }
 .course-details-coupon-area {
-  padding: 0 30px;
   margin-bottom: 5px;
   text-align: center;
 }
