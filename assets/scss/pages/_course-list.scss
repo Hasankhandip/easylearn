@@ -1,0 +1,127 @@
+// course-list-section scss start
+.course-list-section {
+  .custome-col-lg-3 {
+    width: 30%;
+  }
+  .custome-col-lg-9 {
+    width: 70%;
+  }
+}
+.course-list-filter-wrap {
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.course-list-filter-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.course-list-search-wrap {
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+  .header-search-bar-input {
+    padding: 13px 15px;
+  }
+  .header-search-bar {
+    width: 100%;
+  }
+}
+.course-list-category-wrap {
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.course-list-category-item {
+  margin-bottom: 7px;
+  font-size: 15px;
+  color: rgb(70, 70, 70);
+  .form-check-input {
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    margin-right: 5px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+.course-list-rating-wrap {
+  .course-list-category-item {
+    display: flex;
+    align-items: center;
+    .form-check-input {
+      margin: 0 8px 0 0;
+    }
+    .course-rating-item i {
+      font-size: 15px;
+    }
+  }
+}
+.custome-form-select {
+  width: 70%;
+  border: none;
+  &:focus {
+    border: none;
+  }
+}
+.course-sort {
+  padding: 5px 15px;
+  border: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-sort-title {
+  color: #000;
+}
+.course-area-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  &:hover {
+    top: 0;
+  }
+  .course-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .course-img-area {
+    width: 32%;
+    display: flex;
+    align-items: center;
+  }
+  .course-img {
+    height: 165px;
+  }
+  .course-buyer-img {
+    width: 45px;
+  }
+  .course-buyer-title {
+    font-size: 15px;
+  }
+  .course-rating-item {
+    i {
+      font-size: 14px;
+      color: #ffb606;
+      margin-right: 3px;
+    }
+  }
+  .course-buyer-area {
+    margin-bottom: 10px;
+  }
+  .course-info-item {
+    font-size: 15px;
+  }
+  .course-details-area {
+    width: 68%;
+    margin-left: 20px;
+    padding: 0;
+  }
+  .course-details-price {
+    font-size: 25px;
+  }
+  .course-details-off-price {
+    font-size: 13px;
+  }
+}
+.course-list-area-wrapper {
+  margin-bottom: 60px;
+}
+// course-list-section scss end

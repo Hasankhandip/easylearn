@@ -31,57 +31,58 @@
     content: "";
     position: absolute;
     left: 50%;
-    top: 20%;
-    transform: translateX(-50%);
-    width: 575px;
-    height: 575px;
-    background-color: $main-color;
+    top: 80%;
+    transform: translateX(-50%) translateY(-80%);
+    width: 100px;
+    height: 100px;
+    background-color: #68acff;
+    box-shadow: 0 0 200px 150px $main-color;
     border-radius: 50%;
-    opacity: 0.15;
     z-index: -1;
   }
 }
 .banner-img {
   transition: 1s;
   height: 620px;
+
   &:hover {
     animation: none;
   }
 }
+.banner-notifiation {
+  width: 55px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
 .banner-notifiation-1 {
   position: absolute;
-  left: -60px;
-  bottom: 20%;
-  width: 280px;
-  border-radius: 5px;
+  left: -30px;
+  bottom: 20px;
+  width: auto;
+  border-radius: 0;
+  border: none;
+  z-index: -1;
+  animation: banner-dotted 15s 1s linear infinite;
 }
 .banner-notifiation-2 {
   position: absolute;
-  right: -80px;
-  top: 50%;
-  width: 280px;
-  border-radius: 5px;
+  left: 30px;
+  top: 45%;
 }
 .banner-notifiation-3 {
   position: absolute;
   left: 15%;
   top: 25%;
-  width: 60px;
-  border-radius: 5px;
 }
 .banner-notifiation-4 {
   position: absolute;
   right: 10%;
   top: 28%;
-  width: 60px;
-  border-radius: 5px;
 }
 .banner-notifiation-5 {
   position: absolute;
   right: 10%;
   bottom: 10%;
-  width: 60px;
-  border-radius: 5px;
 }
 // banner-section scss end
 
@@ -266,7 +267,7 @@
 .course-rating-3 {
   .course-rating-item {
     i {
-      font-size: 20px;
+      font-size: 18px;
       color: #ffb606;
       margin-right: 3px;
     }

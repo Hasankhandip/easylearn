@@ -6,14 +6,80 @@
 }
 .sign-up-title-top {
   color: #fff;
-  margin-bottom: 65px;
+  font-size: 55px;
+  line-height: 1.3;
+  margin-bottom: 50px;
 }
 .sign-up-img-wrapper {
+  position: relative;
+  padding: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  background-color: rgba(0, 115, 255, 0.65);
+  background-image: url(/assets/images/registration-bg.jpg);
+  @include bg-img;
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-2;
+    opacity: 0.85;
+    z-index: -1;
+  }
+}
+.trusted-details {
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.truted-people {
+  position: relative;
+  display: flex;
+  margin-right: 10px;
+  :nth-child(2) {
+    .trusted-people-img {
+      transform: translateX(-13px);
+    }
+  }
+  :nth-child(3) {
+    .trusted-people-img {
+      transform: translateX(-26px);
+    }
+  }
+  :nth-child(4) {
+    .trusted-people-img {
+      transform: translateX(-39px);
+    }
+  }
+  :nth-child(5) {
+    .trusted-people-img {
+      transform: translateX(-52px);
+    }
+  }
+  :last-child {
+    i {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      @include d-flex;
+    }
+  }
+}
+.trusted-people-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 .sign-up-details-wrapper {
   padding: 50px 100px;
@@ -23,8 +89,11 @@
   background-image: url(../images/sign-up-bg.png);
   @include bg-img;
   .header-logo {
-    margin: 0 0 20px 0;
+    margin: 0;
     display: inline-block;
+  }
+  .home-logo {
+    margin: 0 0 15px 0;
   }
   .header-search-bar {
     margin: 0 0 20px 0;
@@ -69,8 +138,8 @@
   }
 }
 .sign-up-form {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   .form-floating > .form-control:focus ~ label,
   .form-floating > .form-control:not(:placeholder-shown) ~ label,
   .form-floating > .form-select ~ label {
@@ -96,6 +165,9 @@
     margin-left: 3px;
     color: $main-color;
   }
+}
+.sign-up-account-forget {
+  color: #575757;
 }
 .or {
   text-align: center;

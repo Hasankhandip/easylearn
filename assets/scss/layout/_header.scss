@@ -122,6 +122,8 @@
   visibility: hidden;
   transition: 0.4s;
   padding: 10px 0;
+  border: none;
+  box-shadow: 0 3px 3px 0 rgba(9, 29, 62, 0.1);
   overflow: hidden;
   width: 300px;
   @media (max-width: 991px) {
@@ -141,14 +143,15 @@
 }
 .dropdown-item {
   position: relative;
-  padding: 15px 20px 15px 30px;
-  font-weight: 500;
+  padding: 10px 20px 10px 30px;
+  font-size: 16px;
   transition: 0.4s;
   display: flex;
   align-items: center;
   color: #444;
   &:hover {
     color: #000;
+    background-color: #f5f5f5;
     &::before {
       opacity: 1;
       visibility: visible;
@@ -173,7 +176,7 @@
     background-color: $main-color;
   }
   i {
-    font-size: 22px;
+    font-size: 16px;
     margin-right: 15px;
     transition: 0.4s;
   }

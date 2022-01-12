@@ -7,15 +7,12 @@ $(window).on("scroll", function(){
     }
   });
 // header-section js end
-
-
 // odometer js start
 $(".count").counterUp({
   delay: 10,
   time: 1000,
 });
 // odometer js end
-
  // slick slider start
  $(document).ready(function(){
   $('.testimonial-area').slick({
@@ -32,9 +29,7 @@ $(".count").counterUp({
   });
 });
 // slick slider end
-
 // progressbar js start
-  
 $(document).ready(function () {
   var progressPath = document.querySelector('.progress-wrap path');
   var pathLength = progressPath.getTotalLength();
@@ -67,7 +62,6 @@ $(document).ready(function () {
   })
 });
 // progressbar js end
-
 //  sponsor-img js start
 $('.sponsor-img').each(function(){
   var sponsorImgSrc = $(this).data('src');
@@ -77,13 +71,11 @@ $('.sponsor-img').each(function(){
   `);
 });
 //  sponsor-img js end
-
 // course-details-coupon-form js start
 $(".course-details-coupon-title").on("click",function(){
   $(".course-details-coupon-form").addClass("active");
 });
 // course-details-coupon-form js end
-
 // course-card js start
 $(window).on("scroll", function(){
   if ($(this).scrollTop() > 80 ) {
@@ -93,3 +85,13 @@ $(window).on("scroll", function(){
   }
 });
 // course-card js end
+// magnific popup js start
+$(document).ready(function() {
+  $('.course-content-view').magnificPopup(
+    {type:'iframe'}
+    );
+    $('.course-play-btn').magnificPopup(
+      {type:'iframe'}
+      );
+});
+// magnific popup js end
