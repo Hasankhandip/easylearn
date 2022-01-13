@@ -190,7 +190,7 @@
   border: 1px solid #e7e7ec;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   transition: 0.4s;
   &:hover {
     top: -10px;
@@ -431,7 +431,7 @@
 .instructor-item {
   position: relative;
   top: 0;
-  padding: 0 20px 20px 20px;
+  padding: 0 15px 15px 15px;
   border-radius: 5px;
   border: 1px solid #e7e7ec;
   transition: 0.4s;
@@ -448,7 +448,7 @@
 }
 .instructor-title {
   margin-bottom: 5px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .instructor-course-info {
   display: flex;
@@ -611,9 +611,6 @@
   }
   .course-img {
     height: 200px;
-  }
-  .course-title {
-    font-size: 20px;
   }
   .course-info {
     margin-bottom: 10px;

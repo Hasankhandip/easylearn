@@ -77,10 +77,9 @@
   margin-right: 10px;
 }
 .course-details-off-price {
-  font-size: 16px;
-  color: rgb(41, 41, 41);
+  font-size: 18px;
+  color: rgb(71, 71, 71);
   display: inline-block;
-  text-decoration: line-through;
 }
 .course-add-cart-area {
   display: flex;
@@ -487,6 +486,10 @@
   margin-bottom: 100px;
   .section-title-area {
     margin-bottom: 50px;
+  }
+  .blog-area,
+  .course-area {
+    margin-bottom: 0;
   }
 }
 // trending-course-section scss end

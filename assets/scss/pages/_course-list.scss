@@ -1,9 +1,7 @@
 // course-list-section scss start
 .course-list-section {
   margin-bottom: 80px;
-  .course-pagination-section {
-    margin-bottom: 0;
-  }
+
   .custome-col-lg-3 {
     width: 30%;
   }
@@ -83,10 +81,6 @@
 .course-area-2 {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
-  &:hover {
-    top: 0;
-  }
   .course-title {
     font-size: 20px;
     margin-bottom: 10px;
@@ -127,10 +121,7 @@
     font-size: 25px;
   }
   .course-details-off-price {
-    font-size: 13px;
+    font-size: 16px;
   }
-}
-.course-list-area-wrapper {
-  margin-bottom: 60px;
 }
 // course-list-section scss end

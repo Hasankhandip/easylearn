@@ -2,9 +2,6 @@
 .course-list-section {
   .blog-area {
     margin-bottom: 20px;
-    &:hover {
-      top: 0;
-    }
     .course-img {
       height: 400px;
     }
@@ -28,9 +25,6 @@
   .blog-area {
     padding: 5px;
     margin-bottom: 10px;
-    &:hover {
-      top: 0;
-    }
     &:last-child {
       margin-bottom: 0;
     }
