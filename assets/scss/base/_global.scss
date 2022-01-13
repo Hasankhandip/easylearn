@@ -11,7 +11,7 @@
 //  page-section scss start
 .page-section {
   position: relative;
-  background-image: url(/assets/images/page-path-bg.jpg);
+  background-image: url(../images/page-path-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,6 +101,9 @@
 // page-section-2 scss end
 
 // modal scss start
+.modal {
+  background-color: rgba(3, 31, 66, 0.329);
+}
 .modal-header {
   border-bottom: none;
   padding: 10px 15px;

@@ -1,5 +1,9 @@
 // course-list-section scss start
 .course-list-section {
+  margin-bottom: 80px;
+  .course-pagination-section {
+    margin-bottom: 0;
+  }
   .custome-col-lg-3 {
     width: 30%;
   }
@@ -32,8 +36,10 @@
 }
 .course-list-category-item {
   margin-bottom: 7px;
-  font-size: 15px;
-  color: rgb(70, 70, 70);
+  .form-check-label {
+    font-size: 15px;
+    color: #2c2c2c;
+  }
   .form-check-input {
     border: 2px solid rgba(0, 0, 0, 0.25);
     margin-right: 5px;
@@ -43,6 +49,9 @@
   }
 }
 .course-list-rating-wrap {
+  .form-check {
+    padding-left: 0;
+  }
   .course-list-category-item {
     display: flex;
     align-items: center;
@@ -55,7 +64,7 @@
   }
 }
 .custome-form-select {
-  width: 70%;
+  width: 65%;
   border: none;
   &:focus {
     border: none;

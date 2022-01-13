@@ -63,7 +63,7 @@
 
 .page-section {
   position: relative;
-  background-image: url(/assets/images/page-path-bg.jpg);
+  background-image: url(../images/page-path-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,6 +172,10 @@
   color: #0072ff;
 }
 
+.modal {
+  background-color: rgba(3, 31, 66, 0.329);
+}
+
 .modal-header {
   border-bottom: none;
   padding: 10px 15px;
@@ -266,10 +270,6 @@ input:focus {
           box-shadow: none;
   border: none;
   outline: none;
-}
-
-.container {
-  max-width: 1200px;
 }
 
 .btn-1 {
@@ -448,17 +448,35 @@ input:focus {
   margin-bottom: 80px;
 }
 
+.page-item {
+  margin: 0 5px;
+}
+
 .page-link {
-  padding: 10px 20px;
+  padding: 8px 18px;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .page-link.active {
-  background-color: #e9ecef;
+  background-color: #031f42;
+  color: #fff;
+  border: 1px solid #031f42;
+}
+
+.page-link:hover {
+  background-color: #031f42;
+  color: #fff;
+  border: 1px solid #031f42;
 }
 
 .page-link:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+  background-color: #031f42;
+  color: #fff;
+  border: 1px solid #031f42;
 }
 
 .header-section {
@@ -467,9 +485,8 @@ input:focus {
   margin-bottom: 95px;
 }
 
-.header-section .container-fluid {
-  padding-left: 60px;
-  padding-right: 60px;
+.header-section .container {
+  max-width: 1250px;
 }
 
 .header-bottom {
@@ -2665,6 +2682,14 @@ input:focus {
   margin-bottom: 15px;
 }
 
+.course-list-section {
+  margin-bottom: 80px;
+}
+
+.course-list-section .course-pagination-section {
+  margin-bottom: 0;
+}
+
 .course-list-section .custome-col-lg-3 {
   width: 30%;
 }
@@ -2705,8 +2730,11 @@ input:focus {
 
 .course-list-category-item {
   margin-bottom: 7px;
+}
+
+.course-list-category-item .form-check-label {
   font-size: 15px;
-  color: #464646;
+  color: #2c2c2c;
 }
 
 .course-list-category-item .form-check-input {
@@ -2717,6 +2745,10 @@ input:focus {
 .course-list-category-item .form-check-input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.course-list-rating-wrap .form-check {
+  padding-left: 0;
 }
 
 .course-list-rating-wrap .course-list-category-item {
@@ -2737,7 +2769,7 @@ input:focus {
 }
 
 .custome-form-select {
-  width: 70%;
+  width: 65%;
   border: none;
 }
 
@@ -2834,6 +2866,95 @@ input:focus {
 
 .course-list-area-wrapper {
   margin-bottom: 60px;
+}
+
+.course-list-section .blog-area {
+  margin-bottom: 20px;
+}
+
+.course-list-section .blog-area:hover {
+  top: 0;
+}
+
+.course-list-section .blog-area .course-img {
+  height: 400px;
+}
+
+.course-list-section .blog-area .course-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.course-list-section .blog-area .course-info {
+  margin-bottom: 0;
+}
+
+.course-list-section .blog-area .course-info-area {
+  margin-bottom: 10px;
+}
+
+.blog-list-popular-post-wrap {
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.blog-list-popular-post-wrap .blog-area {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.blog-list-popular-post-wrap .blog-area:hover {
+  top: 0;
+}
+
+.blog-list-popular-post-wrap .blog-area:last-child {
+  margin-bottom: 0;
+}
+
+.blog-list-popular-post-wrap .blog-area > * {
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-img-area {
+  width: 100%;
+  height: 75px;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-title {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-details-area {
+  padding: 0;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-info {
+  margin-bottom: 0;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-info-item {
+  font-size: 12px;
+}
+
+.blog-list-popular-post-wrap .blog-area .course-info-item i {
+  font-size: 18px;
 }
 
 .sing-up-section .sing-up-wrapper {
