@@ -1610,6 +1610,10 @@ input:focus {
   font-size: 14px;
 }
 
+.instructor-course-info .course-info-item:last-child {
+  margin-right: 0;
+}
+
 .instructor-course-info .course-info-item i {
   color: #0072ff;
   font-size: 20px;
@@ -3049,6 +3053,22 @@ input:focus {
 
 .blog-grid-section .course-details-area {
   padding: 5px 10px;
+}
+
+.instructor-list-section {
+  margin-bottom: 80px;
+}
+
+.instructor-list-section .instructor-item {
+  margin-bottom: 40px;
+}
+
+.instructor-list-section .course-list-category-wrap {
+  border-bottom: none;
+}
+
+.instructor-list-section .course-pagination-section {
+  margin-top: 20px;
 }
 
 .sing-up-section .sing-up-wrapper {
