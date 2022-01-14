@@ -25,6 +25,9 @@
   .blog-area {
     padding: 5px;
     margin-bottom: 10px;
+    &:hover {
+      top: -5px;
+    }
     &:last-child {
       margin-bottom: 0;
     }

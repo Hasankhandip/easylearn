@@ -1,3 +1,19 @@
+"use strict";
+// preloader start
+$(window).on("load", function () {
+  $(".preloader")
+    .delay(500)
+    .animate(
+      {
+        opacity: "0",
+      },
+      500,
+      function () {
+        $(".preloader").css("display", "none");
+      }
+    );
+});
+// preloader end
 // header-section js start
 $(window).on("scroll", function(){
     if ($(this).scrollTop() > 50 ) {
