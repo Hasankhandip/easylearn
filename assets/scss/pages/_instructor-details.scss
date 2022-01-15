@@ -1,0 +1,82 @@
+// instructor-details-section scss start
+.instructor-details-section {
+  padding-bottom: 100px;
+  .instructor-card {
+    .course-details-img {
+      height: 350px;
+    }
+    .instructor-title {
+      font-size: 22px;
+    }
+    .instructor-info-item {
+      padding: 15px;
+      border-bottom: 1px solid #ebebeb;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .course-info-item {
+      color: #000;
+      font-size: 16px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #e5e5e5;
+      span {
+        display: flex;
+        align-items: center;
+        i {
+          color: $main-color;
+          margin-right: 5px;
+        }
+      }
+    }
+    .course-info {
+      margin-bottom: 15px;
+      margin-top: 15px;
+      display: block;
+    }
+    .instructor-social-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .instructor-social-wrap {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .instructor-social-item {
+      margin-right: 20px;
+      i {
+        color: #353535;
+        font-size: 16px;
+        transition: 0.4s;
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
+  }
+  .course-details-requirement-item {
+    span {
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+}
+.instructor-all-courses {
+  .course-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .course-buyer-area {
+    margin-bottom: 10px;
+  }
+  .course-details-area {
+    padding: 5px 10px;
+  }
+}
+// instructor-details-section scss end

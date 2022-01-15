@@ -3071,6 +3071,114 @@ input:focus {
   margin-top: 20px;
 }
 
+.instructor-details-section {
+  padding-bottom: 100px;
+}
+
+.instructor-details-section .instructor-card .course-details-img {
+  height: 350px;
+}
+
+.instructor-details-section .instructor-card .instructor-title {
+  font-size: 22px;
+}
+
+.instructor-details-section .instructor-card .instructor-info-item {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.instructor-details-section .instructor-card .instructor-info-item:last-child {
+  border-bottom: none;
+}
+
+.instructor-details-section .instructor-card .course-info-item {
+  color: #000;
+  font-size: 16px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+
+.instructor-details-section .instructor-card .course-info-item span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instructor-details-section .instructor-card .course-info-item span i {
+  color: #0072ff;
+  margin-right: 5px;
+}
+
+.instructor-details-section .instructor-card .course-info {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: block;
+}
+
+.instructor-details-section .instructor-card .instructor-social-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.instructor-details-section .instructor-card .instructor-social-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.instructor-details-section .instructor-card .instructor-social-item {
+  margin-right: 20px;
+}
+
+.instructor-details-section .instructor-card .instructor-social-item i {
+  color: #353535;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.instructor-details-section .instructor-card .instructor-social-item i:hover {
+  color: #0072ff;
+}
+
+.instructor-details-section .course-details-requirement-item span {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.instructor-all-courses .course-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.instructor-all-courses .course-buyer-area {
+  margin-bottom: 10px;
+}
+
+.instructor-all-courses .course-details-area {
+  padding: 5px 10px;
+}
+
 .sing-up-section .sing-up-wrapper {
   height: 100vh;
 }
