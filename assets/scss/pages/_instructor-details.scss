@@ -4,9 +4,15 @@
   .instructor-card {
     .course-details-img {
       height: 350px;
+      object-position: top;
     }
     .instructor-title {
-      font-size: 22px;
+      font-size: 24px;
+      text-align: center;
+    }
+    .instructor-details {
+      font-size: 16px;
+      text-align: center;
     }
     .instructor-info-item {
       padding: 15px;
@@ -25,6 +31,9 @@
       padding-top: 10px;
       padding-bottom: 10px;
       border-bottom: 1px dashed #e5e5e5;
+      &:last-child {
+        border-bottom: none;
+      }
       span {
         display: flex;
         align-items: center;
@@ -35,13 +44,19 @@
       }
     }
     .course-info {
-      margin-bottom: 15px;
+      margin-bottom: 0;
       margin-top: 15px;
       display: block;
     }
+    .instructor-social-item-area {
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
     .instructor-social-title {
       font-size: 18px;
-      margin-bottom: 10px;
+      margin-right: 20px;
     }
     .instructor-social-wrap {
       display: flex;
@@ -65,6 +80,12 @@
       font-weight: 500;
       font-size: 17px;
     }
+  }
+  .course-details-requirement-area {
+    margin-bottom: 40px;
+  }
+  .course-details-desrciption-area {
+    margin-bottom: 40px;
   }
 }
 .instructor-all-courses {

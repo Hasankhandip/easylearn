@@ -2,9 +2,7 @@
 .blog-grid-section {
   margin-bottom: 80px;
   .course-title {
-    margin-bottom: 0;
-  }
-  .course-info {
+    font-size: 18px;
     margin-bottom: 0;
   }
   .course-info-area {
@@ -12,6 +10,12 @@
   }
   .course-details-area {
     padding: 5px 10px;
+  }
+  .course-list-search-wrap {
+    padding: 15px;
+  }
+  .course-list-category-wrap {
+    padding: 15px;
   }
 }
 //  blog-grid-section scsss end

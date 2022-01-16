@@ -18,9 +18,9 @@
   }
 }
 // course-list-section scss end
-// blog-list-popular-post-wrap scss start
-.blog-list-popular-post-wrap {
-  padding: 20px;
+// course-list-filter-item scss start
+.course-list-filter-item {
+  padding: 15px;
   border-bottom: 1px solid #ebebeb;
   .blog-area {
     padding: 5px;
@@ -64,4 +64,7 @@
     }
   }
 }
-// blog-list-popular-post-wrap scss end
+.course-list-filter-item-post {
+  padding: 20px;
+}
+// course-list-filter-item scss end
