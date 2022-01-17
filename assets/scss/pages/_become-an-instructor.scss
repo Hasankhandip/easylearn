@@ -1,0 +1,74 @@
+//  become-banner-section scss start
+.become-banner-section {
+  .banner-title {
+    margin-bottom: 10px;
+  }
+}
+//  become-banner-section scss end
+
+// become-discover-item scss start
+.become-discover-section {
+  margin: 60px 0 80px 0;
+  .section-title-area {
+    margin-bottom: 60px;
+  }
+}
+.become-discover-item {
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
+  transition: 0.4s;
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 59px rgba(0, 0, 0, 0.08);
+  }
+}
+.become-discover-item-img {
+  width: 60px;
+}
+.become-discover-item-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+// become-discover-item scss end
+
+// become-instructor-section scss start
+.become-instructor-section {
+  margin-bottom: 60px;
+  .section-title-area {
+    margin-bottom: 30px;
+  }
+  .course-details-tab {
+    justify-content: center;
+    .nav-link {
+      font-size: 20px;
+    }
+  }
+  .course-details-desrciption-title {
+    font-size: 26px;
+  }
+  .course-details-desrciption-text {
+    font-size: 20px;
+    color: #000;
+  }
+  .course-details-requirement-item {
+    font-size: 20px;
+    color: #000;
+  }
+}
+// become-instructor-section scss end
+
+// become-start-section scss start
+.become-start-section {
+  padding: 60px 0;
+}
+.become-start-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.become-start-details {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+}
+// become-start-section scss end
