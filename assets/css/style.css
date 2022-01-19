@@ -63,7 +63,7 @@
 
 .page-section {
   position: relative;
-  background-image: url(../images/page-path-bg.jpg);
+  background-image: url(../images/page-path-bg-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -927,8 +927,25 @@ input:focus {
 }
 
 .footer-section {
+  position: relative;
   padding-top: 80px;
+  background-image: url(/assets/images/page-path-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.footer-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
   background-color: #031f42;
+  opacity: 0.9;
+  z-index: -1;
 }
 
 .footer-top {
@@ -3336,7 +3353,7 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 10px 15px;
   border-radius: 5px;
   border: 1px solid #e7e7ec;
@@ -3362,7 +3379,7 @@ input:focus {
 }
 
 .contact-details-title {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   font-size: 17px;
 }
 
@@ -3382,19 +3399,31 @@ input:focus {
       flex-wrap: wrap;
 }
 
+.contact-form .comment-box {
+  color: #222222;
+  border: 1px solid #909090;
+}
+
+.contact-form .comment-box:focus {
+  border: 1px solid rgba(0, 115, 255, 0.76);
+  -webkit-box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
+          box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
+}
+
 .contact-form-input {
   padding: 10px;
-  width: 49.5%;
+  width: 100%;
   border-radius: 5px;
-  color: #575757;
-  border: 1px solid #575757;
+  color: #222222;
+  border: 1px solid #909090;
   resize: none;
-  margin-bottom: 20px;
 }
 
 .contact-form-input:focus {
   outline: none;
-  border: 1px solid #0072ff;
+  border: 1px solid rgba(0, 115, 255, 0.76);
+  -webkit-box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
+          box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
 }
 
 .contact-form-input::-webkit-input-placeholder {
@@ -3413,33 +3442,7 @@ input:focus {
   color: #575757;
 }
 
-.contact-map-section .row > * {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.contact-map-area {
-  margin-top: 100px;
-}
-
-.contact-map {
-  position: relative;
-  overflow: hidden;
-}
-
-.contact-map::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #031f42;
-  opacity: 0.2;
-  pointer-events: none;
-}
-
-.contact-map iframe {
+.contact-map-section {
   width: 100%;
   height: 450px;
 }
@@ -3504,13 +3507,38 @@ input:focus {
 }
 
 .become-instructor-section .course-details-desrciption-text {
-  font-size: 20px;
-  color: #000;
+  font-size: 18px;
 }
 
 .become-instructor-section .course-details-requirement-item {
-  font-size: 20px;
-  color: #000;
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.become-instructor-section .course-details-requirement-item::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #031f42;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.become-instructor-section .course-details-requirement-item::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  width: 14px;
+  height: 14px;
+  background-color: #031f42;
+  z-index: 2;
 }
 
 .become-start-section {
