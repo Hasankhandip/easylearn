@@ -102,3 +102,12 @@ $(document).ready(function() {
       );
 });
 // magnific popup js end
+
+// header-navbar js start
+$('.navbar-toggler').on('click', function(){
+  $('.header-navbar').addClass('show');
+});
+$('.sidebar-close-btn').on('click', function(){
+  $('.header-navbar').removeClass('show');
+});
+// header-navbar js end
