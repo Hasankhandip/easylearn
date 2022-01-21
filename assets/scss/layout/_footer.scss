@@ -2,7 +2,7 @@
 .footer-section {
   position: relative;
   padding-top: 80px;
-  background-image: url(/assets/images/page-path-bg.jpg);
+  background-image: url(../images/page-path-bg.jpg);
   @include bg-img;
   z-index: 1;
   &::before {
@@ -73,7 +73,7 @@
   }
 }
 .footer-bottom-item {
-  margin-right: 30px;
+  margin-right: 25px;
   &:last-child {
     margin-right: 0;
   }

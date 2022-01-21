@@ -42,6 +42,34 @@ $(".count").counterUp({
     autoplay:true,
     slidesToShow: 6,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 4,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 2,
+      }
+    }
+  ]
   });
 });
 // slick slider end
