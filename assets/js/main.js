@@ -139,3 +139,12 @@ $('.sidebar-close-btn').on('click', function(){
   $('.header-navbar').removeClass('show');
 });
 // header-navbar js end
+
+// filter-btn js start
+$('.filter-btn').on('click', function(){
+  $('.course-list-filter-wrap').addClass('show');
+});
+$('.filter-close-btn').on('click', function(){
+  $('.course-list-filter-wrap').removeClass('show');
+});
+// filter-btn js end

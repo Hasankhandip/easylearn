@@ -149,3 +149,23 @@
   }
 }
 // comment-box scss end
+
+// filter-btn scss start
+.filter-close-btn {
+  display: none;
+}
+.filter-btn {
+  display: none !important;
+  padding: 6px 20px 6px 10px;
+  border-radius: 5px;
+  background-color: $color-2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 23px;
+    color: #fff;
+    margin-right: 5px;
+  }
+}
+// filter-btn scss end

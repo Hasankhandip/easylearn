@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- preloader start -->
-    <div class="preloader"></div>
+    <!-- <div class="preloader"></div> -->
     <!-- preloader end -->
     <!-- header-section start -->
     <header class="header-section">
@@ -216,6 +216,9 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="course-list-filter-wrap">
+              <button type="buton" class="filter-close-btn">
+                <i class="las la-times"></i>
+              </button>
               <div class="course-list-filter-item">
                 <h4 class="course-list-filter-title">Search</h4>
                 <form action="#" class="header-search-bar m-0">
@@ -562,11 +565,16 @@
             </div>
           </div>
           <div class="col-lg-9 ps-4">
-            <div class="row align-items-center mb-4">
-              <div class="col-lg-8">
+            <div class="row align-items-center filter-title-top mb-4">
+              <div
+                class="col-lg-8 col-md-12 col-sm-12 d-flex align-items-center"
+              >
+                <button type="button" class="filter-btn">
+                  <i class="las la-sliders-h"></i> Filter
+                </button>
                 <p class="course-available-number">1524 Courses Available</p>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-12 col-sm-12">
                 <div class="course-sort">
                   <p class="course-sort-title">Sort by :</p>
                   <select
@@ -581,753 +589,777 @@
                 </div>
               </div>
             </div>
-            <div class="course-list-area-wrapper">
-              <div class="course-area course-area-2">
-                <a href="#0" class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/design.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Art &amp; Design</p>
-                </a>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="blog-details.html">
-                      Ultimate Adobe Photoshop Training: From Beginner to
-                      Advanced
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+            <div class="row course-list-area-wrapper">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <a href="#0" class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-1.jpg"
+                      class="course-img"
+                      src="assets/images/design.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Elina Paul</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Art &amp; Design</p>
+                  </a>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="blog-details.html">
+                        Ultimate Adobe Photoshop Training: From Beginner to
+                        Advanced
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-1.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Elina Paul</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(3.4K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i> Lessons 81
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(3.4K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 4.3K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $149.00
+                        <del class="course-details-off-price">$299.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i> Lessons 81
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 4.3K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $149.00
-                      <del class="course-details-off-price">$299.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/development.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Web Development</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="blog-details.html"
-                      >The Complete JavaScript Course 2020: Build Realtime
-                      Project
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-2.jpg"
+                      class="course-img"
+                      src="assets/images/development.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Jon Doe</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Web Development</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="blog-details.html"
+                        >The Complete JavaScript Course 2020: Build Realtime
+                        Project
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-2.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Jon Doe</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(5.7K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 210
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(5.7K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 9.4K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $499.00
+                        <del class="course-details-off-price">$650.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 210
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 9.4K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $499.00
-                      <del class="course-details-off-price">$650.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/photography.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Photography</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Certificate in Beginner to Advanced Photography and
-                      Photo-jounalist
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-3.jpg"
+                      class="course-img"
+                      src="assets/images/photography.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Mark Obey</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Photography</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Certificate in Beginner to Advanced Photography and
+                        Photo-jounalist
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-3.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Mark Obey</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(2.4K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 50
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(2.4K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 3.5K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $99.00
+                        <del class="course-details-off-price">$120.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 50
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 3.5K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $99.00
-                      <del class="course-details-off-price">$120.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/lifestyle.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Lifestyle</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Complete Beginner to Advanced Lifestyle Management 2022
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-4.jpg"
+                      class="course-img"
+                      src="assets/images/lifestyle.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Anne Meri</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Lifestyle</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Complete Beginner to Advanced Lifestyle Management 2022
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-4.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Anne Meri</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(2.8K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 35
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(2.8K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 3.9K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $85.00
+                        <del class="course-details-off-price">$105.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 35
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 3.9K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $85.00
-                      <del class="course-details-off-price">$105.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/personal-development.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Personal Development</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >The Complete Advanced Personal Development Courses all in
-                      1
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-5.jpg"
+                      class="course-img"
+                      src="assets/images/personal-development.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Matt Henry</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Personal Development</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >The Complete Advanced Personal Development Courses all
+                        in 1
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-5.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Matt Henry</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(3.9K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 65
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(3.9K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 5.2K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $129.00
+                        <del class="course-details-off-price">$150.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 65
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 5.2K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $129.00
-                      <del class="course-details-off-price">$150.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/business.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Business</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Complete Beginner to Advanced Master of Business
-                      Administration (MBA)
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-6.jpg"
+                      class="course-img"
+                      src="assets/images/business.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Mark Jone</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Business</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Complete Beginner to Advanced Master of Business
+                        Administration (MBA)
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-6.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Mark Jone</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(4.3K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 47
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(4.3K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 7.1K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $230.00
+                        <del class="course-details-off-price">$300.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 47
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 7.1K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $230.00
-                      <del class="course-details-off-price">$300.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <a href="#0" class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/design.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Art &amp; Design</p>
-                </a>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="blog-details.html">
-                      Ultimate Adobe Photoshop Training: From Beginner to
-                      Advanced
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <a href="#0" class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-1.jpg"
+                      class="course-img"
+                      src="assets/images/design.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Elina Paul</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Art &amp; Design</p>
+                  </a>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="blog-details.html">
+                        Ultimate Adobe Photoshop Training: From Beginner to
+                        Advanced
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-1.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Elina Paul</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(3.4K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i> Lessons 81
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(3.4K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 4.3K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $149.00
+                        <del class="course-details-off-price">$299.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i> Lessons 81
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 4.3K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $149.00
-                      <del class="course-details-off-price">$299.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/development.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Web Development</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >The Complete JavaScript Course 2020: Build Realtime
-                      Project
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-2.jpg"
+                      class="course-img"
+                      src="assets/images/development.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Jon Doe</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Web Development</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >The Complete JavaScript Course 2020: Build Realtime
+                        Project
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-2.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Jon Doe</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(5.7K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 210
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(5.7K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 9.4K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $499.00
+                        <del class="course-details-off-price">$650.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 210
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 9.4K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $499.00
-                      <del class="course-details-off-price">$650.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/photography.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Photography</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Certificate in Beginner to Advanced Photography and
-                      Photo-jounalist
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-3.jpg"
+                      class="course-img"
+                      src="assets/images/photography.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Mark Obey</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Photography</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Certificate in Beginner to Advanced Photography and
+                        Photo-jounalist
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-3.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Mark Obey</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(2.4K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 50
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(2.4K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 3.5K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $99.00
+                        <del class="course-details-off-price">$120.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 50
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 3.5K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $99.00
-                      <del class="course-details-off-price">$120.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/lifestyle.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Lifestyle</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Complete Beginner to Advanced Lifestyle Management 2022
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-4.jpg"
+                      class="course-img"
+                      src="assets/images/lifestyle.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Anne Meri</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Lifestyle</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Complete Beginner to Advanced Lifestyle Management 2022
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-4.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Anne Meri</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(2.8K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 35
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(2.8K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 3.9K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $85.00
+                        <del class="course-details-off-price">$105.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 35
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 3.9K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $85.00
-                      <del class="course-details-off-price">$105.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/personal-development.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Personal Development</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >The Complete Advanced Personal Development Courses all in
-                      1
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-5.jpg"
+                      class="course-img"
+                      src="assets/images/personal-development.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Matt Henry</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Personal Development</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >The Complete Advanced Personal Development Courses all
+                        in 1
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-5.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Matt Henry</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(3.9K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 65
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(3.9K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 5.2K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $129.00
+                        <del class="course-details-off-price">$150.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 65
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 5.2K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $129.00
-                      <del class="course-details-off-price">$150.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
-              <div class="course-area course-area-2">
-                <div class="course-img-area">
-                  <img
-                    class="course-img"
-                    src="assets/images/business.jpg"
-                    alt=""
-                  />
-                  <p class="course-category">Business</p>
-                </div>
-                <div class="course-details-area">
-                  <h5 class="course-title">
-                    <a href="course-details.html"
-                      >Complete Beginner to Advanced Master of Business
-                      Administration (MBA)
-                    </a>
-                  </h5>
-                  <div class="course-buyer-area">
+              <div class="col-lg-12">
+                <div class="course-area course-area-2">
+                  <div class="course-img-area">
                     <img
-                      class="course-buyer-img"
-                      src="assets/images/course-buyer-6.jpg"
+                      class="course-img"
+                      src="assets/images/business.jpg"
                       alt=""
                     />
-                    <div class="course-buyer-details">
-                      <h6 class="course-buyer-title">Mark Jone</h6>
-                      <ul class="course-rating">
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
+                    <p class="course-category">Business</p>
+                  </div>
+                  <div class="course-details-area">
+                    <h5 class="course-title">
+                      <a href="course-details.html"
+                        >Complete Beginner to Advanced Master of Business
+                        Administration (MBA)
+                      </a>
+                    </h5>
+                    <div class="course-buyer-area">
+                      <img
+                        class="course-buyer-img"
+                        src="assets/images/course-buyer-6.jpg"
+                        alt=""
+                      />
+                      <div class="course-buyer-details">
+                        <h6 class="course-buyer-title">Mark Jone</h6>
+                        <ul class="course-rating">
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-rating-item">
+                            <i class="las la-star"></i>
+                          </li>
+                          <li class="course-sale">
+                            <p class="course-sale-title">(4.3K Reviews)</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="course-info-area">
+                      <ul class="course-info">
+                        <li class="course-info-item">
+                          <i class="las la-play-circle"></i>Lessons 47
                         </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-rating-item">
-                          <i class="las la-star"></i>
-                        </li>
-                        <li class="course-sale">
-                          <p class="course-sale-title">(4.3K Reviews)</p>
+                        <li class="course-info-item">
+                          <i class="las la-user-alt"></i>Students 7.1K
                         </li>
                       </ul>
+                      <h2 class="course-details-price">
+                        $230.00
+                        <del class="course-details-off-price">$300.00</del>
+                      </h2>
                     </div>
-                  </div>
-                  <div class="course-info-area">
-                    <ul class="course-info">
-                      <li class="course-info-item">
-                        <i class="las la-play-circle"></i>Lessons 47
-                      </li>
-                      <li class="course-info-item">
-                        <i class="las la-user-alt"></i>Students 7.1K
-                      </li>
-                    </ul>
-                    <h2 class="course-details-price">
-                      $230.00
-                      <del class="course-details-off-price">$300.00</del>
-                    </h2>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="course-pagination-section">
-              <div class="row">
-                <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="pagination-section">
                   <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                       <li class="page-item disabled">
@@ -1349,22 +1381,7 @@
                         <a class="page-link" href="#">3</a>
                       </li>
                       <li class="page-item">
-                        <a class="page-link" href="#">4</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">5</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">6</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">7</a>
-                      </li>
-                      <li class="page-item">
                         <a class="page-link" href="#">...</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">27</a>
                       </li>
                       <li class="page-item">
                         <a class="page-link" href="#"
@@ -1387,7 +1404,7 @@
       <div class="footer-top">
         <div class="container">
           <div class="row">
-            <div class="col-lg-3 me-auto">
+            <div class="col-lg-3 col-md-12 col-sm-12 me-auto">
               <a class="header-logo footer-logo" href="index.html">
                 <img
                   class="header-logo-icon"
@@ -1424,14 +1441,16 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-3 col-sm-6">
               <ul class="footer-details">
-                <h5 class="footer-details-title">Explore</h5>
+                <li><h5 class="footer-details-title">Explore</h5></li>
                 <li class="footer-details-item">
                   <a class="footer-details-link" href="#0">About Us</a>
                 </li>
                 <li class="footer-details-item">
-                  <a class="footer-details-link" href="#0"
+                  <a
+                    class="footer-details-link"
+                    href="become-an-instructor.html"
                     >Become an Instructor</a
                   >
                 </li>
@@ -1439,13 +1458,15 @@
                   <a class="footer-details-link" href="blog-list.html">Blog</a>
                 </li>
                 <li class="footer-details-item">
-                  <a class="footer-details-link" href="#0">Contact Us</a>
+                  <a class="footer-details-link" href="contact.html"
+                    >Contact Us</a
+                  >
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-3 col-sm-6">
               <ul class="footer-details">
-                <h5 class="footer-details-title">Courses</h5>
+                <li><h5 class="footer-details-title">Courses</h5></li>
                 <li class="footer-details-item">
                   <a class="footer-details-link" href="#0">Art & Design</a>
                 </li>
@@ -1463,9 +1484,9 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-3 col-sm-6">
               <ul class="footer-details">
-                <h5 class="footer-details-title">Support</h5>
+                <li><h5 class="footer-details-title">Support</h5></li>
                 <li class="footer-details-item">
                   <a class="footer-details-link" href="#0">Documentation</a>
                 </li>
@@ -1480,9 +1501,9 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-md-3 col-sm-6">
               <ul class="footer-details">
-                <h5 class="footer-details-title">Contact Details</h5>
+                <li><h5 class="footer-details-title">Contact Details</h5></li>
                 <li class="footer-details-item">
                   <a class="footer-details-link" href="#0">+0800 545 697</a>
                 </li>
@@ -1505,12 +1526,12 @@
       <div class="footer-bottom">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
               <p class="footer-copyright">
                 © 2021 All rights reserved by <span>Easylearn</span>
               </p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6 col-sm-12">
               <ul class="footer-bottom-item-area">
                 <li class="footer-bottom-item">
                   <a class="footer-bottom-link" href="#0">Home</a>
