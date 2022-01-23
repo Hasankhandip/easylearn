@@ -93,3 +93,35 @@
     border: 1px solid $main-color;
   }
 }
+
+.grid-list-btn-area {
+  display: flex;
+  align-items: center;
+}
+.grid-list-btn {
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  i {
+    padding: 4px;
+    color: #000;
+    font-size: 25px;
+  }
+}
+.grid-btn {
+  &.active {
+    background-color: $color-2;
+    border-color: $color-2;
+    i {
+      color: #fff;
+    }
+  }
+}
+.list-btn {
+  &.active {
+    background-color: $color-2;
+    border-color: $color-2;
+    i {
+      color: #fff;
+    }
+  }
+}

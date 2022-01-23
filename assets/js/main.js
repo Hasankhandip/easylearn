@@ -36,7 +36,7 @@ $(".count").counterUp({
     prevArrow: ".left-arrow-testimonial",
     nextArrow:  ".right-arrow-testimonial",
     slidesToShow: 1,
-  slidesToScroll: 1
+  slidesToScroll: 1,
   });
   $('.sponsor-item-area').slick({
     autoplay:true,
@@ -148,3 +148,19 @@ $('.filter-close-btn').on('click', function(){
   $('.course-list-filter-wrap').removeClass('show');
 });
 // filter-btn js end
+
+
+// grid-list-btn js start
+$('.list-btn').on('click', function(){
+  $('.course-area-wrapper-2').addClass('active');
+  $('.course-area-wrapper').addClass('off');
+  $(this).addClass('active');
+  $('.grid-btn').removeClass('active');
+});
+$('.grid-btn').on('click', function(){
+  $('.course-area-wrapper-2').removeClass('active');
+  $('.course-area-wrapper').removeClass('off');
+  $(this).addClass('active');
+  $('.list-btn').removeClass('active');
+});
+// grid-list-btn js end
