@@ -79,26 +79,23 @@
 }
 
 // category-tag-wrapper scss start
-.category-tag-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
 .category-tag-item {
-  margin-right: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: #f4f5f8;
   margin-bottom: 8px;
   &:last-child {
     margin-bottom: 0;
-    margin-right: 0;
   }
 }
 .category-tag-link {
-  font-size: 14px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #e5e5e5;
+  color: #000;
   &:hover {
-    color: #000;
-    background-color: #d8d8d8;
+    color: $main-color;
   }
 }
 // category-tag-wrapper scss end
