@@ -23,7 +23,7 @@
   border: none;
   padding: 0;
   &:hover {
-    top: 0;
+    transform: translateY(0);
     box-shadow: none;
   }
   .course-details-area {

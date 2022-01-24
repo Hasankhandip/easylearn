@@ -2089,8 +2089,12 @@ input:focus {
   margin-bottom: 0;
 }
 
-.course-list-section {
-  margin-bottom: 80px;
+.course-area-wrapper-2 .blog-area .course-img {
+  height: 320px;
+}
+
+.course-area-wrapper-2 .blog-area .course-title {
+  font-size: 20px;
 }
 
 .course-list-filter-wrap {
@@ -3068,27 +3072,6 @@ input:focus {
   margin-bottom: 15px;
 }
 
-.course-list-section .blog-area {
-  margin-bottom: 20px;
-}
-
-.course-list-section .blog-area .course-img {
-  height: 400px;
-}
-
-.course-list-section .blog-area .course-title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.course-list-section .blog-area .course-info {
-  margin-bottom: 0;
-}
-
-.course-list-section .blog-area .course-info-area {
-  margin-bottom: 10px;
-}
-
 .course-list-filter-item {
   padding: 15px;
   border-bottom: 1px solid #ebebeb;
@@ -3100,7 +3083,8 @@ input:focus {
 }
 
 .course-list-filter-item .blog-area:hover {
-  top: -5px;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 .course-list-filter-item .blog-area:last-child {
@@ -3193,7 +3177,8 @@ input:focus {
 }
 
 .blog-details-area:hover {
-  top: 0;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -4129,18 +4114,27 @@ input:focus {
   .category-course-section .row .col-lg-9 {
     width: 70%;
   }
-  .course-list-section .row .col-lg-3 {
-    width: 30%;
-  }
-  .course-list-section .row .col-lg-9 {
-    width: 70%;
-  }
   .page-details-area {
     padding-top: 70px;
     padding-bottom: 70px;
   }
   .course-area-wrapper .col-lg-4 {
     width: 50%;
+  }
+  .blog-grid-section .course-title {
+    font-size: 17px;
+  }
+  .blog-grid-section .course-details-area {
+    padding: 10px 5px 0px 5px;
+  }
+  .blog-grid-section .row .col-lg-3 {
+    width: 30%;
+  }
+  .blog-grid-section .row .col-lg-9 {
+    width: 70%;
+  }
+  .blog-area {
+    margin-bottom: 15px;
   }
 }
 
@@ -4469,14 +4463,6 @@ input:focus {
     width: 100%;
     padding-left: calc(var(--bs-gutter-x) * 0.3) !important;
   }
-  .course-list-section .row .col-lg-3 {
-    width: 0;
-    padding: 0;
-  }
-  .course-list-section .row .col-lg-9 {
-    width: 100%;
-    padding-left: calc(var(--bs-gutter-x) * 0.3) !important;
-  }
   .filter-btn {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -4566,7 +4552,7 @@ input:focus {
     width: 45px;
   }
   .course-img {
-    height: 300px;
+    height: 280px;
   }
   .testimonial-text {
     width: 350px;
@@ -4647,12 +4633,6 @@ input:focus {
   .course-area-2 .course-img {
     height: 170px;
   }
-  .course-info {
-    margin-bottom: 10px;
-  }
-  .course-info-area {
-    display: block;
-  }
   .choose-item-area,
   .choose-item-area-2 {
     -webkit-box-pack: start;
@@ -4701,6 +4681,15 @@ input:focus {
   }
   .course-sort {
     margin-top: 15px;
+  }
+  .course-area-wrapper-2 .blog-area .course-img {
+    height: 280px;
+  }
+  .course-area-wrapper-2 .blog-area .course-title {
+    font-size: 20px;
+  }
+  .blog-area .course-img {
+    height: 280px;
   }
 }
 
@@ -4885,7 +4874,7 @@ input:focus {
     padding: 10px 0;
   }
   .course-img {
-    height: 200px;
+    height: 250px;
   }
   .choose-item-area .choose-item,
   .choose-item-area-2 .choose-item {
@@ -4920,6 +4909,22 @@ input:focus {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .blog-area .course-img {
+    height: 250px;
+  }
+  .course-list-filter-item .blog-area .course-img-area {
+    height: 100px;
+    margin-bottom: 8px !important;
+  }
+  .course-list-filter-item .blog-area .course-title {
+    line-height: 1.3;
+  }
+  .course-list-filter-item .blog-area .ps-2 {
+    padding-left: 0 !important;
+  }
+  .course-list-filter-wrap {
+    padding-top: 40px;
   }
 }
 
@@ -4956,6 +4961,20 @@ input:focus {
   }
   .footer-copyright {
     margin-bottom: 0;
+  }
+  .blog-area .course-info {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .blog-area .course-info-item {
+    font-size: 14px;
+  }
+  .blog-area .course-info-item.me-3 {
+    margin-right: 5px !important;
+  }
+  .blog-area .course-info-item i {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

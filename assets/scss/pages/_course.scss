@@ -33,13 +33,19 @@
   .course-area {
     margin-bottom: 0;
   }
+  .blog-area {
+    .course-img {
+      height: 320px;
+    }
+    .course-title {
+      font-size: 20px;
+    }
+  }
 }
 // category-course-section scss end
 
 // course-list-section scss start
-.course-list-section {
-  margin-bottom: 80px;
-}
+
 .course-list-filter-wrap {
   border-radius: 5px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
