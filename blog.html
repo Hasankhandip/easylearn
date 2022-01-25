@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>easylearn.com/blog-list</title>
+    <title>easylearn.com/blog-grid</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
     <!-- font-awesome css -->
@@ -20,7 +20,7 @@
   </head>
   <body>
      <!-- preloader start -->
-     <div class="preloader"></div>
+     <!-- <div class="preloader"></div> -->
      <!-- preloader end -->
     <!-- header-section start -->
     <header class="header-section">
@@ -164,7 +164,7 @@
                   <a class="nav-link" href="course.html">Course</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="blog-grid.html">Blog</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Conatct Us</a>
@@ -196,12 +196,11 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="page-details-area">
-              <h3 class="page-details-title">Blog List</h3>
               <ul class="page-details">
                 <li class="page-details-item">
-                  <a class="page-details-link" href="#0">Home</a>
+                  <a class="page-details-link" href="index.html">home</a>
                 </li>
-                <li class="page-details-item">Blog List</li>
+                <li class="page-details-item">blog</li>
               </ul>
             </div>
           </div>
@@ -211,70 +210,83 @@
     <!-- page-section end -->
 
     <!-- course-list start -->
-    <section class="course-list-section">
+    <section class="blog-grid-section category-course-section">
       <div class="container">
         <div class="row">
-        <div class="col-lg-9 pe-4">
-            <div class="course-area blog-area">
-                <a href="#0" class="course-img-area mb-0">
-                  <img class="course-img" src="assets/images/design.jpg" alt="">
-                  <p class="course-category">Art &amp; Design</p>
-                </a>
-                <div class="course-details-area">
-                  <div class="row course-info-area">
-                      <div class="col-lg-12">
-                        <ul class="course-info d-flex">
-                        <li class="course-info-item me-3">
-                          <i class="las la-user-alt"></i>Mark Obay
-                        </li>
-                        <li class="course-info-item">
-                          <i class="las la-calendar"></i>30 December, 2021
-                        </li>
+        <div class="col-lg-9 col-md-12 pe-4">
+          <div class="row align-items-center filter-title-top mb-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-between">
+              <button type="button" class="filter-btn">
+                <i class="las la-search"></i> Search
+              </button>
+              <p class="course-available-number">421 Blogs Available</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="course-sort">
+                <p class="course-sort-title">Sort by :</p>
+                <select class="form-select custome-form-select" aria-label="Default select example">
+                  <option selected="">Best Match</option>
+                  <option value="1">Best Rated</option>
+                  <option value="2">Newest</option>
+                  <option value="3">Trending</option>
+                </select>
+              </div>
+            </div>
+          </div>
+           <div class="row course-area-wrapper">
+               <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="course-area blog-area">
+                    <a href="#0" class="course-img-area mb-0">
+                      <img class="course-img" src="assets/images/design.jpg" alt="">
+                      <p class="course-category">Arts & Design</p>
+                    </a>
+                    <div class="course-details-area">
+                      <ul class="course-info d-flex">
+                            <li class="course-info-item me-3">
+                              <i class="las la-user-alt"></i>Anne Merie
+                            </li>
+                            <li class="course-info-item">
+                              <i class="las la-calendar"></i>30 December, 2021
+                            </li>
                       </ul>
+                      <h5 class="course-title">
+                        <a href="blog-details.html">Ultimate Adobe Photoshop Training: From Beginner to Pro 2022 
+                        </a>
+                      </h5>
                     </div>
-                  </div>
-                  <h5 class="course-title">
-                    <a href="#0">
-                      Ultimate Adobe Photoshop Training: From Beginner to Pro 2022
-                    </a>
-                  </h5>
-                  <p class="blog-details">One of highest rated Photoshop courses – by one of the Top 10 Adobe Instructors in the world – this course teaches you to use this industry-leading image editing application as a creative professional.</p>
                 </div>
-            </div>
-             <div class="course-area blog-area">
-                <a href="#0" class="course-img-area mb-0">
-                  <img class="course-img" src="assets/images/lifestyle.jpg" alt="">
-                  <p class="course-category">Lifestyle</p>
-                </a>
-                <div class="course-details-area">
-                  <div class="row course-info-area">
-                      <div class="col-lg-12"><ul class="course-info d-flex">
-                        <li class="course-info-item me-3">
-                          <i class="las la-user-alt"></i>Anne Merie
-                        </li>
-                        <li class="course-info-item">
-                          <i class="las la-calendar"></i>30 December, 2021
-                        </li>
-  
-                      </ul></div>
-                  </div>
-                  <h5 class="course-title">
-                    <a href="#0">
-                        Complete Beginner to Advanced Lifestyle Management 2022 
-                    </a>
-                  </h5>
-                  <p class="blog-details">One of highest rated Photoshop courses – by one of the Top 10 Adobe Instructors in the world – this course teaches you to use this industry-leading image editing application as a creative professional.</p>
                 </div>
-            </div>
-            <div class="course-area blog-area">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="course-area blog-area">
+                    <a href="#0" class="course-img-area mb-0">
+                      <img class="course-img" src="assets/images/lifestyle.jpg" alt="">
+                      <p class="course-category">Lifestyle</p>
+                    </a>
+                    <div class="course-details-area">
+                      <ul class="course-info d-flex">
+                            <li class="course-info-item me-3">
+                              <i class="las la-user-alt"></i>Anne Merie
+                            </li>
+                            <li class="course-info-item">
+                              <i class="las la-calendar"></i>30 December, 2021
+                            </li>
+                          </ul>
+                      <h5 class="course-title">
+                        <a href="blog-details.html">
+                            Complete Beginner to Advanced Lifestyle Management 2022 
+                        </a>
+                      </h5>
+                    </div>
+                </div>
+              </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="course-area blog-area">
                 <a href="#0" class="course-img-area mb-0">
                   <img class="course-img" src="assets/images/development.jpg" alt="">
                   <p class="course-category">Web Development</p>
                 </a>
                 <div class="course-details-area">
-                  <div class="row course-info-area">
-                      <div class="col-lg-12">
-                        <ul class="course-info d-flex">
+                  <ul class="course-info d-flex">
                         <li class="course-info-item me-3">
                           <i class="las la-user-alt"></i>Jone Doe
                         </li>
@@ -282,80 +294,215 @@
                           <i class="las la-calendar"></i>29 December, 2021
                         </li>
                       </ul>
-                    </div>
-                  </div>
                   <h5 class="course-title">
-                    <a href="#0">
+                    <a href="blog-details.html">
                         The Complete JavaScript Course 2020: Build Realtime Project 
                     </a>
                   </h5>
-                  <p class="blog-details">One of highest rated Photoshop courses – by one of the Top 10 Adobe Instructors in the world – this course teaches you to use this industry-leading image editing application as a creative professional.</p>
                 </div>
             </div>
+            </div>
+           <div class="col-lg-6 col-md-6 col-sm-12"> 
             <div class="course-area blog-area">
-                <a href="#0" class="course-img-area mb-0">
-                  <img class="course-img" src="assets/images/photography.jpg" alt="">
-                  <p class="course-category">Photography</p>
+            <a href="#0" class="course-img-area mb-0">
+              <img class="course-img" src="assets/images/photography.jpg" alt="">
+              <p class="course-category">Photography</p>
+            </a>
+            <div class="course-details-area">
+              <ul class="course-info d-flex">
+                    <li class="course-info-item me-3">
+                      <i class="las la-user-alt"></i>Mark Obay
+                    </li>
+                    <li class="course-info-item">
+                      <i class="las la-calendar"></i>28 December, 2021
+                    </li>
+                  </ul>
+              <h5 class="course-title">
+                <a href="blog-details.html">
+                    Certificate in Beginner to Advanced Photography and Photo Jounalist 
                 </a>
-                <div class="course-details-area">
-                  <div class="row course-info-area">
-                      <div class="col-lg-12"><ul class="course-info d-flex">
-                        <li class="course-info-item me-3">
-                          <i class="las la-user-alt"></i>Mark Obay
-                        </li>
-                        <li class="course-info-item">
-                          <i class="las la-calendar"></i>28 December, 2021
-                        </li>
-  
-                      </ul></div>
-                  </div>
-                  <h5 class="course-title">
-                    <a href="#0">
-                        Certificate in Beginner to Advanced Photography and Photo Jounalist 
-                    </a>
-                  </h5>
-                  <p class="blog-details">One of highest rated Photoshop courses – by one of the Top 10 Adobe Instructors in the world – this course teaches you to use this industry-leading image editing application as a creative professional.</p>
-                </div>
+              </h5>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="pagination-section">
-                  <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center">
-                      <li class="page-item disabled">
-                        <a
-                          class="page-link"
-                          href="#"
-                          tabindex="-1"
-                          aria-disabled="true"
-                          ><i class="fas fa-chevron-left"></i
-                        ></a>
+        </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12"> 
+              <div class="course-area blog-area">
+              <a href="#0" class="course-img-area mb-0">
+                <img class="course-img" src="assets/images/personal-development.jpg" alt="">
+                <p class="course-category">Personal Development</p>
+              </a>
+              <div class="course-details-area">
+                <ul class="course-info d-flex">
+                      <li class="course-info-item me-3">
+                        <i class="las la-user-alt"></i>Mark Obay
                       </li>
-                      <li class="page-item">
-                        <a class="page-link active" href="#">1</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">...</a>
-                      </li>
-                      <li class="page-item">
-                        <a class="page-link" href="#"
-                          ><i class="fas fa-chevron-right"></i
-                        ></a>
+                      <li class="course-info-item">
+                        <i class="las la-calendar"></i>28 December, 2021
                       </li>
                     </ul>
-                  </nav>
+                <h5 class="course-title">
+                  <a href="blog-details.html">
+                    The Complete Advanced Personal Development Courses all in 1 
+                  </a>
+                </h5>
+              </div>
+          </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12"> 
+                <div class="course-area blog-area">
+                <a href="#0" class="course-img-area mb-0">
+                  <img class="course-img" src="assets/images/business.jpg" alt="">
+                  <p class="course-category">Business</p>
+                </a>
+                <div class="course-details-area">
+                  <ul class="course-info d-flex">
+                        <li class="course-info-item me-3">
+                          <i class="las la-user-alt"></i>Mark Jone
+                        </li>
+                        <li class="course-info-item">
+                          <i class="las la-calendar"></i>27 December, 2021
+                        </li>
+                      </ul>
+                  <h5 class="course-title">
+                    <a href="blog-details.html">Complete Beginner to Advanced Master of Business Administration 
+                    </a>
+                  </h5>
                 </div>
+            </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="course-area blog-area">
+                      <a href="#0" class="course-img-area mb-0">
+                        <img class="course-img" src="assets/images/design.jpg" alt="">
+                        <p class="course-category">Arts & Design</p>
+                      </a>
+                      <div class="course-details-area">
+                        <ul class="course-info d-flex">
+                              <li class="course-info-item me-3">
+                                <i class="las la-user-alt"></i>Anne Merie
+                              </li>
+                              <li class="course-info-item">
+                                <i class="las la-calendar"></i>30 December, 2021
+                              </li>
+                            </ul>
+                        <h5 class="course-title">
+                          <a href="blog-details.html">Ultimate Adobe Photoshop Training: From Beginner to Pro 2022 
+                          </a>
+                        </h5>
+                      </div>
+                  </div>
+                  </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="course-area blog-area">
+                      <a href="#0" class="course-img-area mb-0">
+                        <img class="course-img" src="assets/images/lifestyle.jpg" alt="">
+                        <p class="course-category">Lifestyle</p>
+                      </a>
+                      <div class="course-details-area"><ul class="course-info d-flex">
+                              <li class="course-info-item me-3">
+                                <i class="las la-user-alt"></i>Anne Merie
+                              </li>
+                              <li class="course-info-item">
+                                <i class="las la-calendar"></i>30 December, 2021
+                              </li>
+                            </ul>
+                        <h5 class="course-title">
+                          <a href="blog-details.html">
+                              Complete Beginner to Advanced Lifestyle Management 2022 
+                          </a>
+                        </h5>
+                      </div>
+                  </div>
+                </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="course-area blog-area">
+                  <a href="#0" class="course-img-area mb-0">
+                    <img class="course-img" src="assets/images/development.jpg" alt="">
+                    <p class="course-category">Web Development</p>
+                  </a>
+                  <div class="course-details-area">
+                    <ul class="course-info d-flex">
+                          <li class="course-info-item me-3">
+                            <i class="las la-user-alt"></i>Jone Doe
+                          </li>
+                          <li class="course-info-item">
+                            <i class="las la-calendar"></i>29 December, 2021
+                          </li>
+                        </ul>
+                    <h5 class="course-title">
+                      <a href="blog-details.html">
+                          The Complete JavaScript Course 2020: Build Realtime Project 
+                      </a>
+                    </h5>
+                  </div>
+              </div>
+              </div>
+             <div class="col-lg-6 col-md-6 col-sm-12"> 
+              <div class="course-area blog-area">
+              <a href="#0" class="course-img-area mb-0">
+                <img class="course-img" src="assets/images/photography.jpg" alt="">
+                <p class="course-category">Photography</p>
+              </a>
+              <div class="course-details-area">
+                <ul class="course-info d-flex">
+                      <li class="course-info-item me-3">
+                        <i class="las la-user-alt"></i>Mark Obay
+                      </li>
+                      <li class="course-info-item">
+                        <i class="las la-calendar"></i>28 December, 2021
+                      </li>
+                    </ul>
+                <h5 class="course-title">
+                  <a href="blog-details.html">
+                      Certificate in Beginner to Advanced Photography and Photo Jounalist 
+                  </a>
+                </h5>
+              </div>
+          </div>
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-lg-12">
+              <div class="pagination-section">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                      <a
+                        class="page-link"
+                        href="#"
+                        tabindex="-1"
+                        aria-disabled="true"
+                        ><i class="fas fa-chevron-left"></i
+                      ></a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link active" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">...</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#"
+                        ><i class="fas fa-chevron-right"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
+          </div>
         </div>
         <div class="col-lg-3">
           <div class="course-list-filter-wrap">
+            <button type="buton" class="filter-close-btn">
+              <i class="las la-times"></i>
+            </button>
             <div class="course-list-filter-item">
               <h4 class="course-list-filter-title">Search</h4>
               <form action="#" class="header-search-bar m-0">
@@ -371,143 +518,67 @@
             </div>
             <div class="course-list-filter-item">
               <h4 class="course-list-filter-title">Categories</h4>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="CheckBox1"
-                />
-                <label class="form-check-label" for="CheckBox1">
-                  Art & Design (265)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="CheckBox2"
-                />
-                <label class="form-check-label" for="CheckBox2">
-                  Software Development (234)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox3"
-                />
-                <label class="form-check-label" for="checkBox3">
-                  Lifestyle (145)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox4"
-                />
-                <label class="form-check-label" for="checkBox4">
-                  Personal Development (84)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox5"
-                />
-                <label class="form-check-label" for="checkBox5">
-                  Business (234)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox6"
-                />
-                <label class="form-check-label" for="checkBox6">
-                  Finance (122)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox7"
-                />
-                <label class="form-check-label" for="checkBox7">
-                  Marketing (232)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox8"
-                />
-                <label class="form-check-label" for="checkBox8">
-                  Photography (142)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox9"
-                />
-                <label class="form-check-label" for="checkBox9">
-                  Data Science (234)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox10"
-                />
-                <label class="form-check-label" for="checkBox10">
-                  Music (172)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox11"
-                />
-                <label class="form-check-label" for="checkBox11">
-                  Spoken English (95)
-                </label>
-              </div>
-              <div class="form-check course-list-category-item">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="checkBox12"
-                />
-                <label class="form-check-label" for="checkBox12">
-                  Health & Fitness (195)
-                </label>
-              </div>
+              <ul class="category-tag-wrapper">
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">Art & Design</a>
+                  <span>(32)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">Lifestyle</a>
+                  <span>(28)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"
+                    >Software Development
+                  </a>
+                  <span>(41)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"
+                    >Personal Development
+                  </a>
+                  <span>(26)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"> Business</a>
+                  <span>(33)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">Finance</a>
+                  <span>(27)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"> Marketing</a>
+                  <span>(37)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">Photography</a>
+                  <span>(23)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"> Data Science </a>
+                  <span>(34)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">Music</a>
+                  <span>(21)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link"> Spoken English </a>
+                  <span>(45)</span>
+                </li>
+                <li class="category-tag-item">
+                  <a href="#0" class="category-tag-link">
+                    Health & Fitness
+                  </a>
+                  <span>(38)</span>
+                </li>
+              </ul>
             </div>
             <div class="course-list-filter-item course-list-filter-item-post">
               <h4 class="course-list-filter-title">Popular Posts</h4>
               <div class="row course-area blog-area">
-                <div class="col-lg-4 ">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                   <a href="#0" class="course-img-area mb-0">
                     <img
                       class="course-img"
@@ -516,8 +587,8 @@
                     />
                   </a>
                 </div>
-                <div class="col-lg-8 ps-2"><h5 class="course-title ">
-                  <a href="#0">
+                <div class="col-lg-8 col-md-8 col-sm-12 ps-2"><h5 class="course-title ">
+                  <a href="blog-details.html">
                     Ultimate Adobe Photoshop Training ...
                   </a>
                 </h5>
@@ -529,7 +600,7 @@
               </div>
             </div>
             <div class="row course-area blog-area">
-              <div class="col-lg-4 ">
+              <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <a href="#0" class="course-img-area mb-0">
                   <img
                     class="course-img"
@@ -538,8 +609,8 @@
                   />
                 </a>
               </div>
-              <div class="col-lg-8 ps-2"><h5 class="course-title ">
-                <a href="#0">
+              <div class="col-lg-8 col-md-8 col-sm-12 ps-2"><h5 class="course-title">
+                <a href="blog-details.html">
                   Certificate in Advanced Photo...
                 </a>
               </h5>
@@ -551,7 +622,7 @@
             </div>
           </div>
           <div class="row course-area blog-area">
-              <div class="col-lg-4 ">
+              <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <a href="#0" class="course-img-area mb-0">
                   <img
                     class="course-img"
@@ -560,8 +631,8 @@
                   />
                 </a>
               </div>
-              <div class="col-lg-8 ps-2"><h5 class="course-title ">
-                <a href="#0">
+              <div class="col-lg-8 col-md-8 col-sm-12 ps-2"><h5 class="course-title ">
+                <a href="blog-details.html">
                   The Complete JavaScript Course ...
                 </a>
               </h5>

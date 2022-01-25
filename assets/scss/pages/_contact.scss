@@ -8,6 +8,7 @@
 .contact-details-item-wrapper {
   padding: 30px;
   border-radius: 5px;
+  justify-content: center;
 }
 .contact-details-item {
   display: flex;
@@ -15,14 +16,10 @@
   margin-bottom: 15px;
   padding: 10px 15px;
   border-radius: 5px;
-  border: 1px solid #e7e7ec;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: 0.4s;
   &:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-  }
-  &:last-child {
-    margin-bottom: 0;
   }
 }
 .contact-details-item-img {
@@ -63,8 +60,8 @@
   resize: none;
   &:focus {
     outline: none;
-    border: 1px solid rgba(0, 115, 255, 0.76);
-    box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
+    border: 1px solid rgba(0, 115, 255, 0.5);
+    box-shadow: 0 0 5px rgba(0, 115, 255, 0.3);
   }
   &::placeholder {
     color: #575757;

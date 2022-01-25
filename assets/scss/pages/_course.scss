@@ -14,13 +14,8 @@
   margin-left: 0;
 }
 .course-area-wrapper {
-  --bs-gutter-x: 15px;
-  --bs-gutter-y: 15px;
   &.off {
     display: none !important;
-  }
-  .course-area {
-    margin-bottom: 0;
   }
 }
 .course-area-wrapper-2 {
@@ -48,7 +43,7 @@
 
 .course-list-filter-wrap {
   border-radius: 5px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .course-list-filter-title {
   font-size: 20px;

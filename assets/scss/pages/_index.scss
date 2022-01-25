@@ -19,11 +19,6 @@
   line-height: 1.4;
   margin-bottom: 20px;
 }
-.btn-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .banner-title-details {
   font-size: 18px;
   color: #000;
@@ -202,7 +197,7 @@
   border: 1px solid #e7e7ec;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   transition: 0.4s;
   &:hover {
     transform: translateY(-8px);
@@ -444,13 +439,12 @@
 }
 .instructor-item {
   position: relative;
-  top: 0;
-  padding: 0 15px 15px 15px;
+  padding: 0 10px 10px 10px;
   border-radius: 5px;
   border: 1px solid #e7e7ec;
   transition: 0.4s;
   &:hover {
-    top: -10px;
+    transform: translateY(-8px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     .instructor-social {
       right: 0px;
@@ -466,7 +460,7 @@
 }
 .instructor-course-info {
   display: flex;
-  margin-top: 15px;
+  margin-top: 10px;
   .course-info-item {
     margin-bottom: 0;
     margin-right: 10px;

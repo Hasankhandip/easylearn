@@ -9,31 +9,10 @@
 // section-title area scss end
 
 //  page-section scss start
-.page-section {
-  position: relative;
-  background-image: url(../images/page-path-bg-2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 60px;
-  z-index: 1;
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: $color-2;
-    opacity: 0.75;
-    z-index: -1;
-  }
-}
 .page-details-area {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 20px 0 30px 0;
+  align-items: flex-start;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -47,13 +26,13 @@
   display: flex;
 }
 .page-details-item {
-  color: #fff;
+  color: #000;
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
   &::before {
     content: "\f101";
-    color: #fff;
+    color: #000;
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     position: absolute;
@@ -61,45 +40,27 @@
     right: -7px;
     transform: translateY(-50%);
   }
+  &::before {
+    color: #000;
+  }
+  &:first-child {
+    padding-left: 0;
+  }
   &:last-child {
+    color: $main-color;
     &::before {
       display: none;
     }
   }
 }
 .page-details-link {
-  color: #fff;
+  color: #000;
   transition: 0.3s;
   &:hover {
-    color: $main-color;
+    color: $color-2;
   }
 }
 //  page-section scss end
-
-// page-section-2 scss start
-.page-section-2 {
-  .page-details-area {
-    padding: 20px 0 30px 0;
-    align-items: flex-start;
-  }
-  .page-details-item {
-    color: #000;
-    &::before {
-      color: #000;
-    }
-    &:first-child {
-      padding-left: 0;
-    }
-  }
-  .page-details-link {
-    color: #000;
-    transition: 0.3s;
-    &:hover {
-      color: $main-color;
-    }
-  }
-}
-// page-section-2 scss end
 
 // modal scss start
 .modal {
