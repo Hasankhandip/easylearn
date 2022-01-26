@@ -42,14 +42,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  .comment-box {
-    color: #222222;
-    border: 1px solid #909090;
-    &:focus {
-      border: 1px solid rgba(0, 115, 255, 0.76);
-      box-shadow: 0 0 5px rgba(0, 115, 255, 0.45);
-    }
-  }
 }
 .contact-form-input {
   padding: 10px;
