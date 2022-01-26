@@ -164,3 +164,12 @@ $('.grid-btn').on('click', function(){
   $('.list-btn').removeClass('active');
 });
 // grid-list-btn js end
+
+// header-navbar js start
+$('.category-nav-link').on('click', function(){
+  $('.category-navbar').addClass('active');
+});
+$('.category-close-btn').on('click', function(){
+  $('.category-navbar').removeClass('active');
+});
+// header-navbar js end

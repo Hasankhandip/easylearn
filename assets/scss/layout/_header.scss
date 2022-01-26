@@ -151,7 +151,7 @@
 }
 .dropdown-item {
   position: relative;
-  padding: 10px 20px 10px 30px;
+  padding: 10px 25px;
   font-size: 16px;
   transition: 0.4s;
   display: flex;
@@ -242,6 +242,34 @@
 }
 .navbar-nav {
   margin: 0 10px 0 25px;
+}
+.navbar-nav-2 {
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    i {
+      font-size: 15px;
+    }
+  }
+}
+.category-navbar {
+  position: fixed;
+  width: 300px;
+  top: 0;
+  right: -300px;
+  height: 100vh;
+  padding: 30px 15px 15px 15px;
+  background-color: $color-2;
+  overflow-y: scroll;
+  transition: 0.4s;
+  z-index: 1000;
+  .sidebar-close-btn {
+    margin-bottom: 15px;
+  }
+  &.active {
+    right: 0;
+  }
 }
 .header-top {
   padding: 15px 0;

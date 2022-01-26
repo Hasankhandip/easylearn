@@ -133,7 +133,7 @@
 }
 
 .page-details-link:hover {
-  color: #031f42;
+  color: #0072ff;
 }
 
 .modal {
@@ -756,7 +756,7 @@ input:focus {
 
 .dropdown-item {
   position: relative;
-  padding: 10px 20px 10px 30px;
+  padding: 10px 25px;
   font-size: 16px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -878,6 +878,44 @@ input:focus {
 
 .navbar-nav {
   margin: 0 10px 0 25px;
+}
+
+.navbar-nav-2 .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar-nav-2 .nav-link i {
+  font-size: 15px;
+}
+
+.category-navbar {
+  position: fixed;
+  width: 300px;
+  top: 0;
+  right: -300px;
+  height: 100vh;
+  padding: 30px 15px 15px 15px;
+  background-color: #031f42;
+  overflow-y: scroll;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 1000;
+}
+
+.category-navbar .sidebar-close-btn {
+  margin-bottom: 15px;
+}
+
+.category-navbar.active {
+  right: 0;
 }
 
 .header-top {
@@ -4129,7 +4167,7 @@ input:focus {
     margin: 0 0 30px 0;
   }
   .header-bottom .navbar-nav-2 .nav-item {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .header-bottom .navbar-nav-2 .nav-link {
     font-size: 18px;
@@ -5035,7 +5073,7 @@ input:focus {
     font-size: 36px;
   }
   .banner-title-details {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 16px;
   }
   .teacher-title {
