@@ -16,10 +16,11 @@
 .become-discover-item {
   padding: 30px;
   text-align: center;
+  margin-bottom: 15px;
   box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
   transition: 0.4s;
   &:hover {
-    transform: translateY(-10px);
+    transform: translateY(-8px);
     box-shadow: 0 10px 59px rgba(0, 0, 0, 0.08);
   }
 }
@@ -51,6 +52,7 @@
     font-size: 18px;
   }
   .course-details-requirement-item {
+    color: #575757;
     position: relative;
     padding-left: 30px;
     list-style: none;
@@ -88,10 +90,10 @@
 .become-start-title {
   font-weight: 600;
   margin-bottom: 10px;
+  font-size: 38px;
 }
 .become-start-details {
   font-size: 18px;
   color: #000;
-  font-weight: 500;
 }
 // become-start-section scss end

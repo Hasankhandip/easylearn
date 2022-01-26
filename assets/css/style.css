@@ -3532,6 +3532,7 @@ input:focus {
 .become-discover-item {
   padding: 30px;
   text-align: center;
+  margin-bottom: 15px;
   -webkit-box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
           box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
   -webkit-transition: 0.4s;
@@ -3539,8 +3540,8 @@ input:focus {
 }
 
 .become-discover-item:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
   -webkit-box-shadow: 0 10px 59px rgba(0, 0, 0, 0.08);
           box-shadow: 0 10px 59px rgba(0, 0, 0, 0.08);
 }
@@ -3581,6 +3582,7 @@ input:focus {
 }
 
 .become-instructor-section .course-details-requirement-item {
+  color: #575757;
   position: relative;
   padding-left: 30px;
   list-style: none;
@@ -3618,12 +3620,12 @@ input:focus {
 .become-start-title {
   font-weight: 600;
   margin-bottom: 10px;
+  font-size: 38px;
 }
 
 .become-start-details {
   font-size: 18px;
   color: #000;
-  font-weight: 500;
 }
 
 .sing-up-section .sing-up-wrapper {
@@ -3971,6 +3973,10 @@ input:focus {
     font-size: 15px;
     padding: 10px 15px;
   }
+  .banner-title {
+    line-height: 1.3;
+    font-size: 46px;
+  }
   .category-section {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -4102,6 +4108,9 @@ input:focus {
   }
   .contact-form {
     margin-top: 30px;
+  }
+  .become-instructor-section .section-title-area {
+    margin-bottom: 40px;
   }
 }
 
@@ -4466,6 +4475,31 @@ input:focus {
   .contact-section .pe-3 {
     padding-right: calc(var(--bs-gutter-x) * 0.3) !important;
   }
+  .become-banner-section .align-items-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .become-banner-wrapper {
+    padding: 30px 0;
+  }
+  .become-discover-section {
+    margin: 60px 0;
+  }
+  .become-instructor-section {
+    margin-bottom: 0px;
+  }
+  .become-instructor-section .course-details-desrciption-area {
+    margin-bottom: 20px;
+  }
+  .become-instructor-section .course-details-tab {
+    margin-bottom: 20px;
+  }
+  .become-instructor-section .course-details-tab .nav-link {
+    padding: 15px 15px !important;
+    font-size: 18px !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -4680,6 +4714,22 @@ input:focus {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .banner-title-top {
+    margin-bottom: 15px;
+  }
+  .become-banner-wrapper {
+    padding: 20px 0 30px 0;
+  }
+  .become-instructor-section .section-title-area {
+    margin-bottom: 20px;
+  }
+  .become-instructor-section .course-details-tab .nav-link {
+    padding: 10px !important;
+    font-size: 17px !important;
+  }
+  .become-start-title {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4760,6 +4810,9 @@ input:focus {
   .category-section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .course-section .section-title-area {
+    margin-bottom: 20px;
   }
   .course-section .col-sm-12 {
     width: 100%;
@@ -4925,9 +4978,49 @@ input:focus {
   .contact-form {
     margin-top: 20px;
   }
+  .become-banner-section .banner-title {
+    font-size: 36px;
+  }
+  .become-banner-section .btn-1.mt-4 {
+    margin-top: 15px !important;
+  }
+  .become-banner-wrapper {
+    padding: 0 0 20px 0;
+  }
+  .become-discover-item {
+    padding: 20px;
+  }
+  .become-discover-item-img {
+    width: 55px;
+  }
+  .become-instructor-section .course-details-tab {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border-bottom: none;
+  }
+  .become-instructor-section .course-details-tab .nav-item {
+    margin-bottom: 8px;
+  }
+  .become-instructor-section .course-details-tab .nav-item:last-child {
+    margin-bottom: 0;
+  }
+  .become-discover-section {
+    margin: 40px 0;
+  }
+  .become-start-title {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 400px) {
+  .btn-1,
+  .btn-2,
+  .btn-3,
+  .btn-4,
+  .btn-5,
+  .btn-6 {
+    font-size: 15px;
+  }
   .header-top {
     display: none;
   }
@@ -4939,7 +5032,7 @@ input:focus {
     margin-bottom: 0;
   }
   .banner-title {
-    font-size: 40px;
+    font-size: 36px;
   }
   .banner-title-details {
     margin-bottom: 25px;
@@ -4959,7 +5052,7 @@ input:focus {
   }
   .btn-area .me-3 {
     margin-right: 0 !important;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   .footer-bottom-item-area {
     display: none;
