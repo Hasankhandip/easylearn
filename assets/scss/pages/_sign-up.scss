@@ -2,6 +2,7 @@
 .sing-up-section {
   .sing-up-wrapper {
     height: 100vh;
+    --bs-gutter-x: 1.5rem;
   }
 }
 .sign-up-title-top {
@@ -86,11 +87,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url(../images/sign-up-bg.png);
-  @include bg-img;
   .header-logo {
     margin: 0;
-    display: inline-block;
   }
   .home-logo {
     margin: 0 0 15px 0;
@@ -101,9 +99,9 @@
     border-radius: 5px;
     .form-control {
       padding: 25px 20px 5px 42px;
-
       &:focus {
-        box-shadow: none;
+        border: 1px solid rgba(0, 115, 255, 0.5) !important;
+        box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
       }
     }
     .header-search-bar-icon {
@@ -133,8 +131,16 @@
     font-size: 20px;
     color: #444;
   }
-  .la-eye-slash {
+}
+.la-eye {
+  &.remove {
     display: none;
+  }
+}
+.la-eye-slash {
+  display: none;
+  &.active {
+    display: block !important;
   }
 }
 .sign-up-form {
@@ -159,7 +165,7 @@
   margin-bottom: 10px;
 }
 .sign-up-account-alert {
-  font-size: 14px;
+  font-size: 15px;
   &-link {
     text-decoration: underline;
     margin-left: 3px;
@@ -191,6 +197,7 @@
 }
 .sign-up-social {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
 }

@@ -239,6 +239,32 @@
   .course-details-rating-item {
     padding-left: 15px;
   }
+  .sign-up-img-wrapper {
+    padding: 40px !important;
+  }
+  .sign-up-details-wrapper {
+    padding: 40px !important;
+  }
+  .sign-up-title-top {
+    font-size: 50px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+  }
+  .trusted-details {
+    font-size: 18px;
+  }
+  .sing-up-section {
+    .home-logo {
+      margin-bottom: 30px;
+    }
+    .header-logo {
+      font-size: 32px;
+    }
+  }
+  .sign-up-title {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
 }
 // ≥1200px responsive scss end
 
@@ -759,6 +785,32 @@
   .course-details-rating-item {
     padding-left: 0;
   }
+  .sign-up-img-wrapper {
+    padding: 30px !important;
+  }
+  .sign-up-details-wrapper {
+    padding: 30px !important;
+  }
+  .sign-up-title-top {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .sign-up-social {
+    justify-content: center;
+  }
+  .sign-up-social-item {
+    width: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  .sign-up-details-wrapper {
+    .header-search-bar {
+      margin: 0 0 15px 0;
+    }
+  }
 }
 // ≥992px responsive scss end
 
@@ -1141,6 +1193,26 @@
   }
   .course-details-instructor-wrap {
     margin-bottom: 15px;
+  }
+  .sign-up-img-wrapper {
+    display: none;
+  }
+  .sing-up-section {
+    .home-logo {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  .sign-up-title {
+    text-align: center;
+  }
+  .sign-up-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .sign-up-details-wrapper {
+    background-image: url(/assets/images/sign-up-bg.png);
+    @include bg-img;
   }
 }
 // ≥768px responsive scss end
@@ -1539,6 +1611,9 @@
       }
     }
   }
+  .sign-up-details-wrapper {
+    padding: 15px !important;
+  }
 }
 // ≥576px responsive scss end
 
@@ -1676,6 +1751,32 @@
         margin-bottom: 10px;
       }
     }
+  }
+  .course-rating-3 {
+    .course-rating-item {
+      i {
+        font-size: 16px;
+      }
+    }
+  }
+  .sign-up-account-alert-wrapper {
+    flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .sign-up-social-item {
+    margin-bottom: 10px;
+  }
+  .sign-up-form {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .sing-up-section {
+    .home-logo {
+      margin-bottom: 10px;
+    }
+  }
+  .sign-up-social {
+    margin-top: 15px;
   }
 }
 // ≥400px responsive scss end

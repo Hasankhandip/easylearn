@@ -173,3 +173,14 @@ $('.category-close-btn').on('click', function(){
   $('.category-navbar').removeClass('active');
 });
 // header-navbar js end
+
+// password-view-btn js start
+$('.la-eye').on('click', function(){
+  $(this).addClass('remove');
+  $('.la-eye-slash').addClass('active');
+});
+$('.la-eye-slash').on('click', function(){
+  $(this).removeClass('active');
+  $('.la-eye').removeClass('remove');
+});
+// password-view-btn js end

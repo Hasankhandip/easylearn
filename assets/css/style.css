@@ -610,9 +610,9 @@ input:focus {
   font-family: "Jost", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -3683,6 +3683,7 @@ input:focus {
 
 .sing-up-section .sing-up-wrapper {
   height: 100vh;
+  --bs-gutter-x: 1.5rem;
 }
 
 .sign-up-title-top {
@@ -3801,15 +3802,10 @@ input:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/sign-up-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .sign-up-details-wrapper .header-logo {
   margin: 0;
-  display: inline-block;
 }
 
 .sign-up-details-wrapper .home-logo {
@@ -3827,8 +3823,9 @@ input:focus {
 }
 
 .sign-up-details-wrapper .header-search-bar .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  border: 1px solid rgba(0, 115, 255, 0.5) !important;
+  -webkit-box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
+          box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
 }
 
 .sign-up-details-wrapper .header-search-bar .header-search-bar-icon {
@@ -3864,8 +3861,16 @@ input:focus {
   color: #444;
 }
 
-.password-view-btn .la-eye-slash {
+.la-eye.remove {
   display: none;
+}
+
+.la-eye-slash {
+  display: none;
+}
+
+.la-eye-slash.active {
+  display: block !important;
 }
 
 .sign-up-form {
@@ -3895,7 +3900,7 @@ input:focus {
 }
 
 .sign-up-account-alert {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .sign-up-account-alert-link {
@@ -3936,6 +3941,8 @@ input:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -4202,6 +4209,30 @@ input:focus {
   }
   .course-details-rating-item {
     padding-left: 15px;
+  }
+  .sign-up-img-wrapper {
+    padding: 40px !important;
+  }
+  .sign-up-details-wrapper {
+    padding: 40px !important;
+  }
+  .sign-up-title-top {
+    font-size: 50px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+  }
+  .trusted-details {
+    font-size: 18px;
+  }
+  .sing-up-section .home-logo {
+    margin-bottom: 30px;
+  }
+  .sing-up-section .header-logo {
+    font-size: 32px;
+  }
+  .sign-up-title {
+    font-size: 22px;
+    margin-bottom: 0;
   }
 }
 
@@ -4691,6 +4722,32 @@ input:focus {
   .course-details-rating-item {
     padding-left: 0;
   }
+  .sign-up-img-wrapper {
+    padding: 30px !important;
+  }
+  .sign-up-details-wrapper {
+    padding: 30px !important;
+  }
+  .sign-up-title-top {
+    font-size: 46px;
+    margin-bottom: 30px;
+  }
+  .sign-up-social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sign-up-social-item {
+    width: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .sign-up-social-item:last-child {
+    margin: 0;
+  }
+  .sign-up-details-wrapper .header-search-bar {
+    margin: 0 0 15px 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -5037,6 +5094,26 @@ input:focus {
   }
   .course-details-instructor-wrap {
     margin-bottom: 15px;
+  }
+  .sign-up-img-wrapper {
+    display: none;
+  }
+  .sing-up-section .home-logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .sign-up-title {
+    text-align: center;
+  }
+  .sign-up-form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .sign-up-details-wrapper {
+    background-image: url(/assets/images/sign-up-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -5389,6 +5466,9 @@ input:focus {
   .course-details-course-content .accordion-button::after {
     background-size: 11px;
   }
+  .sign-up-details-wrapper {
+    padding: 15px !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -5515,6 +5595,29 @@ input:focus {
   .course-details-instructor .course-info .course-info-item {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .course-rating-3 .course-rating-item i {
+    font-size: 16px;
+  }
+  .sign-up-account-alert-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .sign-up-social-item {
+    margin-bottom: 10px;
+  }
+  .sign-up-form {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .sing-up-section .home-logo {
+    margin-bottom: 10px;
+  }
+  .sign-up-social {
+    margin-top: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */
