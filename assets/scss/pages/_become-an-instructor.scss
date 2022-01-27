@@ -51,34 +51,34 @@
   .course-details-desrciption-text {
     font-size: 18px;
   }
-  .course-details-requirement-item {
-    color: #575757;
-    position: relative;
-    padding-left: 30px;
-    list-style: none;
-    font-size: 18px;
-    margin-bottom: 10px;
-    &::after {
-      content: "";
-      position: absolute;
-      top: 3px;
-      left: 0;
-      width: 14px;
-      height: 14px;
-      background-color: $color-2;
-      opacity: 0.7;
-      z-index: 1;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      top: 8px;
-      left: 5px;
-      width: 14px;
-      height: 14px;
-      background-color: $color-2;
-      z-index: 2;
-    }
+}
+.course-details-requirement-item {
+  color: #575757;
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background-color: $color-2;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    width: 14px;
+    height: 14px;
+    background-color: $color-2;
+    z-index: 2;
   }
 }
 // become-instructor-section scss end

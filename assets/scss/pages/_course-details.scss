@@ -3,7 +3,7 @@
   padding-bottom: 100px;
 }
 .course-details-wrap {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   .course-buyer-area {
     margin-bottom: 0;
   }
@@ -175,6 +175,9 @@
     text-align: center;
     width: 48%;
   }
+}
+.course-content-list-title-area {
+  align-items: center;
 }
 //  course-details-section scss end
 
@@ -530,6 +533,17 @@
 }
 .course-card-info-area {
   padding: 20px;
+  .course-details-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    display: none;
+  }
+}
+.course-details-instructor-wrap {
+  .course-details-instructor-info {
+    margin-bottom: 0;
+  }
 }
 .course-details-coupon-area {
   margin-bottom: 5px;
