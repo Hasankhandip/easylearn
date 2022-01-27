@@ -564,10 +564,6 @@ input:focus {
   margin-bottom: 86px;
 }
 
-.header-section .container {
-  max-width: 1250px;
-}
-
 .header-bottom {
   position: absolute;
   left: 0;
@@ -912,7 +908,7 @@ input:focus {
   z-index: 1000;
 }
 
-.category-navbar .sidebar-close-btn {
+.category-navbar .category-close-btn {
   margin-bottom: 15px;
 }
 
@@ -3583,6 +3579,7 @@ input:focus {
 }
 
 .become-discover-item {
+  height: 100%;
   padding: 30px;
   text-align: center;
   margin-bottom: 15px;
@@ -3997,6 +3994,12 @@ input:focus {
   color: #fff;
 }
 
+@media (max-width: 1400px) {
+  .header-section .container {
+    max-width: 1250px;
+  }
+}
+
 @media (max-width: 1199px) {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.3);
@@ -4343,6 +4346,14 @@ input:focus {
   .sidebar-close-btn i {
     font-size: 30px;
   }
+  .category-close-btn {
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  .category-close-btn i {
+    font-size: 30px;
+  }
   .banner-section {
     overflow: hidden;
     padding-top: 50px;
@@ -4384,6 +4395,9 @@ input:focus {
   }
   .choose-item-area {
     padding: 0 5px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .choose-item-area .choose-item-number {
     display: none;
@@ -4484,7 +4498,7 @@ input:focus {
     text-align: left;
   }
   .testimonial-section {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   }
   .teacher-section .container .row {
     padding-top: 30px;

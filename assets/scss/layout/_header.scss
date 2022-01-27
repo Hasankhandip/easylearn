@@ -3,9 +3,6 @@
   position: relative;
   z-index: 99;
   margin-bottom: 86px;
-  .container {
-    max-width: 1250px;
-  }
 }
 .header-bottom {
   position: absolute;
@@ -264,7 +261,7 @@
   overflow-y: scroll;
   transition: 0.4s;
   z-index: 1000;
-  .sidebar-close-btn {
+  .category-close-btn {
     margin-bottom: 15px;
   }
   &.active {

@@ -1,4 +1,14 @@
 // <------------------ Responsive Design -------------------->
+// ≥1400px responsive scss start
+@media (max-width: 1400px) {
+  .header-section {
+    .container {
+      max-width: 1250px;
+    }
+  }
+}
+// ≥1400px responsive scss end
+
 // ≥1200px responsive scss start
 @media (max-width: 1199px) {
   .row > * {
@@ -383,6 +393,14 @@
       font-size: 30px;
     }
   }
+  .category-close-btn {
+    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+    i {
+      font-size: 30px;
+    }
+  }
   .banner-section {
     overflow: hidden;
     padding-top: 50px;
@@ -430,6 +448,7 @@
   }
   .choose-item-area {
     padding: 0 5px;
+    justify-content: start;
     .choose-item-number {
       display: none;
     }
@@ -536,7 +555,7 @@
     }
   }
   .testimonial-section {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
   }
   .teacher-section {
     .container {
