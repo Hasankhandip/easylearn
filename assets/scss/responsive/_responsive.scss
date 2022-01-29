@@ -589,10 +589,7 @@
     padding-top: 60px;
   }
   .footer-top {
-    padding-bottom: 30px;
-    .me-auto {
-      margin-bottom: 40px;
-    }
+    padding-bottom: 0;
   }
   .footer-logo {
     margin-right: 0;
@@ -846,6 +843,9 @@
   .become-discover-item {
     height: auto;
   }
+  .footer-details {
+    margin-bottom: 40px;
+  }
 }
 // ≥992px responsive scss end
 
@@ -1091,12 +1091,29 @@
   }
   .become-instructor-section {
     .section-title-area {
-      margin-bottom: 20px;
+      margin-bottom: 0;
     }
     .course-details-tab {
+      border-bottom: none;
+      .nav-item {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        &:last-child {
+          margin: 0;
+        }
+      }
       .nav-link {
-        padding: 10px !important;
         font-size: 17px !important;
+        color: #000;
+        padding: 10px 20px !important;
+        border-radius: 5px;
+        &::before {
+          display: none;
+        }
+        &.active {
+          background-color: $color-2 !important;
+          color: #fff !important;
+        }
       }
     }
   }
