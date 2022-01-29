@@ -199,13 +199,16 @@
 }
 .header-search-bar-input {
   border-radius: 5px;
-  padding: 14px 20px;
+  padding: 14px 10px;
   font-family: $jost;
   width: 100%;
   border: 1px solid #f0f0f0;
   &:focus {
     background-color: #fff !important;
     border: 1px solid $main-color !important;
+  }
+  &::placeholder {
+    color: #000;
   }
 }
 .header-search-bar-icon {

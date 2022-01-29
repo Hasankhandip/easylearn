@@ -8,9 +8,10 @@
 
 // become-discover-item scss start
 .become-discover-section {
-  margin: 60px 0 80px 0;
+  padding: 60px 0 80px 0;
+  background-color: rgba(235, 235, 235, 0.349);
   .section-title-area {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 .become-discover-item {
@@ -18,6 +19,8 @@
   padding: 30px;
   text-align: center;
   margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
   box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
   transition: 0.4s;
   &:hover {
@@ -36,7 +39,7 @@
 
 // become-instructor-section scss start
 .become-instructor-section {
-  margin-bottom: 60px;
+  padding: 60px 0;
   .section-title-area {
     margin-bottom: 30px;
   }
@@ -92,6 +95,7 @@
   font-weight: 600;
   margin-bottom: 10px;
   font-size: 38px;
+  color: #000;
 }
 .become-start-details {
   font-size: 18px;

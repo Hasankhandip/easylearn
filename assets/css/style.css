@@ -822,7 +822,7 @@ input:focus {
 
 .header-search-bar-input {
   border-radius: 5px;
-  padding: 14px 20px;
+  padding: 14px 10px;
   font-family: "Jost", sans-serif;
   width: 100%;
   border: 1px solid #f0f0f0;
@@ -831,6 +831,22 @@ input:focus {
 .header-search-bar-input:focus {
   background-color: #fff !important;
   border: 1px solid #0072ff !important;
+}
+
+.header-search-bar-input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.header-search-bar-input:-ms-input-placeholder {
+  color: #000;
+}
+
+.header-search-bar-input::-ms-input-placeholder {
+  color: #000;
+}
+
+.header-search-bar-input::placeholder {
+  color: #000;
 }
 
 .header-search-bar-icon {
@@ -1342,6 +1358,10 @@ input:focus {
   color: rgba(255, 255, 255, 0.836);
 }
 
+.category-item:hover .category-item-bg-img {
+  border-radius: 5px;
+}
+
 .category-item-bg-img {
   position: absolute;
   left: 0;
@@ -1352,7 +1372,7 @@ input:focus {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border-radius: 5px;
+  border-radius: 8px;
   z-index: -2;
 }
 
@@ -1853,8 +1873,8 @@ input:focus {
   padding: 25px 30px 25px 60px;
   border-radius: 5px;
   overflow: hidden;
-  -webkit-box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.07);
-          box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.07);
+  -webkit-box-shadow: 0 5px 40px 0 rgba(9, 29, 62, 0.07);
+          box-shadow: 0 5px 40px 0 rgba(9, 29, 62, 0.07);
 }
 
 .testimonial-text::before {
@@ -3571,11 +3591,12 @@ input:focus {
 }
 
 .become-discover-section {
-  margin: 60px 0 80px 0;
+  padding: 60px 0 80px 0;
+  background-color: rgba(235, 235, 235, 0.349);
 }
 
 .become-discover-section .section-title-area {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .become-discover-item {
@@ -3583,6 +3604,8 @@ input:focus {
   padding: 30px;
   text-align: center;
   margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 5px;
   -webkit-box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
           box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
   -webkit-transition: 0.4s;
@@ -3606,7 +3629,7 @@ input:focus {
 }
 
 .become-instructor-section {
-  margin-bottom: 60px;
+  padding: 60px 0;
 }
 
 .become-instructor-section .section-title-area {
@@ -3671,6 +3694,7 @@ input:focus {
   font-weight: 600;
   margin-bottom: 10px;
   font-size: 38px;
+  color: #000;
 }
 
 .become-start-details {
@@ -4170,7 +4194,7 @@ input:focus {
     margin-top: 30px;
   }
   .become-instructor-section .section-title-area {
-    margin-bottom: 40px;
+    padding: 40px 0;
   }
   .blog-details-section {
     padding-top: 10px;
@@ -4236,6 +4260,12 @@ input:focus {
   .sign-up-title {
     font-size: 22px;
     margin-bottom: 0;
+  }
+  .instructor-details-section {
+    padding-bottom: 80px;
+  }
+  .instructor-details-section .col-lg-8.ps-5 {
+    padding-left: 35px !important;
   }
 }
 
@@ -4455,12 +4485,6 @@ input:focus {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .instructor-section .col-lg-3:nth-child(3) .instructor-item {
-    margin-bottom: 0;
-  }
-  .instructor-section .col-lg-3:nth-child(4) .instructor-item {
-    margin-bottom: 0;
-  }
   .category-section {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -4625,10 +4649,10 @@ input:focus {
     padding: 30px 0;
   }
   .become-discover-section {
-    margin: 60px 0;
+    padding: 60px 0;
   }
   .become-instructor-section {
-    margin-bottom: 0px;
+    padding: 0;
   }
   .become-instructor-section .course-details-desrciption-area {
     margin-bottom: 20px;
@@ -4761,6 +4785,24 @@ input:focus {
   }
   .sign-up-details-wrapper .header-search-bar {
     margin: 0 0 15px 0;
+  }
+  .counter-title {
+    font-size: 45px;
+  }
+  .counter-img {
+    width: 45px;
+  }
+  .instructor-details-section {
+    padding-bottom: 60px;
+  }
+  .instructor-details-section .col-lg-8.ps-5 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .instructor-details-section .course-card {
+    margin-bottom: 30px;
+  }
+  .become-discover-item {
+    height: auto;
   }
 }
 
@@ -5129,6 +5171,9 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .instructor-details-section .course-card {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -5393,7 +5438,7 @@ input:focus {
     margin-bottom: 0;
   }
   .become-discover-section {
-    margin: 40px 0;
+    padding: 40px 0;
   }
   .become-start-title {
     font-size: 32px;
@@ -5482,6 +5527,9 @@ input:focus {
   }
   .sign-up-details-wrapper {
     padding: 15px !important;
+  }
+  .instructor-details-section .instructor-card .instructor-info-item {
+    padding: 10px 15px;
   }
 }
 
