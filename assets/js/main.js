@@ -14,6 +14,9 @@ $(window).on("load", function () {
     );
 });
 // preloader end
+// wow.js start
+new WOW().init();
+// wow.js end
 // header-section js start
 $(window).on("scroll", function(){
     if ($(this).scrollTop() > 50 ) {

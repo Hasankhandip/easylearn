@@ -53,7 +53,7 @@
 }
 
 .section-title-area {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .section-title {
@@ -512,7 +512,7 @@ input:focus {
 
 /* ====================== [ End progress-wrap ] ====================== */
 .pagination-section {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .page-item {
@@ -1207,8 +1207,48 @@ input:focus {
           animation: none;
 }
 
+.banner-quote-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  padding: 10px 40px 10px 15px;
+  border-radius: 5px;
+}
+
+.banner-quote-wrapper i {
+  font-size: 30px;
+  color: #0072ff;
+  padding: 8px;
+  background-color: rgba(0, 115, 255, 0.15);
+  border-radius: 50%;
+}
+
+.banner-quote {
+  margin-left: 12px;
+}
+
+.banner-quote-title {
+  color: #0072ff;
+}
+
+.banner-quote-details {
+  font-size: 15px;
+}
+
 .banner-notifiation {
-  width: 55px;
+  width: 60px;
   border-radius: 50%;
   border: 4px solid #fff;
 }
@@ -2011,7 +2051,7 @@ input:focus {
 }
 
 .sponsor-section .section-title-area {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .sponsor-img-area {
