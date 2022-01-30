@@ -283,6 +283,11 @@
       }
     }
   }
+  .testimonial-text {
+    left: 250px;
+    padding: 25px 30px 25px 45px;
+    width: 400px;
+  }
 }
 // ≥1200px responsive scss end
 
@@ -537,8 +542,7 @@
       }
     }
     .slider-btn-area {
-      justify-content: center;
-      margin-top: 15px;
+      display: none;
     }
   }
   .testimonial-details {
@@ -936,6 +940,9 @@
   .testimonial-text {
     width: 350px;
     padding: 25px 25px 25px 40px;
+    left: 180px;
+    top: 90%;
+    transform: translateY(-90%);
   }
   .testimonial-item {
     padding-left: 0;
@@ -1395,9 +1402,9 @@
   .testimonial-text {
     width: 100%;
     top: 0;
+    left: 0;
     transform: translateY(0);
     position: relative;
-    right: -100%;
   }
   .testimonial-item-img-2 {
     display: block !important;

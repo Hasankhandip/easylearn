@@ -42,38 +42,18 @@
   position: relative;
   display: flex;
   margin-right: 10px;
-  :nth-child(2) {
-    .trusted-people-img {
-      transform: translateX(-13px);
-    }
+  li + li {
+    margin-left: -15px;
   }
-  :nth-child(3) {
-    .trusted-people-img {
-      transform: translateX(-26px);
-    }
-  }
-  :nth-child(4) {
-    .trusted-people-img {
-      transform: translateX(-39px);
-    }
-  }
-  :nth-child(5) {
-    .trusted-people-img {
-      transform: translateX(-52px);
-    }
-  }
-  :last-child {
-    i {
-      position: absolute;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      width: 42px;
-      height: 42px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      @include d-flex;
-    }
+}
+.people-add {
+  margin-left: 0 !important;
+  i {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    @include d-flex;
   }
 }
 .trusted-people-img {

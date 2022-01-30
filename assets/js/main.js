@@ -40,6 +40,14 @@ $(".count").counterUp({
     nextArrow:  ".right-arrow-testimonial",
     slidesToShow: 1,
   slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        dots:true,
+      }
+    }
+  ]
   });
   $('.sponsor-item-area').slick({
     autoplay:true,
