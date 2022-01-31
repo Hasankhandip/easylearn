@@ -1722,7 +1722,7 @@ input:focus {
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
-  top: 65px;
+  top: 62px;
 }
 
 .dropdown:focus .dropdown-menu[data-bs-popper] {
