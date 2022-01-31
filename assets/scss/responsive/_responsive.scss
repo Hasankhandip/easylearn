@@ -38,7 +38,6 @@
     margin-right: 30px;
   }
   .header-logo-icon {
-    height: 55px;
     margin-right: 5px;
   }
   .hdr-btn-area {
@@ -293,6 +292,9 @@
 
 // ≥992px responsive scss start
 @media (max-width: 991px) {
+  .header-logo-icon {
+    height: 50px;
+  }
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -1289,6 +1291,12 @@
   }
   .row {
     --bs-gutter-x: 0;
+  }
+  .header-logo {
+    font-size: 28px;
+  }
+  .header-logo-icon {
+    height: 47px;
   }
   .header-top-details {
     margin-right: 10px;
