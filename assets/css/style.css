@@ -62,7 +62,7 @@
 }
 
 .page-details-area {
-  padding: 20px 0 30px 0;
+  padding: 15px 0 25px 0;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1573,7 +1573,7 @@ input:focus {
 .header-section {
   position: relative;
   z-index: 99;
-  margin-bottom: 86px;
+  margin-bottom: 81px;
 }
 
 .header-bottom {
@@ -4780,6 +4780,94 @@ input:focus {
   color: #000;
 }
 
+.cart-section {
+  padding-bottom: 100px;
+}
+
+.cart-table {
+  width: 100%;
+}
+
+.cart-table-header-title {
+  padding: 20px 15px;
+  color: #0072ff;
+  text-align: center;
+}
+
+.cart-table-header-title:first-child {
+  text-align: left;
+}
+
+.cart-table-header-row {
+  background-color: rgba(0, 115, 255, 0.08);
+}
+
+.cart-course-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-course-img {
+  width: 85px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cart-table-data {
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.cart-table-data:first-child {
+  text-align: left;
+}
+
+.cart-table-body-row {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.cart-table-body-row:last-child {
+  border-bottom: none;
+}
+
+.cart-course-subtotal-price {
+  font-weight: 500;
+}
+
+.cart-quantity {
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+}
+
+.cart-quantity:focus {
+  border: 1px solid #0072ff;
+  font-weight: 500;
+}
+
+.cart-remove {
+  display: block;
+  text-align: center;
+}
+
+.cart-remove i {
+  font-size: 25px;
+  color: #000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.cart-remove i:hover {
+  color: #0072ff;
+}
+
 .sing-up-section .sing-up-wrapper {
   height: 100vh;
   --bs-gutter-x: 1.5rem;
@@ -5600,7 +5688,7 @@ input:focus {
     margin-bottom: 25px;
   }
   .header-section {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
   .blog-section {
     padding-top: 70px;
@@ -6155,9 +6243,6 @@ input:focus {
   .header-bottom {
     top: 44px;
   }
-  .header-section {
-    margin-bottom: 75px;
-  }
   .course-list-filter-item .blog-area .course-title {
     line-height: 1.2;
   }
@@ -6268,6 +6353,9 @@ input:focus {
   .banner-notifiation {
     width: 55px;
   }
+  .page-details-area {
+    padding: 15px 0;
+  }
 }
 
 @media (max-width: 575px) {
@@ -6277,6 +6365,9 @@ input:focus {
   }
   .row {
     --bs-gutter-x: 0;
+  }
+  .page-details-area {
+    padding: 10px 0 20px 0;
   }
   .header-logo {
     font-size: 28px;
@@ -6661,7 +6752,7 @@ input:focus {
     top: 0;
   }
   .header-section {
-    padding-top: 80px;
+    padding-top: 70px;
     margin-bottom: 0;
   }
   .banner-title {
