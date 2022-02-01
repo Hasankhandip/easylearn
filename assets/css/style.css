@@ -2230,17 +2230,13 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #fff;
   position: absolute;
   bottom: 20%;
-  left: 5%;
-  width: 200px;
+  left: 0;
   -webkit-transform: translateY(20%);
           transform: translateY(20%);
-  padding: 10px 30px 10px 15px;
+  padding: 10px 35px 10px 10px;
   border-radius: 5px;
 }
 
@@ -2253,10 +2249,11 @@ input:focus {
 }
 
 .banner-quote-wrapper-2 {
-  left: 64%;
-  bottom: 35%;
-  -webkit-transform: translateY(35%), translateX(-64%);
-          transform: translateY(35%), translateX(-64%);
+  left: unset;
+  right: 0;
+  bottom: 35% !important;
+  -webkit-transform: translateY(35%) !important;
+          transform: translateY(35%) !important;
 }
 
 .banner-quote-wrapper-2 .banner-quote-title {
@@ -2658,6 +2655,7 @@ input:focus {
 .choose-section {
   padding-top: 100px;
   padding-bottom: 100px;
+  overflow-x: hidden;
 }
 
 .choose-item-area {
@@ -2904,6 +2902,11 @@ input:focus {
 .instructor-img {
   border-radius: 5px;
   width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .testimonial-section {
@@ -3012,6 +3015,7 @@ input:focus {
 }
 
 .teacher-section {
+  overflow-x: clip;
   background-color: #0072ff;
 }
 
@@ -6258,6 +6262,12 @@ input:focus {
   .instructor-details-section .course-card {
     margin-bottom: 20px;
   }
+  .banner-quote-wrapper i {
+    font-size: 25px;
+  }
+  .banner-notifiation {
+    width: 55px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -6621,6 +6631,18 @@ input:focus {
   .instructor-details-section .instructor-card .instructor-info-item {
     padding: 10px 15px;
   }
+  .banner-quote-wrapper {
+    bottom: 10%;
+  }
+  .banner-quote-wrapper-2 {
+    bottom: 33% !important;
+  }
+  .banner-notifiation {
+    width: 50px;
+  }
+  .banner-quote-wrapper {
+    padding: 8px 25px 8px 10px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -6770,6 +6792,18 @@ input:focus {
   }
   .sign-up-social {
     margin-top: 15px;
+  }
+  .banner-quote-wrapper i {
+    font-size: 20px;
+  }
+  .banner-quote-title {
+    font-size: 15px;
+  }
+  .banner-quote-details {
+    font-size: 14px;
+  }
+  .banner-quote-wrapper {
+    padding: 6px 15px 6px 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

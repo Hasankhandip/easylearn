@@ -1280,6 +1280,14 @@
       margin-bottom: 20px;
     }
   }
+  .banner-quote-wrapper {
+    i {
+      font-size: 25px;
+    }
+  }
+  .banner-notifiation {
+    width: 55px;
+  }
 }
 // ≥768px responsive scss end
 
@@ -1693,6 +1701,18 @@
       }
     }
   }
+  .banner-quote-wrapper {
+    bottom: 10%;
+  }
+  .banner-quote-wrapper-2 {
+    bottom: 33% !important;
+  }
+  .banner-notifiation {
+    width: 50px;
+  }
+  .banner-quote-wrapper {
+    padding: 8px 25px 8px 10px;
+  }
 }
 // ≥576px responsive scss end
 
@@ -1856,6 +1876,20 @@
   }
   .sign-up-social {
     margin-top: 15px;
+  }
+  .banner-quote-wrapper {
+    i {
+      font-size: 20px;
+    }
+  }
+  .banner-quote-title {
+    font-size: 15px;
+  }
+  .banner-quote-details {
+    font-size: 14px;
+  }
+  .banner-quote-wrapper {
+    padding: 6px 15px 6px 10px;
   }
 }
 // ≥400px responsive scss end

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <!-- magnific-css -->
     <link rel="stylesheet" href="assets/css/magnific-pop-up.css" />
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
     <!-- animate css -->
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link
@@ -2950,7 +2952,7 @@
     <!-- counter-section start -->
     <section class="counter-section">
       <div class="container">
-        <div class="row counter-item-area">
+        <div class="row overview-counter-up">
           <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="counter-item">
               <img
@@ -2958,7 +2960,9 @@
                 src="assets/images/counter-img-1.png"
                 alt=""
               />
-              <h2 class="counter-title"><span class="count">756</span>K</h2>
+              <h2 class="counter-title">
+                <span class="odometer" data-odometer-final="756">0</span>K
+              </h2>
               <p class="counter-details">Students & Learners</p>
             </div>
           </div>
@@ -2969,7 +2973,9 @@
                 src="assets/images/counter-img-2.png"
                 alt=""
               />
-              <h2 class="counter-title"><span class="count">49</span>K</h2>
+              <h2 class="counter-title">
+                <span class="odometer" data-odometer-final="49">0</span>K
+              </h2>
               <p class="counter-details">Total Courses</p>
             </div>
           </div>
@@ -2980,7 +2986,9 @@
                 src="assets/images/counter-img-3.png"
                 alt=""
               />
-              <h2 class="counter-title"><span class="count">28</span>K</h2>
+              <h2 class="counter-title">
+                <span class="odometer" data-odometer-final="28">0</span>K
+              </h2>
               <p class="counter-details">Total Instructors</p>
             </div>
           </div>
@@ -2991,7 +2999,9 @@
                 src="assets/images/counter-img-4.png"
                 alt=""
               />
-              <h2 class="counter-title"><span class="count">97</span>%</h2>
+              <h2 class="counter-title">
+                <span class="odometer" data-odometer-final="97">0</span>%
+              </h2>
               <p class="counter-details">Successful students</p>
             </div>
           </div>
@@ -3042,7 +3052,7 @@
                 <h5 class="instructor-title">
                   <a href="instructor-details.html">Joe Denly</a>
                 </h5>
-                <p class="instructor-details">Web Developer</p>
+                <p class="instructor-details">Web Development</p>
                 <ul class="instructor-course-info">
                   <li class="course-info-item">
                     <i class="las la-folder-open"></i> 12 Courses
@@ -3082,7 +3092,7 @@
               </div>
               <div class="instructor-text-details">
                 <h5 class="instructor-title">
-                  <a href="instructor-details.html">Sara Ali</a>
+                  <a href="instructor-details.html">David</a>
                 </h5>
                 <p class="instructor-details">Marketing</p>
                 <ul class="instructor-course-info">
@@ -3168,7 +3178,7 @@
                 <h5 class="instructor-title">
                   <a href="instructor-details.html">Anie Meri</a>
                 </h5>
-                <p class="instructor-details">Spoken English</p>
+                <p class="instructor-details">Photography</p>
                 <ul class="instructor-course-info">
                   <li class="course-info-item">
                     <i class="las la-folder-open"></i> 13 Courses
@@ -3702,8 +3712,8 @@
     <!-- slick js -->
     <script src="assets/js/slick.js"></script>
     <!-- counter js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="assets/js/isInViewport.jquery.js"></script>
+    <script src="assets/js/odometer.js"></script>
     <!-- magnific-pop-up js  -->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- main js -->

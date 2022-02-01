@@ -27,10 +27,18 @@ $(window).on("scroll", function(){
   });
 // header-section js end
 // odometer js start
-$(".count").counterUp({
-  delay: 10,
-  time: 1000,
-});
+(function() {
+  $(".overview-counter-up").each(function () {
+      $(this).isInViewport(function(status) {
+          if (status === "entered") {
+              for( var i=0; i < document.querySelectorAll(".odometer").length; i++ ){
+                  var el = document.querySelectorAll('.odometer')[i];
+                  el.innerHTML = el.getAttribute("data-odometer-final");
+              }
+          }
+      });
+  });
+})();
 // odometer js end
  // slick slider start
  $(document).ready(function(){
