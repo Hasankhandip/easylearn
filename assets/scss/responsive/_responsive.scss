@@ -21,7 +21,7 @@
     }
   }
   .hdr-cart {
-    margin: 0 10px;
+    margin: 0 10px 0 0;
   }
   .header-search-bar {
     margin: 0 10px;
@@ -42,7 +42,12 @@
   }
   .hdr-btn-area {
     margin-left: 10px;
-    .btn-2 {
+    .btn-1,
+    .btn-2,
+    .btn-3,
+    .btn-4,
+    .btn-5,
+    .btn-6 {
       font-size: 15px;
       padding: 10px 15px;
     }
@@ -286,6 +291,12 @@
     left: 250px;
     padding: 25px 30px 25px 45px;
     width: 400px;
+  }
+  .cart-total-area {
+    padding: 20px;
+  }
+  .hdr-category {
+    padding: 10px 20px;
   }
 }
 // ≥1200px responsive scss end
@@ -852,6 +863,23 @@
   .footer-details {
     margin-bottom: 40px;
   }
+  .cart-section {
+    padding-bottom: 80px;
+    .section-title-area {
+      margin-bottom: 30px;
+    }
+    .col-lg-8 {
+      &.pe-4 {
+        padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+      }
+    }
+  }
+  .cart-course-area-wrapper {
+    flex-direction: column-reverse;
+  }
+  .cart-total-area-2 {
+    margin-bottom: 40px;
+  }
 }
 // ≥992px responsive scss end
 
@@ -1288,6 +1316,15 @@
   .page-details-area {
     padding: 15px 0;
   }
+  .cart-section {
+    padding-bottom: 60px;
+  }
+  .cart-total-area-2 {
+    margin-bottom: 30px;
+  }
+  .cart-total-area {
+    box-shadow: none;
+  }
 }
 // ≥768px responsive scss end
 
@@ -1715,6 +1752,31 @@
   }
   .banner-quote-wrapper {
     padding: 8px 25px 8px 10px;
+  }
+
+  .cart-course-area {
+    display: block;
+  }
+  .cart-course-area-2 {
+    .cart-course-img {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 15px;
+    }
+    .course-details-price {
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+  .cart-course-title {
+    margin-bottom: 0;
+  }
+  .cart-course-cart-wrap {
+    display: block;
+    margin-right: 0;
+  }
+  .cart-total-area {
+    padding: 15px;
   }
 }
 // ≥576px responsive scss end

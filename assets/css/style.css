@@ -2028,6 +2028,7 @@ input:focus {
           justify-content: center;
   color: #fff;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .hdr-btn-area .btn-1 {
@@ -2241,7 +2242,7 @@ input:focus {
 }
 
 .banner-quote-wrapper i {
-  font-size: 30px;
+  font-size: 27px;
   color: #0072ff;
   padding: 8px;
   background-color: rgba(0, 115, 255, 0.15);
@@ -4112,6 +4113,8 @@ input:focus {
   -webkit-transition: 1s;
   transition: 1s;
   margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .course-details-coupon-form.active {
@@ -4120,9 +4123,10 @@ input:focus {
 
 .course-details-coupon-input {
   width: 100%;
-  padding: 7px;
+  padding: 10px;
   font-size: 15px;
   border: 1px solid #031f42;
+  border-radius: 5px;
 }
 
 .course-details-coupon-input::-webkit-input-placeholder {
@@ -4784,8 +4788,17 @@ input:focus {
   padding-bottom: 100px;
 }
 
+.cart-section .section-title-area {
+  margin-bottom: 40px;
+}
+
+.cart-course-area-wrapper .course-available-number {
+  margin-bottom: 15px;
+}
+
 .cart-table {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .cart-table-header-title {
@@ -4812,12 +4825,12 @@ input:focus {
 }
 
 .cart-course-img {
-  width: 85px;
-  height: 70px;
+  width: 120px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-right: 10px;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .cart-table-data {
@@ -4837,18 +4850,7 @@ input:focus {
   border-bottom: none;
 }
 
-.cart-course-subtotal-price {
-  font-weight: 500;
-}
-
-.cart-quantity {
-  height: 50px;
-  width: 100px;
-  padding: 10px;
-}
-
-.cart-quantity:focus {
-  border: 1px solid #0072ff;
+.cart-course-price {
   font-weight: 500;
 }
 
@@ -4866,6 +4868,142 @@ input:focus {
 
 .cart-remove i:hover {
   color: #0072ff;
+}
+
+.cart-coupon-area {
+  position: relative;
+}
+
+.cart-coupon-input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
+
+.cart-coupon-input:focus {
+  border: 1px solid #0072ff;
+}
+
+.cart-coupon-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 20px;
+  height: 100%;
+  color: #0072ff;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cart-total-area {
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid #e7e7ec;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total-area .btn-1 {
+  display: block;
+  text-align: center;
+  padding: 12px;
+}
+
+.cart-total-area-2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 110px;
+}
+
+.cart-total-area-2 .cart-coupon-input {
+  padding: 10px 15px;
+}
+
+.cart-total-area-2 .cart-coupon-area {
+  margin-bottom: 10px;
+}
+
+.cart-total-area-2 .cart-total-table {
+  margin-bottom: 20px;
+}
+
+.cart-total-table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.cart-total-table-data {
+  text-align: right;
+  padding: 5px;
+}
+
+.cart-total-table-header {
+  padding: 5px;
+  font-weight: 500;
+}
+
+.cart-total-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.cart-course-area-2 {
+  border: 1px solid #e7e7ec;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cart-course-area-2 .cart-course-img {
+  width: 120px;
+  height: 85px;
+}
+
+.cart-course-area-2 .course-details-price {
+  text-align: right;
+  font-size: 20px;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart-course-area-2 .course-details-off-price {
+  font-size: 15px;
+}
+
+.cart-course-cart-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+.cart-remove-btn {
+  color: #0072ff;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.cart-course-title {
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 
 .sing-up-section .sing-up-wrapper {
@@ -5182,7 +5320,7 @@ input:focus {
     max-width: 992px;
   }
   .hdr-cart {
-    margin: 0 10px;
+    margin: 0 10px 0 0;
   }
   .header-search-bar {
     margin: 0 10px;
@@ -5204,7 +5342,12 @@ input:focus {
   .hdr-btn-area {
     margin-left: 10px;
   }
-  .hdr-btn-area .btn-2 {
+  .hdr-btn-area .btn-1,
+  .hdr-btn-area .btn-2,
+  .hdr-btn-area .btn-3,
+  .hdr-btn-area .btn-4,
+  .hdr-btn-area .btn-5,
+  .hdr-btn-area .btn-6 {
     font-size: 15px;
     padding: 10px 15px;
   }
@@ -5419,6 +5562,12 @@ input:focus {
     left: 250px;
     padding: 25px 30px 25px 45px;
     width: 400px;
+  }
+  .cart-total-area {
+    padding: 20px;
+  }
+  .hdr-category {
+    padding: 10px 20px;
   }
 }
 
@@ -5957,6 +6106,24 @@ input:focus {
   .footer-details {
     margin-bottom: 40px;
   }
+  .cart-section {
+    padding-bottom: 80px;
+  }
+  .cart-section .section-title-area {
+    margin-bottom: 30px;
+  }
+  .cart-section .col-lg-8.pe-4 {
+    padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
+  .cart-course-area-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cart-total-area-2 {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -6356,6 +6523,16 @@ input:focus {
   .page-details-area {
     padding: 15px 0;
   }
+  .cart-section {
+    padding-bottom: 60px;
+  }
+  .cart-total-area-2 {
+    margin-bottom: 30px;
+  }
+  .cart-total-area {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -6733,6 +6910,28 @@ input:focus {
   }
   .banner-quote-wrapper {
     padding: 8px 25px 8px 10px;
+  }
+  .cart-course-area {
+    display: block;
+  }
+  .cart-course-area-2 .cart-course-img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  .cart-course-area-2 .course-details-price {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .cart-course-title {
+    margin-bottom: 0;
+  }
+  .cart-course-cart-wrap {
+    display: block;
+    margin-right: 0;
+  }
+  .cart-total-area {
+    padding: 15px;
   }
 }
 

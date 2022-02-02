@@ -559,15 +559,18 @@
   display: none;
   transition: 1s;
   margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
   &.active {
     display: block;
   }
 }
 .course-details-coupon-input {
   width: 100%;
-  padding: 7px;
+  padding: 10px;
   font-size: 15px;
   border: 1px solid $color-2;
+  border-radius: 5px;
   &::placeholder {
     color: $color-2;
   }
