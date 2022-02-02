@@ -2,7 +2,7 @@
 .header-section {
   position: relative;
   z-index: 99;
-  margin-bottom: 81px;
+  margin-bottom: 85px;
 }
 .header-bottom {
   position: absolute;
@@ -11,7 +11,7 @@
   width: 100%;
   background-color: #fff;
   box-shadow: 0px 5px 15px 0px rgba(196, 203, 255, 0.3);
-  padding: 13px 0px;
+  padding: 15px 0px;
   &.active {
     position: fixed;
     left: 0;
@@ -37,7 +37,6 @@
   font-weight: 500;
   display: inline-flex;
   align-items: center;
-  margin-right: 50px;
   padding: 0;
   &:hover {
     color: #000;
@@ -205,7 +204,7 @@
   padding: 14px 10px;
   font-family: $jost;
   width: 100%;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #e5e5e5;
   &:focus {
     background-color: #fff !important;
     border: 1px solid $main-color !important;
@@ -222,14 +221,17 @@
   font-size: 20px;
   transform: translateY(-50%);
 }
+
 .hdr-category {
   display: flex;
   color: #444;
   background-color: rgba(3, 31, 66, 0.06);
   align-items: center;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-radius: 5px;
   transition: 0.4s;
+  width: 200px;
+  justify-content: space-between;
   &:hover {
     color: $main-color;
     i {

@@ -194,7 +194,7 @@
   &:hover {
     color: #000;
     background-color: $color-2;
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.07);
     &::before {
       background-color: $color-2;
@@ -242,10 +242,9 @@
   border: 1px solid #e7e7ec;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 15px;
   transition: 0.4s;
   &:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
@@ -489,7 +488,7 @@
   border: 1px solid #e7e7ec;
   transition: 0.4s;
   &:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     .instructor-social {
       right: 0px;
@@ -522,7 +521,7 @@
 .instructor-img-area {
   overflow: hidden;
   position: relative;
-  transform: translateY(-15px);
+  margin-top: -12px;
 }
 .instructor-social {
   position: absolute;
@@ -549,6 +548,7 @@
 }
 .instructor-text-details {
   padding: 0 10px;
+  padding-top: 15px;
 }
 .instructor-img {
   border-radius: 5px;

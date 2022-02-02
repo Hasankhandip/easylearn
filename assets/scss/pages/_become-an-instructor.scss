@@ -10,9 +10,6 @@
 .become-discover-section {
   padding: 60px 0 80px 0;
   background-color: rgba(235, 235, 235, 0.349);
-  .section-title-area {
-    margin-bottom: 50px;
-  }
 }
 .become-discover-item {
   height: 100%;
@@ -24,7 +21,7 @@
   box-shadow: 0 5px 70px 0 rgba(9, 29, 62, 0.05);
   transition: 0.4s;
   &:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     box-shadow: 0 10px 59px rgba(0, 0, 0, 0.08);
   }
 }
