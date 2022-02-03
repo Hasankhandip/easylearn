@@ -2325,8 +2325,8 @@ input:focus {
 }
 
 .process-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 20px;
   background-color: #0072ff;
 }
 
@@ -2361,6 +2361,7 @@ input:focus {
   top: -12px;
   width: 25px;
   height: 25px;
+  font-size: 15px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2484,7 +2485,7 @@ input:focus {
 }
 
 .course-details-area {
-  padding: 5px 10px;
+  padding: 5px;
 }
 
 .course-type {
@@ -2516,6 +2517,7 @@ input:focus {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 5px;
 }
 
 .course-img {
@@ -2899,7 +2901,7 @@ input:focus {
 
 .instructor-text-details {
   padding: 0 10px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .instructor-img {
