@@ -204,24 +204,27 @@
   padding: 14px 10px;
   font-family: $jost;
   width: 100%;
+  color: #575757;
   border: 1px solid #e5e5e5;
   &:focus {
     background-color: #fff !important;
     border: 1px solid $main-color !important;
   }
   &::placeholder {
-    color: #000;
+    color: #9b9b9b;
   }
 }
 .header-search-bar-icon {
-  color: $main-color;
+  color: #575757;
   position: absolute;
   right: 10px;
   top: 50%;
   font-size: 20px;
   transform: translateY(-50%);
+  &:focus {
+    color: $main-color;
+  }
 }
-
 .hdr-category {
   display: flex;
   color: #444;

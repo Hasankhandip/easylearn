@@ -1840,6 +1840,7 @@ input:focus {
   padding: 14px 10px;
   font-family: "Jost", sans-serif;
   width: 100%;
+  color: #575757;
   border: 1px solid #e5e5e5;
 }
 
@@ -1849,29 +1850,33 @@ input:focus {
 }
 
 .header-search-bar-input::-webkit-input-placeholder {
-  color: #000;
+  color: #9b9b9b;
 }
 
 .header-search-bar-input:-ms-input-placeholder {
-  color: #000;
+  color: #9b9b9b;
 }
 
 .header-search-bar-input::-ms-input-placeholder {
-  color: #000;
+  color: #9b9b9b;
 }
 
 .header-search-bar-input::placeholder {
-  color: #000;
+  color: #9b9b9b;
 }
 
 .header-search-bar-icon {
-  color: #0072ff;
+  color: #575757;
   position: absolute;
   right: 10px;
   top: 50%;
   font-size: 20px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.header-search-bar-icon:focus {
+  color: #0072ff;
 }
 
 .hdr-category {
@@ -4420,10 +4425,6 @@ input:focus {
 
 .instructor-list-section .course-list-category-wrap {
   border-bottom: none;
-}
-
-.instructor-list-section .pagination-section {
-  margin-top: 20px;
 }
 
 .instructor-details-section {
