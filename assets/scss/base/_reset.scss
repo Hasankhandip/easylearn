@@ -60,3 +60,6 @@ input {
 .row {
   --bs-gutter-x: 15px;
 }
+.form-floating > .form-control {
+  height: auto;
+}

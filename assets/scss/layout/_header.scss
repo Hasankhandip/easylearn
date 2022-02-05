@@ -30,6 +30,7 @@
 .logo-area {
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 .header-logo {
   font-family: $jost;
@@ -37,6 +38,7 @@
   font-weight: 500;
   display: inline-flex;
   align-items: center;
+  margin-right: 0;
   padding: 0;
   &:hover {
     color: #000;
@@ -207,8 +209,8 @@
   color: #575757;
   border: 1px solid #e5e5e5;
   &:focus {
-    background-color: #fff !important;
-    border: 1px solid $main-color !important;
+    border: 1px solid rgba(0, 115, 255, 0.5) !important;
+    box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
   }
   &::placeholder {
     color: #9b9b9b;
@@ -221,7 +223,8 @@
   top: 50%;
   font-size: 20px;
   transform: translateY(-50%);
-  &:focus {
+  transition: 0.4s;
+  &:hover {
     color: $main-color;
   }
 }

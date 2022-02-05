@@ -307,11 +307,8 @@
     height: 50px;
   }
   .row > * {
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-  .row {
-    --bs-gutter-x: 20px;
+    padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
   }
   .header-section {
     .container {
@@ -468,9 +465,6 @@
     .course-type {
       justify-content: center;
     }
-  }
-  .course-area {
-    margin-bottom: 15px;
   }
   .choose-item-area {
     padding: 0 5px;
@@ -866,7 +860,7 @@
   .cart-section {
     padding-bottom: 80px;
     .section-title-area {
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
     .col-lg-8 {
       &.pe-4 {
@@ -874,11 +868,17 @@
       }
     }
   }
-  .cart-course-area-wrapper {
-    flex-direction: column-reverse;
-  }
   .cart-total-area-2 {
-    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .checkout-section {
+    padding-bottom: 80px;
+    .contact-form-input {
+      margin-bottom: 0;
+    }
+  }
+  .checkout-form-title {
+    margin-bottom: 15px;
   }
 }
 // ≥992px responsive scss end
@@ -1325,6 +1325,12 @@
   .cart-total-area {
     box-shadow: none;
   }
+  .checkout-section {
+    padding-bottom: 60px;
+    .section-title-area {
+      margin-bottom: 25px;
+    }
+  }
 }
 // ≥768px responsive scss end
 
@@ -1398,7 +1404,7 @@
       text-align: center !important;
     }
     .section-title {
-      font-size: 30px;
+      font-size: 28px;
       margin-bottom: 20px;
     }
   }

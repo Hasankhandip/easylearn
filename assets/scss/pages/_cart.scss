@@ -2,7 +2,7 @@
 .cart-section {
   padding-bottom: 100px;
   .section-title-area {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 .cart-course-area-wrapper {
@@ -109,7 +109,7 @@
     margin-bottom: 10px;
   }
   .cart-total-table {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 .cart-total-table {
@@ -118,14 +118,17 @@
 }
 .cart-total-table-data {
   text-align: right;
-  padding: 5px;
+  padding: 5px 0;
+}
+.cart-total-table-data-2 {
+  color: #575757;
 }
 .cart-total-table-header {
-  padding: 5px;
+  padding: 10px 0;
   font-weight: 500;
 }
 .cart-total-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 22px;
 }
 .cart-course-area-2 {

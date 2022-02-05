@@ -63,40 +63,12 @@
   border: 2px solid #fff;
 }
 .sign-up-details-wrapper {
-  padding: 50px 100px;
+  padding: 50px 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   .home-logo {
     margin: 0 0 15px 0;
-  }
-  .header-search-bar {
-    margin: 0 0 20px 0;
-    width: 100%;
-    border-radius: 5px;
-    .form-control {
-      padding: 25px 20px 5px 42px;
-      &:focus {
-        border: 1px solid rgba(0, 115, 255, 0.5) !important;
-        box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
-      }
-    }
-    .header-search-bar-icon {
-      height: 25px;
-      width: 25px;
-      right: 0;
-      left: 10px;
-      i {
-        font-size: 25px;
-      }
-    }
-  }
-  .header-search-bar-input {
-    border: 1px solid #ced4da;
-  }
-  .form-floating > label {
-    left: 30px;
-    color: #444;
   }
 }
 .password-view-btn {
@@ -129,6 +101,34 @@
     opacity: 0.65;
     color: $main-color;
     transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  }
+}
+.form-floating {
+  margin: 0 0 20px 0;
+  width: 100%;
+  border-radius: 5px;
+  & > label {
+    left: 30px;
+    color: #444;
+  }
+  .form-control {
+    padding: 28px 20px 5px 42px !important;
+    &:focus {
+      border: 1px solid rgba(0, 115, 255, 0.5) !important;
+      box-shadow: 0 0 5px rgba(0, 115, 255, 0.3) !important;
+    }
+  }
+  .header-search-bar-icon {
+    height: 25px;
+    width: 25px;
+    right: 0;
+    left: 10px;
+    i {
+      font-size: 25px;
+    }
+  }
+  .header-search-bar-input {
+    border: 1px solid #ced4da;
   }
 }
 .sign-up-btn {

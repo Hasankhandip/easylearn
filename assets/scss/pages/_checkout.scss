@@ -1,0 +1,38 @@
+// checkout-section start
+.checkout-section {
+  padding-bottom: 100px;
+  .contact-form-input {
+    margin-bottom: 5px;
+  }
+}
+.checkout-form-title {
+  color: #000;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.checkout-input-title {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.checkout-payment-area {
+  margin-bottom: 15px;
+
+  .form-check {
+    margin-bottom: 5px;
+    .form-check-label {
+      font-size: 15px;
+      color: #575757;
+    }
+  }
+}
+.form-check-input {
+  &:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+.checkout-payment-title {
+  margin-bottom: 10px;
+}
+// checkout-section end
