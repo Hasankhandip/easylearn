@@ -5390,8 +5390,8 @@ input:focus {
 }
 
 .demo-banner-section {
-  padding: 120px 0;
   background-color: #f0f6fb;
+  overflow: hidden;
 }
 
 .demo-banner-title {
@@ -5425,6 +5425,17 @@ input:focus {
 .demo-details-item-number {
   font-size: 40px;
   font-weight: 600;
+  line-height: 1 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0072ff;
 }
 
 .demo-section {
