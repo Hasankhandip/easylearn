@@ -165,7 +165,7 @@
 
 // category-section scss start
 .category-section {
-  @include section-padding;
+  padding-top: 100px;
 }
 .category-item {
   position: relative;
@@ -176,7 +176,6 @@
   font-size: 18px;
   padding: 25px;
   border-radius: 5px;
-  margin-bottom: 15px;
   overflow: hidden;
   transition: 0.4s;
   z-index: 1;
@@ -380,7 +379,6 @@
 
 //  choose-section scss start
 .choose-section {
-  @include section-padding;
   overflow-x: hidden;
 }
 .choose-item-area {
@@ -480,9 +478,6 @@
 // counter-section scss end
 
 // instructor-section scss start
-.instructor-section {
-  @include section-padding;
-}
 .instructor-item {
   position: relative;
   padding: 0 10px 10px 10px;
@@ -562,9 +557,6 @@
 // instructor-section scss end
 
 // testimonial-section scss start
-.testimonial-section {
-  padding-bottom: 130px;
-}
 .testimonial-item {
   position: relative;
   padding-left: 35px;
@@ -672,9 +664,7 @@
 // teacher-section scss end
 
 // blog-section scss start
-.blog-section {
-  padding-top: 100px;
-}
+
 .blog-area {
   transition: 0.4s;
   &:hover {
@@ -698,8 +688,6 @@
 
 // sponsor-section scss start
 .sponsor-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
   .slick-arrow {
     display: none !important;
   }

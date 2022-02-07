@@ -71,8 +71,7 @@
 
 // demo-section scss start
 .demo-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
 }
 .demo-area-coming {
   height: 100%;
@@ -80,8 +79,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #e7e7ec;
-  background-color: #f6f9fc;
+  border: 1px solid $color-2;
+  background-color: $color-2;
   border-radius: 5px;
   transition: all 0.4s;
   &:hover {
@@ -152,6 +151,8 @@
   width: 100%;
   height: 100%;
   border-radius: 5px 5px 0 0;
+  object-fit: cover;
+  object-position: top;
 }
 .demo-title {
   font-size: 18px;
@@ -164,12 +165,13 @@
   transition: 0.4s;
 }
 .inner-page-area {
-  margin-top: 80px;
+  padding-top: 100px;
 }
 // demo-section scss end
 
 // core-features-section scss start
 .core-features-section {
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .core-features-img {

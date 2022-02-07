@@ -3,10 +3,6 @@
     @content;
   }
 }
-@mixin section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 @mixin d-flex {
   display: flex;
   align-items: center;

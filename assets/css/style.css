@@ -52,8 +52,21 @@
   }
 }
 
+.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .section-title-area {
   margin-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section-title {
@@ -2028,6 +2041,7 @@ input:focus {
 }
 
 .footer-section {
+  margin-top: 50px;
   position: relative;
   padding-top: 80px;
   background-image: url(../images/page-path-bg.jpg);
@@ -2358,7 +2372,6 @@ input:focus {
 
 .category-section {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .category-item {
@@ -2371,7 +2384,6 @@ input:focus {
   font-size: 18px;
   padding: 25px;
   border-radius: 5px;
-  margin-bottom: 15px;
   overflow: hidden;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -2638,8 +2650,6 @@ input:focus {
 }
 
 .choose-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
   overflow-x: hidden;
 }
 
@@ -2788,11 +2798,6 @@ input:focus {
   color: #fff;
 }
 
-.instructor-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .instructor-item {
   position: relative;
   padding: 0 10px 10px 10px;
@@ -2892,10 +2897,6 @@ input:focus {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
-}
-
-.testimonial-section {
-  padding-bottom: 130px;
 }
 
 .testimonial-item {
@@ -3033,10 +3034,6 @@ input:focus {
           justify-content: center;
 }
 
-.blog-section {
-  padding-top: 100px;
-}
-
 .blog-area {
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -3062,11 +3059,6 @@ input:focus {
 .blog-area .course-info-item i {
   font-size: 22px;
   color: #0072ff;
-}
-
-.sponsor-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .sponsor-section .slick-arrow {
@@ -5430,8 +5422,7 @@ input:focus {
 }
 
 .demo-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
 }
 
 .demo-area-coming {
@@ -5446,8 +5437,8 @@ input:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid #e7e7ec;
-  background-color: #f6f9fc;
+  border: 1px solid #031f42;
+  background-color: #031f42;
   border-radius: 5px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -5539,6 +5530,10 @@ input:focus {
   width: 100%;
   height: 100%;
   border-radius: 5px 5px 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .demo-title {
@@ -5555,10 +5550,11 @@ input:focus {
 }
 
 .inner-page-area {
-  margin-top: 80px;
+  padding-top: 100px;
 }
 
 .core-features-section {
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -5679,10 +5675,6 @@ input:focus {
     line-height: 1.3;
     font-size: 46px;
   }
-  .category-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
   .category-item {
     padding: 15px;
   }
@@ -5733,10 +5725,6 @@ input:focus {
     font-size: 80px;
     margin-bottom: 25px;
   }
-  .choose-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
   .instructor-item {
     padding: 0 5px 10px 5px;
   }
@@ -5751,17 +5739,6 @@ input:focus {
   }
   .instructor-course-info .course-info-item {
     margin-right: 5px;
-  }
-  .instructor-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  .blog-section {
-    padding-top: 80px;
-  }
-  .sponsor-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .footer-section {
     padding-top: 70px;
@@ -5801,9 +5778,6 @@ input:focus {
   }
   .blog-grid-section .row .col-lg-9 {
     width: 70%;
-  }
-  .blog-area {
-    margin-bottom: 15px;
   }
   .contact-section {
     margin-top: 30px;
@@ -5897,6 +5871,16 @@ input:focus {
   .hdr-category {
     padding: 10px 20px;
     width: auto;
+  }
+  .core-features-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .demo-section {
+    padding-top: 80px;
+  }
+  .inner-page-area {
+    padding-top: 80px;
   }
 }
 
@@ -6078,22 +6062,12 @@ input:focus {
   .choose-img-area {
     display: none;
   }
-  .category-item {
-    margin-bottom: 10px;
-  }
-  .category-section .col-lg-3:nth-child(11) .category-item {
-    margin-bottom: 0;
-  }
-  .category-section .col-lg-3:nth-child(12) .category-item {
-    margin-bottom: 0;
-  }
   .section-title-area {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .instructor-item {
-    margin-bottom: 30px;
     padding: 0 10px 10px 10px;
   }
   .instructor-img {
@@ -6102,18 +6076,6 @@ input:focus {
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
-  }
-  .instructor-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .category-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .choose-section {
-    padding-top: 65px;
-    padding-bottom: 65px;
   }
   .choose-section .section-title {
     margin-bottom: 0;
@@ -6140,9 +6102,6 @@ input:focus {
   .testimonial-item .testimonial-details {
     text-align: left;
   }
-  .testimonial-section {
-    padding-bottom: 100px;
-  }
   .teacher-section .container .row {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -6155,12 +6114,6 @@ input:focus {
   }
   .header-section {
     margin-bottom: 70px;
-  }
-  .blog-section {
-    padding-top: 70px;
-  }
-  .blog-section .col-lg-4:last-child .blog-area {
-    margin-bottom: 0;
   }
   .sponsor-section .section-title-area {
     margin-bottom: 40px;
@@ -6443,10 +6396,9 @@ input:focus {
   }
   .demo-section {
     padding-top: 60px;
-    padding-bottom: 60px;
   }
   .inner-page-area {
-    margin-top: 60px;
+    padding-top: 60px;
   }
   .demo-header-section {
     margin-bottom: 0;
@@ -6478,13 +6430,17 @@ input:focus {
     height: 300px;
   }
   .core-features-section {
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .core-features-img {
     margin-bottom: 10px;
   }
   .core-features-title {
     font-size: 16px;
+  }
+  .demo-banner-title {
+    font-size: 70px;
   }
 }
 
@@ -6501,9 +6457,6 @@ input:focus {
   }
   .banner-title {
     margin-bottom: 5px;
-  }
-  .category-item {
-    margin-bottom: 15px;
   }
   .category-title {
     font-size: 19px;
@@ -6575,9 +6528,6 @@ input:focus {
   }
   .testimonial-item {
     padding-left: 0;
-  }
-  .testimonial-section {
-    padding-bottom: 70px;
   }
   .teacher-section .container .row {
     padding-bottom: 0;
@@ -6999,10 +6949,6 @@ input:focus {
     font-size: 28px;
     margin-bottom: 20px;
   }
-  .category-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .course-section .section-title-area {
     margin-bottom: 20px;
   }
@@ -7016,10 +6962,6 @@ input:focus {
   .section-title-area {
     margin-bottom: 40px;
   }
-  .choose-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .choose-item-img {
     width: 45px;
     margin-right: 15px;
@@ -7028,13 +6970,6 @@ input:focus {
     margin-bottom: 15px !important;
   }
   .counter-section .col-sm-6:last-child .counter-item {
-    margin-bottom: 0 !important;
-  }
-  .instructor-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .instructor-section .col-lg-3:last-child .instructor-item {
     margin-bottom: 0 !important;
   }
   .testimonial-item-img {
@@ -7051,17 +6986,11 @@ input:focus {
   .testimonial-item-img-2 {
     display: block !important;
   }
-  .testimonial-section {
-    padding-bottom: 60px;
-  }
   .teacher-title {
     font-size: 35px;
   }
   .teacher-section .container .row {
     padding-top: 25px;
-  }
-  .blog-section {
-    padding-top: 60px;
   }
   .course-title {
     font-size: 20px;
