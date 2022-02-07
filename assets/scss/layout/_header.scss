@@ -21,35 +21,17 @@
     transition: 0.4s;
   }
   .navbar-nav {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
 .navbar-nav-2 {
   display: none;
 }
-.logo-area {
-  display: flex;
-  align-items: center;
-  margin-right: 20px;
-}
 .header-logo {
-  font-family: $jost;
-  font-size: 32px;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
   margin-right: 0;
   padding: 0;
-  &:hover {
-    color: #000;
-  }
-  span {
-    color: $main-color;
-  }
-}
-.header-logo-icon {
-  height: 55px;
-  margin-right: 8px;
+  width: 220px;
+  margin-right: 20px;
 }
 .navbar {
   padding: 0;
@@ -196,7 +178,7 @@
   width: 300px;
 }
 .hdr-btn-area {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .sidebar-close-btn {
   display: none;
@@ -333,16 +315,16 @@
   position: absolute;
   top: -4px;
   right: -4px;
-  width: 22px;
-  height: 22px;
-  background-color: $main-color;
+  width: 20px;
+  height: 20px;
+  background-color: #0072ff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 12px;
 }
 .hdr-btn-area {
   .btn-1 {

@@ -102,9 +102,9 @@
   position: absolute;
   left: -30px;
   bottom: 20px;
-  width: auto;
+  width: auto !important;
   border-radius: 0;
-  border: none;
+  border: none !important;
   z-index: -1;
   animation: banner-dotted 15s 1s linear infinite;
 }

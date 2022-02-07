@@ -88,28 +88,23 @@
   align-items: center;
 }
 .cart-total-area {
-  padding: 25px;
+  padding: 20px;
   border-radius: 5px;
   border: 1px solid #e7e7ec;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  .btn-1 {
-    display: block;
-    text-align: center;
-    padding: 12px;
-  }
-}
-.cart-total-area-2 {
   position: sticky;
   top: 110px;
   margin-top: 38px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   .cart-coupon-input {
     padding: 10px 15px;
   }
   .cart-coupon-area {
     margin-bottom: 10px;
   }
-  .cart-total-table {
-    margin-bottom: 10px;
+  .btn-1 {
+    display: block;
+    text-align: center;
+    padding: 12px;
   }
 }
 .cart-total-table {
@@ -118,17 +113,17 @@
 }
 .cart-total-table-data {
   text-align: right;
-  padding: 5px 0;
+  padding: 0 0 10px 0;
 }
 .cart-total-table-data-2 {
   color: #575757;
 }
 .cart-total-table-header {
-  padding: 10px 0;
+  padding: 0 0 10px 0;
   font-weight: 500;
 }
 .cart-total-title {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 22px;
 }
 .cart-course-area-2 {

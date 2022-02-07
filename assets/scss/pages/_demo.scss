@@ -40,8 +40,8 @@
 }
 .demo-banner-title {
   font-size: 85px;
-  color: $main-color;
   margin-bottom: 30px;
+  color: $main-color;
 }
 .demo-banner-details {
   font-size: 35px;
@@ -66,7 +66,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $main-color;
 }
 // demo-banner-section scss end
 
@@ -93,30 +92,73 @@
   }
 }
 .demo-area {
-  transition: all 0.4s;
-}
-.demo-img {
-  width: 100%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.4s;
+  overflow: hidden;
   &:hover {
     transform: translateY(-5px);
+    .demo-img-area {
+      &::before {
+        opacity: 0.4;
+        visibility: visible;
+      }
+      .btn-1 {
+        opacity: 1;
+        visibility: visible;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
   }
-  &.big-size {
-    height: 530px;
-    object-fit: fill;
-    object-position: center;
-  }
-  &.small-size {
-    height: 400px;
-    object-fit: fill;
-    object-position: center;
+  a {
+    display: block;
   }
 }
+.demo-img-area {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-2;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  .btn-1 {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%) translateY(-45%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+}
+.demo-big-size {
+  height: 530px;
+}
+.demo-small-size {
+  height: 280px;
+  .btn-1 {
+    padding: 10px 20px;
+  }
+}
+.demo-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0;
+}
 .demo-title {
+  font-size: 18px;
   text-align: center;
-  margin-top: 15px;
+  padding: 15px 0;
+  border-top: 1px solid #e7e7ec;
+  border-bottom: 1px solid #e7e7ec;
 }
 .demo-area-coming-title {
   transition: 0.4s;
@@ -131,8 +173,8 @@
   padding-bottom: 100px;
 }
 .core-features-img {
-  width: 110px;
-  height: 110px;
+  width: 95px;
+  height: 95px;
   padding: 20px;
   box-shadow: 0px 0px 20px rgba(37, 43, 55, 0.1);
   margin-bottom: 15px;
@@ -153,7 +195,7 @@
 
 // demo-footer-section scss start
 .demo-footer-section {
-  padding-top: 100px;
+  padding-top: 80px;
   background-image: url(../images/page-path-bg.jpg);
   @include bg-img;
   position: relative;
@@ -172,6 +214,9 @@
   .demo-banner-title {
     color: #fff;
   }
+  .footer-copyright {
+    margin: 0;
+  }
 }
 .demo-footer-details {
   color: #fff;
@@ -181,7 +226,7 @@
   margin-bottom: 40px;
 }
 .demo-footer-bottom {
-  padding: 40px 0;
+  padding: 30px 0;
   margin-top: 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
