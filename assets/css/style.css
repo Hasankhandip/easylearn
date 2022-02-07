@@ -5647,6 +5647,9 @@ input:focus {
   .header-section .container {
     max-width: 992px;
   }
+  .header-logo {
+    width: 210px;
+  }
   .hdr-cart {
     margin: 0 10px 0 0;
   }
@@ -5659,12 +5662,6 @@ input:focus {
   }
   .header-bottom .navbar-nav {
     margin: 0 10px 0 0;
-  }
-  .header-logo {
-    font-size: 28px;
-  }
-  .header-logo-icon {
-    margin-right: 5px;
   }
   .hdr-btn-area {
     margin-left: 10px;
@@ -5879,9 +5876,6 @@ input:focus {
   .sing-up-section .home-logo {
     margin-bottom: 30px;
   }
-  .sing-up-section .header-logo {
-    font-size: 32px;
-  }
   .sign-up-title {
     font-size: 22px;
     margin-bottom: 0;
@@ -5907,9 +5901,6 @@ input:focus {
 }
 
 @media (max-width: 991px) {
-  .header-logo-icon {
-    height: 50px;
-  }
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
     padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
@@ -5965,9 +5956,6 @@ input:focus {
   }
   .header-top-details {
     margin-right: 20px;
-  }
-  .header-logo {
-    font-size: 32px;
   }
   .hdr-btn-area .btn-1 {
     background-color: transparent;
@@ -6505,6 +6493,9 @@ input:focus {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
+  .header-logo {
+    width: 180px;
+  }
   .section-title {
     font-size: 30px;
   }
@@ -6955,12 +6946,6 @@ input:focus {
   .page-details-area {
     padding: 10px 0 20px 0;
   }
-  .header-logo {
-    font-size: 28px;
-  }
-  .header-logo-icon {
-    height: 47px;
-  }
   .header-top-details {
     margin-right: 10px;
   }
@@ -7371,6 +7356,9 @@ input:focus {
   .btn-5,
   .btn-6 {
     font-size: 15px;
+  }
+  .header-logo {
+    width: 170px;
   }
   .header-top {
     display: none;
