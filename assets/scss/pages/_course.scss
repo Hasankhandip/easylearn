@@ -1,6 +1,6 @@
 // category-course-section scss start
 .category-course-section {
-  margin-bottom: 80px;
+  padding-top: 0 !important;
 }
 .category-course-top {
   margin-bottom: 60px;
@@ -120,11 +120,10 @@
   }
   .course-img-area {
     width: 32%;
+    height: 165px;
     display: flex;
     align-items: center;
-  }
-  .course-img {
-    height: 165px;
+    margin-bottom: 0;
   }
   .course-buyer-img {
     width: 45px;
@@ -152,9 +151,6 @@
   }
   .course-details-price {
     font-size: 25px;
-  }
-  .course-details-off-price {
-    font-size: 16px;
   }
 }
 // course-list-section scss end

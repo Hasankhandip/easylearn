@@ -12,11 +12,14 @@
       margin-bottom: 0;
     }
     & > * {
-      padding-right: 0;
-      padding-left: 0;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
       justify-content: center;
       display: flex;
       flex-direction: column;
+    }
+    .ps-2 {
+      padding-left: 7px !important;
     }
     .course-img-area {
       width: 100%;

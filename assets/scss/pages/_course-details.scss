@@ -1,6 +1,6 @@
 //  course-details-section scss start
 .course-details-section {
-  padding-bottom: 100px;
+  padding-top: 0 !important;
 }
 .course-details-wrap {
   margin-bottom: 30px;
@@ -61,9 +61,9 @@
   }
 }
 .course-details-title {
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 .course-price-details-area {
   display: flex;
@@ -72,14 +72,14 @@
 }
 .course-details-price {
   font-size: 35px;
-  display: inline-block;
   color: $main-color;
-  margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
 .course-details-off-price {
-  font-size: 18px;
+  margin-left: 6px;
+  font-size: 14px;
   color: rgb(71, 71, 71);
-  display: inline-block;
 }
 .course-add-cart-area {
   display: flex;
@@ -256,7 +256,7 @@
     margin-bottom: 0;
   }
   i {
-    font-size: 18px;
+    font-size: 16px;
     color: $main-color;
     margin-right: 10px;
   }
@@ -483,12 +483,6 @@
   color: #000;
 }
 // course-details-review-area scss end
-
-// trending-course-section scss start
-.trending-course-section {
-  margin-bottom: 100px;
-}
-// trending-course-section scss end
 
 // course-card-area scss start
 .course-card {

@@ -2,8 +2,8 @@
 // demo-header-section scss start
 .demo-header-section {
   background-color: #fff;
-  margin-bottom: 0;
-  padding-bottom: 85px;
+  margin-bottom: 0 !important;
+  padding-bottom: 76px;
   .header-bottom {
     position: fixed;
     top: 0;
@@ -76,6 +76,7 @@
 .demo-area-coming {
   height: 100%;
   width: 100%;
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
