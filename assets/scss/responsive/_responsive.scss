@@ -911,6 +911,21 @@
   .sign-up-social-link {
     padding: 12px 15px;
   }
+  .about-section {
+    .course-details-img-area {
+      height: 450px;
+    }
+  }
+  .about-details-area {
+    margin-bottom: 40px;
+  }
+  .testimonial-item-img {
+    width: 300px;
+    height: 360px;
+  }
+  .about-title-details {
+    margin-bottom: 10px;
+  }
 }
 // ≥992px responsive scss end
 
@@ -1449,6 +1464,9 @@
   .sign-up-title {
     font-size: 20px;
   }
+  .section-title {
+    margin-bottom: 15px;
+  }
 }
 // ≥768px responsive scss end
 
@@ -1962,6 +1980,21 @@
   .sign-up-social-link {
     padding: 10px 15px;
   }
+  .about-section {
+    .course-details-img-area {
+      height: 350px;
+    }
+  }
+  .about-details-area {
+    margin-bottom: 30px;
+  }
+  .choose-item-area {
+    .choose-item {
+      &:last-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }
 // ≥576px responsive scss end
 
@@ -2173,6 +2206,11 @@
   }
   .instructor-card {
     .course-details-img {
+      height: 300px;
+    }
+  }
+  .about-section {
+    .course-details-img-area {
       height: 300px;
     }
   }

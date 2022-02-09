@@ -13,10 +13,8 @@ $(window).on("load", function () {
       }
     );
 });
-// preloader end
 // wow.js start
 new WOW().init();
-// wow.js end
 // header-section js start
 $(window).on("scroll", function(){
     if ($(this).scrollTop() > 50 ) {
@@ -25,7 +23,6 @@ $(window).on("scroll", function(){
       $(".header-bottom").removeClass("active");
     }
   });
-// header-section js end
 // odometer js start
 (function() {
   $(".overview-counter-up").each(function () {
@@ -39,7 +36,6 @@ $(window).on("scroll", function(){
       });
   });
 })();
-// odometer js end
  // slick slider start
  $(document).ready(function(){
   $('.testimonial-area').slick({
@@ -91,7 +87,6 @@ $(window).on("scroll", function(){
   ]
   });
 });
-// slick slider end
 // progressbar js start
 $(document).ready(function () {
   var progressPath = document.querySelector('.progress-wrap path');
@@ -124,7 +119,6 @@ $(document).ready(function () {
       return false;
   })
 });
-// progressbar js end
 //  sponsor-img js start
 $('.sponsor-img').each(function(){
   var sponsorImgSrc = $(this).data('src');
@@ -133,12 +127,10 @@ $('.sponsor-img').each(function(){
     <img class="back-img" src="${sponsorImgSrc}" alt="image">
   `);
 });
-//  sponsor-img js end
 // course-details-coupon-form js start
 $(".course-details-coupon-title").on("click",function(){
   $(".course-details-coupon-form").addClass("active");
 });
-// course-details-coupon-form js end
 // magnific popup js start
 $(document).ready(function() {
   $('.course-content-view').magnificPopup(
@@ -148,8 +140,6 @@ $(document).ready(function() {
       {type:'iframe'}
       );
 });
-// magnific popup js end
-
 // header-navbar js start
 $('.navbar-toggler').on('click', function(){
   $('.header-navbar').addClass('show');
@@ -157,8 +147,6 @@ $('.navbar-toggler').on('click', function(){
 $('.sidebar-close-btn').on('click', function(){
   $('.header-navbar').removeClass('show');
 });
-// header-navbar js end
-
 // filter-btn js start
 $('.filter-btn').on('click', function(){
   $('.course-list-filter-wrap').addClass('show');
@@ -166,9 +154,6 @@ $('.filter-btn').on('click', function(){
 $('.filter-close-btn').on('click', function(){
   $('.course-list-filter-wrap').removeClass('show');
 });
-// filter-btn js end
-
-
 // grid-list-btn js start
 $('.list-btn').on('click', function(){
   $('.course-area-wrapper-2').addClass('active');
@@ -182,8 +167,6 @@ $('.grid-btn').on('click', function(){
   $(this).addClass('active');
   $('.list-btn').removeClass('active');
 });
-// grid-list-btn js end
-
 // header-navbar js start
 $('.category-nav-link').on('click', function(){
   $('.category-navbar').addClass('active');
@@ -191,8 +174,6 @@ $('.category-nav-link').on('click', function(){
 $('.category-close-btn').on('click', function(){
   $('.category-navbar').removeClass('active');
 });
-// header-navbar js end
-
 // password-view-btn js start
 $('.la-eye').on('click', function(){
   $(this).addClass('remove');
@@ -202,4 +183,3 @@ $('.la-eye-slash').on('click', function(){
   $(this).removeClass('active');
   $('.la-eye').removeClass('remove');
 });
-// password-view-btn js end
