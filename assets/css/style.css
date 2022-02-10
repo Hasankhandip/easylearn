@@ -4763,6 +4763,15 @@ input:focus {
   height: 100%;
 }
 
+.about-section .course-play-btn {
+  width: 80px;
+  height: 80px;
+}
+
+.about-section .course-play-btn i {
+  font-size: 45px;
+}
+
 .about-details-area {
   margin-bottom: 50px;
 }
@@ -4776,10 +4785,6 @@ input:focus {
   font-size: 18px;
   text-align: center;
   margin-bottom: 15px;
-}
-
-.about-details {
-  text-align: center;
 }
 
 /* about-section end */
@@ -6523,6 +6528,13 @@ input:focus {
   .about-section .course-details-img-area {
     height: 450px;
   }
+  .about-section .course-play-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .about-section .course-play-btn i {
+    font-size: 40px;
+  }
   .about-details-area {
     margin-bottom: 40px;
   }
@@ -7038,6 +7050,16 @@ input:focus {
   }
   .section-title {
     margin-bottom: 15px;
+  }
+  .about-section .course-details-img-area {
+    height: 380px;
+  }
+  .about-section .course-play-btn {
+    width: 60px;
+    height: 60px;
+  }
+  .about-section .course-play-btn i {
+    font-size: 30px;
   }
 }
 

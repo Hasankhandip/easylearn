@@ -915,6 +915,13 @@
     .course-details-img-area {
       height: 450px;
     }
+    .course-play-btn {
+      width: 70px;
+      height: 70px;
+      i {
+        font-size: 40px;
+      }
+    }
   }
   .about-details-area {
     margin-bottom: 40px;
@@ -1466,6 +1473,18 @@
   }
   .section-title {
     margin-bottom: 15px;
+  }
+  .about-section {
+    .course-details-img-area {
+      height: 380px;
+    }
+    .course-play-btn {
+      width: 60px;
+      height: 60px;
+      i {
+        font-size: 30px;
+      }
+    }
   }
 }
 // ≥768px responsive scss end

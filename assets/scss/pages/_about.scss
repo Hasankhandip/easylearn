@@ -8,6 +8,13 @@
   .course-details-img {
     height: 100%;
   }
+  .course-play-btn {
+    width: 80px;
+    height: 80px;
+    i {
+      font-size: 45px;
+    }
+  }
 }
 .about-details-area {
   margin-bottom: 50px;
@@ -21,7 +28,5 @@
   text-align: center;
   margin-bottom: 15px;
 }
-.about-details {
-  text-align: center;
-}
+
 /* about-section end */
