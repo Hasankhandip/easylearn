@@ -76,16 +76,26 @@
 // modal scss start
 .modal {
   background-color: rgba(3, 31, 66, 0.329);
+  &.show {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+.modal-content {
+  padding: 20px;
 }
 .modal-header {
   border-bottom: none;
-  padding: 10px 15px;
+  padding: 0;
+  margin-bottom: 15px;
 }
 .modal-dialog {
   max-width: 420px;
 }
 .modal-body {
-  padding: 10px 15px;
+  padding: 0;
+  margin-bottom: 15px;
 }
 .modal-title {
   font-size: 18px;
@@ -93,9 +103,10 @@
 .modal-copy-link {
   position: relative;
   padding: 8px;
-  margin: 20px;
   display: flex;
   border: 1px solid $color-2;
+  border-radius: 5px;
+  overflow: hidden;
 }
 // modal scss end
 
