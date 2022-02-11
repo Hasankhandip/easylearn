@@ -33,6 +33,9 @@
   object-fit: cover;
   object-position: center;
 }
+.course-details-img-2 {
+  object-position: center !important;
+}
 .course-play-btn {
   position: absolute;
   left: 50%;
@@ -213,7 +216,9 @@
   margin-bottom: 30px;
 }
 .course-details-desrciption-title {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
 }
 .course-details-desrciption-text {
   line-height: 1.5;

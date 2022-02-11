@@ -809,7 +809,7 @@
       }
     }
     .course-card {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
   }
   .become-discover-item {
@@ -1332,11 +1332,6 @@
   .sign-up-details-wrapper {
     background-image: url(/assets/images/sign-up-bg.png);
     @include bg-img;
-  }
-  .instructor-details-section {
-    .course-card {
-      margin-bottom: 20px;
-    }
   }
   .banner-quote-wrapper {
     i {
