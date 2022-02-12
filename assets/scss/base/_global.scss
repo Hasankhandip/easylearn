@@ -1,4 +1,5 @@
-// section-padding scss start
+/* global start */
+// section-padding  start
 .section-padding {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -7,8 +8,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-// section-padding scss end
-// section-title area scss start
+// section-padding  end
+// section-title area  start
 .section-title-area {
   margin-bottom: 45px;
   align-items: center;
@@ -17,9 +18,9 @@
   font-size: 36px;
   text-transform: capitalize;
 }
-// section-title area scss end
+// section-title area  end
 
-//  page-section scss start
+//  page-section  start
 .page-details-area {
   padding: 15px 0 25px 0;
   align-items: flex-start;
@@ -71,9 +72,9 @@
     color: $main-color;
   }
 }
-//  page-section scss end
+//  page-section  end
 
-// modal scss start
+// modal  start
 .modal {
   background-color: rgba(3, 31, 66, 0.329);
   &.show {
@@ -108,9 +109,9 @@
   border-radius: 5px;
   overflow: hidden;
 }
-// modal scss end
+// modal  end
 
-// comment-box scss start
+// comment-box  start
 .comment-form {
   margin-bottom: 50px;
 }
@@ -132,9 +133,9 @@
     color: #222222;
   }
 }
-// comment-box scss end
+// comment-box  end
 
-// filter-btn scss start
+// filter-btn  start
 .filter-close-btn {
   display: none;
 }
@@ -152,9 +153,9 @@
     margin-right: 5px;
   }
 }
-// filter-btn scss end
+// filter-btn  end
 
-// slider scss start
+// slider  start
 .slick-dots {
   @include d-flex;
   margin-top: 15px;
@@ -177,4 +178,5 @@
     }
   }
 }
-// slider scss end
+// slider  end
+/* global end */

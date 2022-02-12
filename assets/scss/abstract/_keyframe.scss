@@ -1,3 +1,4 @@
+/* keyframe start */
 @keyframes banner-dotted {
   0% {
     transform: translateY(0);
@@ -18,23 +19,4 @@
     transform: translateY(0);
   }
 }
-
-// //  header-animation scss start
-// @keyframes header-animation {
-//   0% {
-//     transform: translateY(0);
-//   }
-//   25% {
-//     transform: translateY(5px);
-//   }
-//   50% {
-//     transform: translateY(10px);
-//   }
-//   75% {
-//     transform: translateY(5px);
-//   }
-//   100% {
-//     transform: translateY(0);
-//   }
-// }
-// //  header-animation scss end
+/* keyframe end */

@@ -1,5 +1,5 @@
-// <------------------ Responsive Design -------------------->
-// ≥1400px responsive scss start
+/* <------------------ Responsive Design Start --------------------> */
+// ≥1400px responsive  start
 @media (max-width: 1400px) {
   .header-section {
     .container {
@@ -7,9 +7,9 @@
     }
   }
 }
-// ≥1400px responsive scss end
+// ≥1400px responsive  end
 
-// ≥1200px responsive scss start
+// ≥1200px responsive  start
 @media (max-width: 1199px) {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.3);
@@ -318,9 +318,9 @@
     }
   }
 }
-// ≥1200px responsive scss end
+// ≥1200px responsive  end
 
-// ≥992px responsive scss start
+// ≥992px responsive  start
 @media (max-width: 991px) {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.5) !important;
@@ -934,9 +934,9 @@
     margin-bottom: 10px;
   }
 }
-// ≥992px responsive scss end
+// ≥992px responsive  end
 
-// ≥768px responsive scss start
+// ≥768px responsive  start
 @media (max-width: 767px) {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -1482,9 +1482,9 @@
     }
   }
 }
-// ≥768px responsive scss end
+// ≥768px responsive  end
 
-// ≥576px responsive scss start
+// ≥576px responsive  start
 @media (max-width: 575px) {
   .row > * {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -2035,9 +2035,9 @@
     padding: 15px;
   }
 }
-// ≥576px responsive scss end
+// ≥576px responsive  end
 
-// ≥400px responsive scss start
+// ≥400px responsive  start
 @media (max-width: 400px) {
   .btn-1,
   .btn-2,
@@ -2254,4 +2254,5 @@
     }
   }
 }
-// ≥400px responsive scss end
+// ≥400px responsive  end
+/* <------------------ Responsive Design End --------------------> */

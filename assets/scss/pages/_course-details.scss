@@ -1,4 +1,4 @@
-//  course-details-section scss start
+/*  course-details-section  start */
 .course-details-section {
   padding-top: 0 !important;
 }
@@ -185,9 +185,8 @@
 .course-content-list-title-area {
   align-items: center;
 }
-//  course-details-section scss end
 
-//  course-details-tab scss start
+//  course-details-tab  start
 .course-details-tab {
   margin-bottom: 30px;
   border-bottom: 1px solid #ced4da;
@@ -208,9 +207,9 @@
     }
   }
 }
-//  course-details-tab scss end
+//  course-details-tab  end
 
-// course-details-desrciption-area scss start
+// course-details-desrciption-area  start
 
 .course-details-desrciption-area {
   margin-bottom: 30px;
@@ -326,9 +325,9 @@
     color: $main-color;
   }
 }
-// course-details-desrciption-area scss end
+// course-details-desrciption-area  end
 
-// course-details-rating-area scss start
+// course-details-rating-area  start
 .course-details-rating-area {
   margin-bottom: 30px;
   .course-details-desrciption-title {
@@ -370,9 +369,9 @@
   justify-content: space-between;
   margin-bottom: 10px;
 }
-// course-details-rating-area scss end
+// course-details-rating-area  end
 
-// course-details-instructor scss start
+// course-details-instructor  start
 .course-details-instructor {
   .course-details-desrciption-title {
     margin-bottom: 30px;
@@ -409,9 +408,9 @@
   align-items: center;
   margin-bottom: 25px;
 }
-// course-details-instructor scss end
+// course-details-instructor  end
 
-// course-details-review-area scss start
+// course-details-review-area  start
 .course-details-review-area {
   .course-details-desrciption-title {
     margin-bottom: 25px;
@@ -490,9 +489,9 @@
   font-size: 14px;
   color: #000;
 }
-// course-details-review-area scss end
+// course-details-review-area  end
 
-// course-card-area scss start
+// course-card-area  start
 .course-card {
   position: sticky;
   top: 110px;
@@ -595,4 +594,5 @@
   align-items: center;
   margin-bottom: 15px;
 }
-// course-card-area scss end
+// course-card-area  end
+/*  course-details-section  end */

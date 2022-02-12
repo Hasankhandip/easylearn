@@ -1,4 +1,5 @@
-// banner-section scss start
+/* home-page start */
+// banner-section start
 .banner-section {
   overflow: hidden;
 }
@@ -128,9 +129,9 @@
   right: 10%;
   bottom: 10%;
 }
-// banner-section scss end
+// banner-section  end
 
-// process-section scss start
+// process-section  start
 .process-section {
   padding-top: 25px;
   padding-bottom: 20px;
@@ -161,9 +162,9 @@
   background-color: #fff;
   color: $main-color;
 }
-// process-section scss end
+// process-section  end
 
-// category-section scss start
+// category-section  start
 .category-section {
   padding-top: 100px !important;
 }
@@ -235,9 +236,9 @@
   transition: 0.4s;
 }
 
-// category-section scss end
+// category-section  end
 
-//  course-section scss start
+//  course-section  start
 .course-area {
   border: 1px solid #e7e7ec;
   padding: 10px;
@@ -375,9 +376,9 @@
   font-size: 20px;
   color: $main-color;
 }
-//  course-section scss end
+//  course-section  end
 
-//  choose-section scss start
+//  choose-section  start
 .choose-section {
   overflow-x: hidden;
 }
@@ -448,9 +449,9 @@
 .choose-img-area {
   text-align: center;
 }
-//  choose-section scss end
+//  choose-section  end
 
-// counter-section scss start
+// counter-section  start
 .counter-section {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -475,9 +476,9 @@
 .counter-details {
   color: #fff;
 }
-// counter-section scss end
+// counter-section  end
 
-// instructor-section scss start
+// instructor-section  start
 .instructor-item {
   position: relative;
   padding: 0 10px 10px 10px;
@@ -554,9 +555,9 @@
   object-fit: cover;
   object-position: top;
 }
-// instructor-section scss end
+// instructor-section  end
 
-// testimonial-section scss start
+// testimonial-section  start
 .testimonial-item {
   position: relative;
   padding-left: 35px;
@@ -631,9 +632,9 @@
     }
   }
 }
-// testimonial-section scss end
+// testimonial-section  end
 
-// teacher-section scss start
+// teacher-section  start
 .teacher-section {
   overflow-x: clip;
   .container {
@@ -661,9 +662,9 @@
   display: flex;
   justify-content: center;
 }
-// teacher-section scss end
+// teacher-section  end
 
-// blog-section scss start
+// blog-section  start
 
 .blog-area {
   transition: 0.4s;
@@ -684,9 +685,9 @@
     }
   }
 }
-// blog-section scss end
+// blog-section  end
 
-// sponsor-section scss start
+// sponsor-section  start
 .sponsor-section {
   .slick-arrow {
     display: none !important;
@@ -732,4 +733,5 @@
     }
   }
 }
-// sponsor-section scss end
+// sponsor-section  end
+/* home-page end */

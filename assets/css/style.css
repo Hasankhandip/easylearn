@@ -1,3 +1,30 @@
+/* <=============== css table of content ===============>
+1.keyframe
+2.global
+3.global
+4.button
+5.progress-wrap
+6.pagination-section
+7.preloader
+8.header
+9.footer-section
+10.home-page
+11.course-section
+12.course-details-section
+13.course-list-filter-item
+14.blog-details-section
+15.blog-grid-section
+16.instructor-details-section
+17.user-details
+18.contact-section
+19.become-instructor
+20.about-section
+21.cart-section
+22.checkout-section
+23.sing-up-section
+24.demo-section
+<=============== css table of content ===============> */
+/* keyframe start */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap");
 @-webkit-keyframes banner-dotted {
   0% {
@@ -52,6 +79,8 @@
   }
 }
 
+/* keyframe end */
+/* global start */
 .section-padding {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -294,6 +323,8 @@
   border-radius: 50px;
 }
 
+/* global end */
+/* reset start */
 * {
   margin: 0;
   padding: 0;
@@ -371,6 +402,8 @@ input:focus {
   height: auto;
 }
 
+/* reset end */
+/* button start */
 .btn-1 {
   padding: 15px 40px;
   border-radius: 5px;
@@ -521,7 +554,8 @@ input:focus {
   color: #fff;
 }
 
-/* ====================== [ Start progress-wrap ] ====================== */
+/* button end */
+/* Start progress-wrap */
 .progress-wrap {
   position: fixed;
   bottom: 30px;
@@ -579,7 +613,8 @@ input:focus {
   transition: all 400ms linear;
 }
 
-/* ====================== [ End progress-wrap ] ====================== */
+/* End progress-wrap  */
+/* pagination-section start */
 .pagination-section {
   margin-top: 50px;
 }
@@ -615,6 +650,8 @@ input:focus {
   border: 1px solid #031f42;
 }
 
+/* pagination-section end */
+/* preloader start */
 .preloader {
   background: #fff;
   height: 100%;
@@ -1606,6 +1643,8 @@ input:focus {
   }
 }
 
+/* preloader end */
+/* header start */
 .header-section {
   position: relative;
   z-index: 99;
@@ -2059,6 +2098,8 @@ input:focus {
   margin-right: 10px;
 }
 
+/* header end */
+/*  footer-section start */
 .footer-section {
   margin-bottom: 0 !important;
   position: relative;
@@ -2176,6 +2217,8 @@ input:focus {
   color: #fff;
 }
 
+/* footer-section end */
+/* home-page start */
 .banner-section {
   overflow: hidden;
 }
@@ -3136,6 +3179,8 @@ input:focus {
   transition: all 0.3s;
 }
 
+/* home-page end */
+/* course-section start */
 .category-course-section {
   padding-top: 0 !important;
 }
@@ -3338,6 +3383,8 @@ input:focus {
   font-size: 25px;
 }
 
+/* course-section end */
+/*  course-details-section  start */
 .course-details-section {
   padding-top: 0 !important;
 }
@@ -4169,6 +4216,8 @@ input:focus {
   margin-bottom: 15px;
 }
 
+/*  course-details-section  end */
+/* course-list-filter-item start */
 .course-list-filter-item {
   padding: 15px;
   border-bottom: 1px solid #ebebeb;
@@ -4242,6 +4291,8 @@ input:focus {
   padding: 20px;
 }
 
+/* course-list-filter-item end */
+/* blog-details-section start */
 .blog-details-section {
   padding-top: 0 !important;
 }
@@ -4386,6 +4437,8 @@ input:focus {
   color: #0072ff;
 }
 
+/* blog-details-section end */
+/* blog-grid-section  start */
 .blog-grid-section .course-title {
   font-size: 18px;
   margin-bottom: 0;
@@ -4407,6 +4460,7 @@ input:focus {
   padding: 15px;
 }
 
+/* blog-grid-section end */
 .instructor-list-section {
   padding-top: 0 !important;
 }
@@ -4415,6 +4469,7 @@ input:focus {
   border-bottom: none;
 }
 
+/* instructor-details-section  start */
 .instructor-details-section {
   padding-top: 0 !important;
 }
@@ -4552,6 +4607,8 @@ input:focus {
   padding-top: 5px;
 }
 
+/* instructor-details-section  end */
+/* user-details start */
 .course-details-desrciption-over-title {
   width: 28px;
   height: 28px;
@@ -4604,6 +4661,8 @@ input:focus {
      object-position: center;
 }
 
+/* user-details end */
+/* contact-section  start */
 .contact-section {
   padding-top: 0 !important;
 }
@@ -4701,6 +4760,8 @@ input:focus {
   height: 450px;
 }
 
+/* contact-section  end */
+/* become-instructor page start */
 .become-banner-section .banner-title {
   margin-bottom: 10px;
 }
@@ -4808,6 +4869,7 @@ input:focus {
   color: #000;
 }
 
+/* become-instructor page end */
 /* about-section start */
 .about-section {
   padding-top: 0 !important;
@@ -4847,6 +4909,7 @@ input:focus {
 }
 
 /* about-section end */
+/* cart-section start */
 .cart-section {
   padding-top: 0 !important;
 }
@@ -5070,6 +5133,8 @@ input:focus {
   margin-bottom: 10px;
 }
 
+/* cart-section  end */
+/* checkout-section start */
 .checkout-section {
   padding-top: 0 !important;
 }
@@ -5146,6 +5211,8 @@ input:focus {
   margin-bottom: 10px;
 }
 
+/* checkout-section end */
+/* sing-up-section start */
 .sing-up-section .sing-up-wrapper {
   height: 100vh;
   --bs-gutter-x: 1.5rem;
@@ -5445,6 +5512,8 @@ input:focus {
   color: #fff;
 }
 
+/* sing-up-section  end */
+/* demo-section  start */
 .demo-header-section {
   background-color: #fff;
   margin-bottom: 0 !important;
@@ -5744,12 +5813,14 @@ input:focus {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* terms-section scss start */
+/* demo-section  end */
+/* terms-section  start */
 .terms-section {
   padding-top: 0 !important;
 }
 
-/* terms-section scss end */
+/* terms-section  end */
+/* <------------------ Responsive Design Start --------------------> */
 @media (max-width: 1400px) {
   .header-section .container {
     max-width: 1250px;
@@ -7801,4 +7872,6 @@ input:focus {
     height: 300px;
   }
 }
+
+/* <------------------ Responsive Design End --------------------> */
 /*# sourceMappingURL=style.css.map */
