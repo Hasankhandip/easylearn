@@ -23,6 +23,8 @@
 22.checkout-section
 23.sing-up-section
 24.demo-section
+25.terms-section
+26.Responsive Design
 <=============== css table of content ===============> */
 /* keyframe start */
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap");
@@ -5666,6 +5668,25 @@ input:focus {
 
 .demo-area a {
   display: block;
+}
+
+.demo-area-2 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.demo-area-2 .demo-img {
+  width: 400px;
+  height: auto;
 }
 
 .demo-img-area {

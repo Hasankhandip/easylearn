@@ -115,6 +115,17 @@
     display: block;
   }
 }
+.demo-area-2 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  .demo-img {
+    width: 400px;
+    height: auto;
+  }
+}
 .demo-img-area {
   position: relative;
   &::before {
