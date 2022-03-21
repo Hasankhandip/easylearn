@@ -1,0 +1,32 @@
+/* about-section start */
+.about-section {
+  padding-top: 0 !important;
+  .course-details-img-area {
+    border-radius: 5px;
+    height: 550px;
+  }
+  .course-details-img {
+    height: 100%;
+  }
+  .course-play-btn {
+    width: 80px;
+    height: 80px;
+    i {
+      font-size: 45px;
+    }
+  }
+}
+.about-details-area {
+  margin-bottom: 50px;
+}
+.about-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.about-title-details {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* about-section end */
