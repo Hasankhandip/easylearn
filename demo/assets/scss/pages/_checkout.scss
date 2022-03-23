@@ -5,6 +5,11 @@
     margin-bottom: 5px;
   }
 }
+.contact-form-input {
+  &::placeholder {
+    color: #222;
+  }
+}
 .checkout-form-title {
   color: #000;
   margin-bottom: 15px;
