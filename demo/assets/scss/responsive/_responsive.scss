@@ -1650,7 +1650,7 @@
     font-size: 17px;
   }
   .course-details-area {
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .course-img {
     height: 220px;
@@ -1987,7 +1987,7 @@
   }
   .blog-grid-section {
     .course-details-area {
-      padding-top: 5px;
+      padding-top: 10px;
     }
   }
   .sign-up-social-link {
@@ -2033,6 +2033,11 @@
   }
   .modal-content {
     padding: 15px;
+  }
+  .instructor-section {
+    .section-title-area {
+      margin-bottom: 40px;
+    }
   }
 }
 // ≥576px responsive  end
@@ -2248,6 +2253,15 @@
   .about-section {
     .course-details-img-area {
       height: 300px;
+    }
+  }
+  .progress-wrap {
+    bottom: 20px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    &::after {
+      font-size: 17px;
     }
   }
 }

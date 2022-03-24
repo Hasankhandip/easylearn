@@ -2159,18 +2159,44 @@ input:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.footer-social .instructor-social-link i {
-  color: #dbdbdb;
+.footer-social .instructor-social-link {
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #0072ff;
+  border-radius: 50%;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
-.footer-social .instructor-social-link i:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.footer-social .instructor-social-link:hover {
+  background-color: #0072ff;
+}
+
+.footer-social .instructor-social-link:hover i {
   color: #fff;
+}
+
+.footer-social .instructor-social-link i {
+  font-size: 15px;
+  color: #dbdbdb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .footer-social-title {
@@ -2937,7 +2963,7 @@ input:focus {
 }
 
 .instructor-social-item {
-  margin-right: 15px;
+  margin-right: 8px;
 }
 
 .instructor-social-item:last-child {
@@ -7408,7 +7434,7 @@ input:focus {
     font-size: 17px;
   }
   .course-details-area {
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .course-img {
     height: 220px;
@@ -7701,7 +7727,7 @@ input:focus {
     margin: 15px 0;
   }
   .blog-grid-section .course-details-area {
-    padding-top: 5px;
+    padding-top: 10px;
   }
   .sign-up-social-link {
     padding: 10px 15px;
@@ -7738,6 +7764,9 @@ input:focus {
   }
   .modal-content {
     padding: 15px;
+  }
+  .instructor-section .section-title-area {
+    margin-bottom: 40px;
   }
 }
 
@@ -7930,6 +7959,15 @@ input:focus {
   }
   .about-section .course-details-img-area {
     height: 300px;
+  }
+  .progress-wrap {
+    bottom: 20px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+  }
+  .progress-wrap::after {
+    font-size: 17px;
   }
 }
 
