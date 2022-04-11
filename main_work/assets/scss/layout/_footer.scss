@@ -38,7 +38,6 @@
 }
 .footer-details-link {
   color: rgb(219, 219, 219);
-  //   font-size: 15px;
   &:hover {
     color: #fff;
   }
@@ -48,24 +47,14 @@
   align-items: center;
   flex-wrap: wrap;
   .instructor-social-link {
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid $main-color;
-    border-radius: 50%;
-    transition: 0.4s;
-    &:hover {
-      background-color: $main-color;
-      i {
-        color: #fff;
-      }
-    }
     i {
       font-size: 15px;
       color: rgb(219, 219, 219);
       transition: 0.4s;
+      &:hover {
+        color: #fff;
+        transform: scale(1.1);
+      }
     }
   }
 }
